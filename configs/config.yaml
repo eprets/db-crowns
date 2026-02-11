@@ -1,0 +1,21 @@
+project:
+  name: "crown_db"
+  version: "0.0.1"
+
+paths:
+  data_dir: "data"
+  db_path: "data/db/crowns.sqlite3"
+  raw_images_dir: "data/raw_images"
+  roi_raw_dir: "data/roi_raw"
+  roi_norm_dir: "data/roi_norm"
+
+heights_grid:
+  levels_m: [0, 5, 10, 15, 20, 25]
+
+roi:
+  out_size: [256, 256]
+  padding_px: 20
+
+logging:
+  level: "INFO"
+  log_file: "data/app.log"

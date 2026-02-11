@@ -1,0 +1,522 @@
+2026-02-10 19:39:31 | INFO | Project started
+2026-02-10 19:39:31 | INFO | Project name: crown_db
+2026-02-10 19:39:31 | INFO | Version: 0.0.1
+2026-02-10 19:39:31 | INFO | Heights grid: [0, 5, 10, 15, 20, 25]
+2026-02-10 19:43:32 | INFO | Starting project: crown_db v0.0.1
+2026-02-10 19:43:33 | INFO | Database initialized: data\db\crowns.sqlite3
+2026-02-10 19:43:33 | INFO | Heights grid: [0, 5, 10, 15, 20, 25]
+2026-02-11 11:48:33 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 11:48:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 11:48:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 11:48:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-11 11:48:33 | INFO | Import finished. Added 2 images.
+2026-02-11 11:54:06 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 11:54:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:00:54 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:00:54 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:00:56 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:00:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:02:47 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:02:47 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:02:48 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:02:59 | INFO | Center set: (2807, 1066)
+2026-02-11 12:03:17 | INFO | Center set: (2769, 1632)
+2026-02-11 12:03:19 | INFO | Center set: (2684, 1258)
+2026-02-11 12:03:20 | INFO | Center set: (2571, 1747)
+2026-02-11 12:03:20 | INFO | Center set: (2524, 1786)
+2026-02-11 12:03:21 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:21 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:21 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:22 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:22 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:22 | INFO | Center set: (2788, 1814)
+2026-02-11 12:03:23 | INFO | Center set: (2694, 2621)
+2026-02-11 12:03:24 | INFO | Theta: 5.0 deg
+2026-02-11 12:03:24 | INFO | Theta: 10.0 deg
+2026-02-11 12:03:24 | INFO | Theta: 15.0 deg
+2026-02-11 12:03:24 | INFO | Theta: 20.0 deg
+2026-02-11 12:03:24 | INFO | Theta: 25.0 deg
+2026-02-11 12:03:24 | INFO | Theta: 30.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 35.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 30.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 25.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 20.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 15.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 10.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 15.0 deg
+2026-02-11 12:03:25 | INFO | Theta: 20.0 deg
+2026-02-11 12:03:26 | INFO | Theta: 15.0 deg
+2026-02-11 12:03:26 | INFO | Theta: 10.0 deg
+2026-02-11 12:03:26 | INFO | Theta: 5.0 deg
+2026-02-11 12:03:26 | INFO | Theta: -0.0 deg
+2026-02-11 12:03:26 | INFO | Theta: -5.0 deg
+2026-02-11 12:03:26 | INFO | Theta: -10.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -15.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -20.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -25.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -30.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:27 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -60.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:28 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:29 | INFO | Theta: -35.0 deg
+2026-02-11 12:03:30 | INFO | Theta: -40.0 deg
+2026-02-11 12:03:30 | INFO | Theta: -45.0 deg
+2026-02-11 12:03:30 | INFO | Theta: -50.0 deg
+2026-02-11 12:03:30 | INFO | Theta: -55.0 deg
+2026-02-11 12:03:30 | INFO | Theta: -60.0 deg
+2026-02-11 12:03:38 | INFO | Center set: (2279, 998)
+2026-02-11 12:03:39 | INFO | Center set: (3136, 2179)
+2026-02-11 12:03:41 | INFO | Radii set: a=705.7 b=494.0
+2026-02-11 12:03:43 | INFO | Radii set: a=920.8 b=644.6
+2026-02-11 12:03:43 | INFO | Radii set: a=966.1 b=676.3
+2026-02-11 12:03:44 | INFO | Radii set: a=966.1 b=676.3
+2026-02-11 12:03:45 | INFO | Radii set: a=1149.0 b=804.3
+2026-02-11 12:03:46 | INFO | Radii set: a=956.9 b=669.8
+2026-02-11 12:03:46 | INFO | Radii set: a=1134.3 b=794.0
+2026-02-11 12:03:47 | INFO | Radii set: a=1168.4 b=817.9
+2026-02-11 12:03:48 | INFO | Radii set: a=1168.4 b=817.9
+2026-02-11 12:03:48 | INFO | Radii set: a=1168.4 b=817.9
+2026-02-11 12:03:49 | INFO | Radii set: a=1168.4 b=817.9
+2026-02-11 12:03:53 | INFO | Radii set: a=1166.6 b=816.6
+2026-02-11 12:03:55 | INFO | Radii set: a=1166.6 b=816.6
+2026-02-11 12:03:56 | INFO | Center set: (2637, 1181)
+2026-02-11 12:03:57 | INFO | Center set: (2430, 1286)
+2026-02-11 12:03:58 | INFO | Center set: (2825, 1728)
+2026-02-11 12:04:00 | INFO | Theta: -65.0 deg
+2026-02-11 12:04:00 | INFO | Theta: -70.0 deg
+2026-02-11 12:04:00 | INFO | Theta: -75.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -80.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -85.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -90.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -95.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -100.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -105.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -110.0 deg
+2026-02-11 12:04:01 | INFO | Theta: -115.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -120.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -125.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -130.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -135.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -140.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -145.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -150.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -155.0 deg
+2026-02-11 12:04:02 | INFO | Theta: -160.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -165.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -170.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -175.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -180.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -185.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -190.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -195.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -190.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -185.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -180.0 deg
+2026-02-11 12:04:03 | INFO | Theta: -175.0 deg
+2026-02-11 12:04:04 | INFO | Theta: -170.0 deg
+2026-02-11 12:04:04 | INFO | Theta: -165.0 deg
+2026-02-11 12:04:08 | INFO | Theta: -170.0 deg
+2026-02-11 12:04:08 | INFO | Theta: -175.0 deg
+2026-02-11 12:04:08 | INFO | Theta: -180.0 deg
+2026-02-11 12:04:08 | INFO | Theta: -185.0 deg
+2026-02-11 12:04:08 | INFO | Theta: -190.0 deg
+2026-02-11 12:04:08 | INFO | Radii set: a=231.7 b=162.2
+2026-02-11 12:04:10 | INFO | Radii set: a=354.5 b=248.1
+2026-02-11 12:04:10 | INFO | Radii set: a=366.9 b=256.8
+2026-02-11 12:04:11 | INFO | Radii set: a=366.9 b=256.8
+2026-02-11 12:04:12 | INFO | Center set: (2760, 1094)
+2026-02-11 12:04:13 | INFO | Center set: (2778, 1603)
+2026-02-11 12:04:13 | INFO | Radii set: a=9.0 b=6.3
+2026-02-11 12:04:15 | INFO | Radii set: a=9.0 b=6.3
+2026-02-11 12:04:16 | INFO | Center set: (2581, 1382)
+2026-02-11 12:04:18 | INFO | Radii set: a=190.4 b=133.3
+2026-02-11 12:04:19 | INFO | Radii set: a=120.9 b=84.6
+2026-02-11 12:04:20 | INFO | Radii set: a=215.0 b=150.5
+2026-02-11 12:04:21 | INFO | Radii set: a=207.9 b=145.6
+2026-02-11 12:04:22 | INFO | Radii set: a=350.6 b=245.4
+2026-02-11 12:04:23 | INFO | Center set: (2656, 1306)
+2026-02-11 12:04:23 | INFO | Center set: (2995, 1718)
+2026-02-11 12:04:24 | INFO | Center set: (2797, 1670)
+2026-02-11 12:04:26 | INFO | Radii set: a=403.0 b=282.1
+2026-02-11 12:04:27 | INFO | Radii set: a=403.0 b=282.1
+2026-02-11 12:04:28 | INFO | Radii set: a=242.3 b=169.6
+2026-02-11 12:04:28 | INFO | Radii set: a=242.3 b=169.6
+2026-02-11 12:04:30 | INFO | Radii set: a=460.9 b=322.6
+2026-02-11 12:04:30 | INFO | Radii set: a=497.8 b=348.5
+2026-02-11 12:04:31 | INFO | Radii set: a=599.7 b=419.8
+2026-02-11 12:04:32 | INFO | Radii set: a=654.5 b=458.1
+2026-02-11 12:04:35 | INFO | Theta: -195.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -200.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -205.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -210.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -215.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -220.0 deg
+2026-02-11 12:04:36 | INFO | Theta: -225.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -230.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -235.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -240.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -245.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -250.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -255.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -260.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -265.0 deg
+2026-02-11 12:04:37 | INFO | Theta: -270.0 deg
+2026-02-11 12:07:21 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:07:21 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:08:15 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:08:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:08:20 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:08:33 | INFO | Center set: (2760, 1622)
+2026-02-11 12:08:39 | INFO | Radii set: a=487.5 b=341.3
+2026-02-11 12:08:43 | INFO | Theta: -5.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -10.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -15.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -20.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -25.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -30.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -35.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -40.0 deg
+2026-02-11 12:08:44 | INFO | Theta: -45.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -50.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -55.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -60.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -65.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -70.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -75.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -80.0 deg
+2026-02-11 12:08:45 | INFO | Theta: -85.0 deg
+2026-02-11 12:08:46 | INFO | Theta: -90.0 deg
+2026-02-11 12:08:54 | INFO | Saved annotation d719b706-4f74-4c33-b3bc-c07c13c2cfe4 for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:09:04 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:09:04 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:11:06 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:11:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:11:06 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:11:10 | INFO | Center set: (2769, 1642)
+2026-02-11 12:11:11 | INFO | Radii set: a=615.0 b=430.5
+2026-02-11 12:11:12 | INFO | Theta: -5.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -10.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -15.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -20.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -25.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -30.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -35.0 deg
+2026-02-11 12:11:13 | INFO | Theta: -40.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -45.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -50.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -55.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -60.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -65.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -70.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -75.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -80.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -85.0 deg
+2026-02-11 12:11:14 | INFO | Theta: -90.0 deg
+2026-02-11 12:11:15 | INFO | Theta: -95.0 deg
+2026-02-11 12:11:18 | INFO | SAVE pressed
+2026-02-11 12:11:18 | INFO | Saved annotation eac028c2-c57d-4bda-87c4-6d9c82038654 for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:11:24 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:11:24 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:13:37 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:13:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:13:38 | INFO | Built observation 23f403b0-477a-4ac9-9530-af3628ee4134 for annotation d719b706-4f74-4c33-b3bc-c07c13c2cfe4
+2026-02-11 12:13:38 | INFO | Built observation 368ddf54-1701-462c-8d99-2765a8fa7c7b for annotation eac028c2-c57d-4bda-87c4-6d9c82038654
+2026-02-11 12:13:38 | INFO | Build observations finished. Added 2 observations.
+2026-02-11 12:16:56 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:16:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:16:56 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:16:59 | INFO | Center set: (2731, 1613)
+2026-02-11 12:17:02 | INFO | Radii set: a=521.1 b=364.8
+2026-02-11 12:17:02 | INFO | Theta: -5.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -10.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -15.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -20.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -25.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -30.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -35.0 deg
+2026-02-11 12:17:03 | INFO | Theta: -40.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -45.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -50.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -55.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -60.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -65.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -70.0 deg
+2026-02-11 12:17:04 | INFO | Theta: -75.0 deg
+2026-02-11 12:17:08 | INFO | SAVE pressed
+2026-02-11 12:17:08 | INFO | Saved annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:17:14 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:17:14 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:19:28 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:19:28 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:19:45 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:21:16 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:21:16 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:21:16 | INFO | Dedup annotations done. Removed 2 rows.
+2026-02-11 12:21:22 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:21:22 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:22:35 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:22:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:26:19 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:26:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:26:19 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:26:22 | INFO | Center set: (2760, 1622)
+2026-02-11 12:26:24 | INFO | Radii set: a=604.1 b=422.9
+2026-02-11 12:26:25 | INFO | Theta: -5.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -10.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -15.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -20.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -25.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -30.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -35.0 deg
+2026-02-11 12:26:25 | INFO | Theta: -40.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -45.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -50.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -55.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -60.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -65.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -70.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -75.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -80.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -85.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -90.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -95.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -100.0 deg
+2026-02-11 12:26:26 | INFO | Theta: -105.0 deg
+2026-02-11 12:26:33 | INFO | SAVE pressed
+2026-02-11 12:26:33 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:26:34 | INFO | Saved annotation 7b91fb94-fc35-4320-8a91-072a2df78b2a for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:26:35 | INFO | Center set: (2760, 1709)
+2026-02-11 12:26:37 | INFO | Radii set: a=540.4 b=378.3
+2026-02-11 12:26:38 | INFO | Theta: -110.0 deg
+2026-02-11 12:26:38 | INFO | Theta: -115.0 deg
+2026-02-11 12:26:38 | INFO | Theta: -120.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -125.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -130.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -135.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -130.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -125.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -120.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -115.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -110.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -105.0 deg
+2026-02-11 12:26:39 | INFO | Theta: -100.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -95.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -90.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -85.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -80.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -75.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -70.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -65.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -60.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -55.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -50.0 deg
+2026-02-11 12:26:40 | INFO | Theta: -45.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -40.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -45.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -50.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -55.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -60.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -65.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -70.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -75.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -80.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -85.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -90.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -95.0 deg
+2026-02-11 12:26:41 | INFO | Theta: -100.0 deg
+2026-02-11 12:26:45 | INFO | SAVE pressed
+2026-02-11 12:26:45 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:26:45 | INFO | Saved annotation d356b3a7-d4d3-4064-a072-38d1adf539fa for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:26:53 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:26:53 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:30:13 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:30:13 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:30:13 | INFO | Cleanup observations done. Removed 2 orphan rows.
+2026-02-11 12:31:31 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:31:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:31:31 | INFO | Cleanup observations done. Removed 0 orphan rows.
+2026-02-11 12:31:38 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:31:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:33:17 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:33:17 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:33:21 | INFO | Built observation feeba703-1233-4567-8557-6ee25e150ebc for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:33:21 | INFO | Build observations finished. Added 1 observations.
+2026-02-11 12:33:25 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:33:25 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:37:26 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:37:26 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:38:15 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:38:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:44:46 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:44:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:44:46 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:44:49 | INFO | Center set: (2778, 1651)
+2026-02-11 12:44:50 | INFO | SAVE pressed
+2026-02-11 12:44:50 | WARNING | Cannot save: ellipse not complete. Set center (LMB) and radii (RMB).
+2026-02-11 12:44:54 | INFO | Center set: (2778, 1642)
+2026-02-11 12:44:54 | INFO | Radii set: a=5.0 b=5.0
+2026-02-11 12:44:55 | INFO | Theta: -5.0 deg
+2026-02-11 12:44:56 | INFO | Theta: -10.0 deg
+2026-02-11 12:44:56 | INFO | SAVE pressed
+2026-02-11 12:44:56 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:44:56 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:44:57 | INFO | Observation rebuilt: obs_id=84389c89-0023-421e-88c2-eec00ae5853b for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:44:57 | INFO | Auto rebuild observation done. New obs_id=84389c89-0023-421e-88c2-eec00ae5853b
+2026-02-11 12:44:59 | INFO | Center set: (2873, 1555)
+2026-02-11 12:45:00 | INFO | Radii set: a=577.6 b=404.3
+2026-02-11 12:45:02 | INFO | Theta: -15.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -20.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -25.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -30.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -35.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -40.0 deg
+2026-02-11 12:45:02 | INFO | Theta: -45.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -50.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -55.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -60.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -65.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -70.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -75.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -80.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -85.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -90.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -95.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -100.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -105.0 deg
+2026-02-11 12:45:03 | INFO | Theta: -110.0 deg
+2026-02-11 12:45:04 | INFO | Theta: -115.0 deg
+2026-02-11 12:45:04 | INFO | Theta: -120.0 deg
+2026-02-11 12:45:04 | INFO | Theta: -125.0 deg
+2026-02-11 12:45:05 | INFO | SAVE pressed
+2026-02-11 12:45:05 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:45:06 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:45:06 | INFO | Observation rebuilt: obs_id=e995ffdd-d345-42a1-9eb8-c7825225d66e for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:45:06 | INFO | Auto rebuild observation done. New obs_id=e995ffdd-d345-42a1-9eb8-c7825225d66e
+2026-02-11 12:45:12 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:45:12 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:45:43 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:45:43 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:45:43 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:45:49 | INFO | Center set: (2729, 1647)
+2026-02-11 12:45:51 | INFO | Radii set: a=498.0 b=348.6
+2026-02-11 12:45:52 | INFO | Theta: -5.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -10.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -15.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -20.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -25.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -30.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -35.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -40.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -45.0 deg
+2026-02-11 12:45:52 | INFO | Theta: -50.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -55.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -60.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -65.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -70.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -75.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -80.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -85.0 deg
+2026-02-11 12:45:53 | INFO | Theta: -90.0 deg
+2026-02-11 12:45:54 | INFO | Theta: -95.0 deg
+2026-02-11 12:45:54 | INFO | Theta: -100.0 deg
+2026-02-11 12:45:56 | INFO | SAVE pressed
+2026-02-11 12:45:56 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:45:56 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:45:56 | INFO | Observation rebuilt: obs_id=13f027e7-f561-4be2-8d72-8b39559aa723 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:45:56 | INFO | Auto rebuild observation done. New obs_id=13f027e7-f561-4be2-8d72-8b39559aa723
+2026-02-11 12:45:59 | INFO | Center set: (2800, 1674)
+2026-02-11 12:46:02 | INFO | Radii set: a=592.5 b=414.8
+2026-02-11 12:46:04 | INFO | Theta: -95.0 deg
+2026-02-11 12:46:04 | INFO | Theta: -90.0 deg
+2026-02-11 12:46:05 | INFO | Theta: -95.0 deg
+2026-02-11 12:46:05 | INFO | Theta: -100.0 deg
+2026-02-11 12:46:05 | INFO | Theta: -105.0 deg
+2026-02-11 12:46:05 | INFO | Theta: -110.0 deg
+2026-02-11 12:46:06 | INFO | Theta: -115.0 deg
+2026-02-11 12:46:06 | INFO | Theta: -120.0 deg
+2026-02-11 12:46:07 | INFO | Theta: -115.0 deg
+2026-02-11 12:46:07 | INFO | Theta: -110.0 deg
+2026-02-11 12:46:07 | INFO | Theta: -105.0 deg
+2026-02-11 12:46:07 | INFO | Theta: -100.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -95.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -90.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -85.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -80.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -75.0 deg
+2026-02-11 12:46:08 | INFO | Theta: -70.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -75.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -80.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -85.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -90.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -95.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -100.0 deg
+2026-02-11 12:46:09 | INFO | Theta: -105.0 deg
+2026-02-11 12:46:10 | INFO | SAVE pressed
+2026-02-11 12:46:10 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:46:10 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:46:10 | INFO | Observation rebuilt: obs_id=2badab76-21ed-4e94-a037-b21b601fda4d for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:46:10 | INFO | Auto rebuild observation done. New obs_id=2badab76-21ed-4e94-a037-b21b601fda4d
+2026-02-11 12:46:20 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:46:20 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:46:38 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:46:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 12:46:39 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 12:46:41 | INFO | Center set: (2743, 1665)
+2026-02-11 12:46:42 | INFO | Radii set: a=464.4 b=325.1
+2026-02-11 12:46:42 | INFO | Theta: -5.0 deg
+2026-02-11 12:46:42 | INFO | Theta: -10.0 deg
+2026-02-11 12:46:43 | INFO | Theta: -15.0 deg
+2026-02-11 12:46:43 | INFO | Theta: -20.0 deg
+2026-02-11 12:46:43 | INFO | Theta: -25.0 deg
+2026-02-11 12:46:45 | INFO | SAVE pressed
+2026-02-11 12:46:45 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 12:46:45 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:46:45 | INFO | Observation rebuilt: obs_id=97919b8f-7452-417f-964e-2a69a4128da7 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 12:46:45 | INFO | Auto rebuild observation done. New obs_id=97919b8f-7452-417f-964e-2a69a4128da7
+2026-02-11 12:46:50 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 12:46:50 | INFO | Database ready: data\db\crowns.sqlite3
