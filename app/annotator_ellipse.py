@@ -61,9 +61,7 @@ class EllipseAnnotator:
             raise RuntimeError("No images in DB. Run: python -m app.main import")
 
     def _read_image_unicode_path(self, path: str):
-        """
-        Чтение картинки через numpy+imdecode — корректно работает с кириллицей в путях Windows.
-        """
+
         data = np.fromfile(path, dtype=np.uint8)
         img = cv2.imdecode(data, cv2.IMREAD_COLOR)
         return img

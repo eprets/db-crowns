@@ -520,3 +520,43 @@
 2026-02-11 12:46:45 | INFO | Auto rebuild observation done. New obs_id=97919b8f-7452-417f-964e-2a69a4128da7
 2026-02-11 12:46:50 | INFO | Starting project: crown_db v0.0.1
 2026-02-11 12:46:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 17:04:02 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 17:04:02 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 17:04:02 | INFO | Opened image 1/2: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-11 17:04:10 | INFO | Center set: (2743, 1624)
+2026-02-11 17:04:12 | INFO | Radii set: a=551.3 b=385.9
+2026-02-11 17:04:26 | INFO | Theta: -5.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -10.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -15.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -20.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -25.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -30.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -35.0 deg
+2026-02-11 17:04:26 | INFO | Theta: -40.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -45.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -50.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -55.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -60.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -65.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -70.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -75.0 deg
+2026-02-11 17:04:27 | INFO | Theta: -80.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -85.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -90.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -95.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -100.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -105.0 deg
+2026-02-11 17:04:28 | INFO | Theta: -110.0 deg
+2026-02-11 17:04:29 | INFO | Theta: -115.0 deg
+2026-02-11 17:04:29 | INFO | Theta: -120.0 deg
+2026-02-11 17:04:30 | INFO | SAVE pressed
+2026-02-11 17:04:30 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-11 17:04:30 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 17:04:31 | INFO | Observation rebuilt: obs_id=46172951-7e32-4ae8-890a-99942ab5d04f for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-11 17:04:31 | INFO | Auto rebuild observation done. New obs_id=46172951-7e32-4ae8-890a-99942ab5d04f
+2026-02-11 17:04:51 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 17:04:51 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 17:05:23 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 17:05:23 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-11 17:05:35 | INFO | Starting project: crown_db v0.0.1
+2026-02-11 17:05:35 | INFO | Database ready: data\db\crowns.sqlite3
