@@ -804,3 +804,852 @@
 2026-02-12 14:15:14 | INFO | synthesize_missing_levels done. created=1
 2026-02-12 14:15:22 | INFO | Starting project: crown_db v0.0.1
 2026-02-12 14:15:22 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:23:34 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:23:34 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:23:34 | INFO | Split trees: train=1 val=0 test=0 (total=1)
+2026-02-12 14:23:34 | INFO | Export done. Exported pairs=1  manifest=D:\Users\Ekateryna\Desktop\Mag_projects\data\datasets\pix2pix_pairs\manifest.csv
+2026-02-12 14:24:19 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:24:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:24:19 | INFO | Split trees: train=1 val=0 test=0 (total=1)
+2026-02-12 14:24:19 | INFO | Export done. Exported pairs=1  manifest=D:\Users\Ekateryna\Desktop\Mag_projects\data\datasets\pix2pix_pairs\manifest.csv
+2026-02-12 14:25:08 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:25:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:25:52 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:25:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:25:57 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:25:57 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:25:57 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:26:15 | INFO | Center set: (2736, 1674)
+2026-02-12 14:26:17 | INFO | Radii set: a=563.2 b=394.2
+2026-02-12 14:26:17 | INFO | Theta: -5.0 deg
+2026-02-12 14:26:17 | INFO | Theta: -10.0 deg
+2026-02-12 14:26:17 | INFO | Theta: -15.0 deg
+2026-02-12 14:26:17 | INFO | Theta: -20.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -25.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -30.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -35.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -40.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -45.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -50.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -55.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -60.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -65.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -70.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -75.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -80.0 deg
+2026-02-12 14:26:18 | INFO | Theta: -85.0 deg
+2026-02-12 14:26:19 | INFO | Theta: -90.0 deg
+2026-02-12 14:26:19 | INFO | Theta: -95.0 deg
+2026-02-12 14:26:19 | INFO | Theta: -100.0 deg
+2026-02-12 14:26:19 | INFO | Theta: -105.0 deg
+2026-02-12 14:26:19 | INFO | Theta: -110.0 deg
+2026-02-12 14:26:20 | INFO | SAVE pressed
+2026-02-12 14:26:21 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-12 14:26:21 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 14:26:21 | INFO | Observation rebuilt: obs_id=0321a74c-c77c-413f-93ed-be3cd27ce87a for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c (obs_height=16.0)
+2026-02-12 14:26:21 | INFO | Auto rebuild observation done. New obs_id=0321a74c-c77c-413f-93ed-be3cd27ce87a
+2026-02-12 14:26:22 | INFO | Opened image 2/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:26:24 | INFO | Center set: (2821, 2252)
+2026-02-12 14:26:26 | INFO | Radii set: a=1518.2 b=1062.7
+2026-02-12 14:26:27 | INFO | Theta: -5.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -10.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -15.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -20.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -25.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -30.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -35.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -40.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -45.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -50.0 deg
+2026-02-12 14:26:27 | INFO | Theta: -55.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -60.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -65.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -70.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -75.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -80.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -85.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -90.0 deg
+2026-02-12 14:26:28 | INFO | Theta: -95.0 deg
+2026-02-12 14:26:32 | INFO | SAVE pressed
+2026-02-12 14:26:32 | INFO | Updated annotation cdb9f421-5ca3-4871-9682-72b84bbd6228 for image_id=db48cfc0-6747-409d-999c-c9115342a280 tree_id=tree_001
+2026-02-12 14:26:32 | INFO | Old observation removed for annotation cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-02-12 14:26:33 | INFO | Observation rebuilt: obs_id=8886fd77-5168-43d4-bb66-af374cfb9165 for annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228 (obs_height=8.0)
+2026-02-12 14:26:33 | INFO | Auto rebuild observation done. New obs_id=8886fd77-5168-43d4-bb66-af374cfb9165
+2026-02-12 14:26:34 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:26:37 | INFO | Center set: (2806, 1785)
+2026-02-12 14:26:39 | INFO | Radii set: a=318.2 b=222.7
+2026-02-12 14:26:40 | INFO | Theta: -5.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -10.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -15.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -20.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -25.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -30.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -35.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -40.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -45.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -50.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -55.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -60.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -65.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -70.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -75.0 deg
+2026-02-12 14:26:40 | INFO | Theta: -80.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -85.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -90.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -95.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -100.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -105.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -110.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -115.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -120.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -115.0 deg
+2026-02-12 14:26:41 | INFO | Theta: -110.0 deg
+2026-02-12 14:26:42 | INFO | Theta: -105.0 deg
+2026-02-12 14:26:42 | INFO | Theta: -100.0 deg
+2026-02-12 14:26:43 | INFO | Theta: -105.0 deg
+2026-02-12 14:26:43 | INFO | Theta: -110.0 deg
+2026-02-12 14:26:44 | INFO | Radii set: a=255.4 b=178.8
+2026-02-12 14:26:45 | INFO | Radii set: a=288.7 b=202.1
+2026-02-12 14:26:45 | INFO | Theta: -115.0 deg
+2026-02-12 14:26:46 | INFO | Theta: -110.0 deg
+2026-02-12 14:26:46 | INFO | Theta: -105.0 deg
+2026-02-12 14:26:46 | INFO | Theta: -100.0 deg
+2026-02-12 14:26:46 | INFO | Theta: -95.0 deg
+2026-02-12 14:26:46 | INFO | Theta: -90.0 deg
+2026-02-12 14:26:48 | INFO | Radii set: a=242.7 b=169.9
+2026-02-12 14:26:49 | INFO | Radii set: a=307.5 b=215.2
+2026-02-12 14:26:50 | INFO | Theta: -85.0 deg
+2026-02-12 14:26:50 | INFO | Theta: -80.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -75.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -70.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -65.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -60.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -55.0 deg
+2026-02-12 14:26:51 | INFO | Theta: -50.0 deg
+2026-02-12 14:26:52 | INFO | Theta: -45.0 deg
+2026-02-12 14:26:53 | INFO | SAVE pressed
+2026-02-12 14:26:53 | INFO | Updated annotation facc262e-d17e-4bad-bcab-a22ca460a558 for image_id=13aee232-a2e8-4790-a727-38a78dbfe83e tree_id=tree_001
+2026-02-12 14:26:53 | INFO | Old observation removed for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:26:54 | INFO | Observation rebuilt: obs_id=96aedd01-3384-406a-910e-585eb87361b4 for annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 (obs_height=25.0)
+2026-02-12 14:26:54 | INFO | Auto rebuild observation done. New obs_id=96aedd01-3384-406a-910e-585eb87361b4
+2026-02-12 14:26:54 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:26:58 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:26:59 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:27:01 | INFO | Opened image 2/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:27:02 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:27:03 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:27:07 | INFO | Center set: (2826, 1779)
+2026-02-12 14:27:08 | INFO | Radii set: a=301.0 b=210.7
+2026-02-12 14:27:08 | INFO | Theta: -5.0 deg
+2026-02-12 14:27:08 | INFO | Theta: -10.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -15.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -20.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -25.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -30.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -35.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -40.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -45.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -50.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -55.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -60.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -65.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -70.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -75.0 deg
+2026-02-12 14:27:09 | INFO | Theta: -80.0 deg
+2026-02-12 14:27:10 | INFO | Theta: -85.0 deg
+2026-02-12 14:27:10 | INFO | Theta: -90.0 deg
+2026-02-12 14:27:11 | INFO | SAVE pressed
+2026-02-12 14:27:11 | INFO | Updated annotation facc262e-d17e-4bad-bcab-a22ca460a558 for image_id=13aee232-a2e8-4790-a727-38a78dbfe83e tree_id=tree_001
+2026-02-12 14:27:11 | INFO | Old observation removed for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:27:11 | INFO | Observation rebuilt: obs_id=e0656a4e-39cc-4687-97af-dd03cf228e70 for annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 (obs_height=25.0)
+2026-02-12 14:27:12 | INFO | Auto rebuild observation done. New obs_id=e0656a4e-39cc-4687-97af-dd03cf228e70
+2026-02-12 14:27:13 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:27:14 | INFO | Opened image 2/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:27:15 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:27:17 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:27:18 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:27:25 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:27:44 | INFO | Center set: (2726, 1606)
+2026-02-12 14:27:44 | INFO | Radii set: a=498.4 b=348.9
+2026-02-12 14:27:45 | INFO | Theta: -5.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -10.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -15.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -20.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -25.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -30.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -35.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -40.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -45.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -50.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -55.0 deg
+2026-02-12 14:27:45 | INFO | Theta: -60.0 deg
+2026-02-12 14:27:46 | INFO | Theta: -65.0 deg
+2026-02-12 14:27:46 | INFO | Theta: -70.0 deg
+2026-02-12 14:27:46 | INFO | Theta: -75.0 deg
+2026-02-12 14:27:46 | INFO | Theta: -80.0 deg
+2026-02-12 14:27:46 | INFO | Theta: -85.0 deg
+2026-02-12 14:27:48 | INFO | Center set: (2776, 1669)
+2026-02-12 14:27:49 | INFO | Radii set: a=544.9 b=381.5
+2026-02-12 14:27:50 | INFO | Theta: -80.0 deg
+2026-02-12 14:27:50 | INFO | Theta: -85.0 deg
+2026-02-12 14:27:51 | INFO | Theta: -90.0 deg
+2026-02-12 14:27:51 | INFO | Theta: -95.0 deg
+2026-02-12 14:27:51 | INFO | Theta: -100.0 deg
+2026-02-12 14:27:52 | INFO | SAVE pressed
+2026-02-12 14:27:52 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-12 14:27:52 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 14:27:52 | INFO | Observation rebuilt: obs_id=eca8e03c-403f-4c12-b6da-05bb11c71ce3 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c (obs_height=16.0)
+2026-02-12 14:27:52 | INFO | Auto rebuild observation done. New obs_id=eca8e03c-403f-4c12-b6da-05bb11c71ce3
+2026-02-12 14:27:57 | INFO | Opened image 2/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:28:13 | INFO | Center set: (2716, 2378)
+2026-02-12 14:28:14 | INFO | Radii set: a=1648.3 b=1153.8
+2026-02-12 14:28:14 | INFO | Theta: -5.0 deg
+2026-02-12 14:28:14 | INFO | Theta: -10.0 deg
+2026-02-12 14:28:14 | INFO | Theta: -15.0 deg
+2026-02-12 14:28:14 | INFO | Theta: -20.0 deg
+2026-02-12 14:28:14 | INFO | Theta: -25.0 deg
+2026-02-12 14:28:14 | INFO | Theta: -30.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -35.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -40.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -45.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -50.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -55.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -60.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -65.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -70.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -75.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -80.0 deg
+2026-02-12 14:28:15 | INFO | Theta: -85.0 deg
+2026-02-12 14:28:16 | INFO | Theta: -90.0 deg
+2026-02-12 14:28:16 | INFO | SAVE pressed
+2026-02-12 14:28:16 | INFO | Updated annotation cdb9f421-5ca3-4871-9682-72b84bbd6228 for image_id=db48cfc0-6747-409d-999c-c9115342a280 tree_id=tree_001
+2026-02-12 14:28:17 | INFO | Old observation removed for annotation cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-02-12 14:28:17 | INFO | Observation rebuilt: obs_id=9e6f31d2-344d-459b-91d1-72d925b15520 for annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228 (obs_height=8.0)
+2026-02-12 14:28:17 | INFO | Auto rebuild observation done. New obs_id=9e6f31d2-344d-459b-91d1-72d925b15520
+2026-02-12 14:28:20 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:28:27 | INFO | Center set: (2841, 1753)
+2026-02-12 14:28:28 | INFO | Radii set: a=288.3 b=201.8
+2026-02-12 14:28:29 | INFO | Theta: -5.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -10.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -15.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -20.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -25.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -30.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -35.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -40.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -45.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -50.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -55.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -60.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -65.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -70.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -75.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -80.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -85.0 deg
+2026-02-12 14:28:29 | INFO | Theta: -90.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -85.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -80.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -75.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -70.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -65.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -60.0 deg
+2026-02-12 14:28:32 | INFO | Theta: -55.0 deg
+2026-02-12 14:28:34 | INFO | Radii set: a=291.0 b=203.7
+2026-02-12 14:28:34 | INFO | Theta: -50.0 deg
+2026-02-12 14:28:34 | INFO | Theta: -45.0 deg
+2026-02-12 14:28:34 | INFO | Theta: -40.0 deg
+2026-02-12 14:28:34 | INFO | Theta: -35.0 deg
+2026-02-12 14:28:34 | INFO | Theta: -30.0 deg
+2026-02-12 14:28:34 | INFO | Theta: -25.0 deg
+2026-02-12 14:28:35 | INFO | Theta: -20.0 deg
+2026-02-12 14:28:35 | INFO | Theta: -15.0 deg
+2026-02-12 14:28:36 | INFO | Center set: (2796, 1753)
+2026-02-12 14:28:36 | INFO | Theta: -20.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -25.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -30.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -35.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -40.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -45.0 deg
+2026-02-12 14:28:36 | INFO | Theta: -50.0 deg
+2026-02-12 14:28:37 | INFO | Theta: -55.0 deg
+2026-02-12 14:28:37 | INFO | Theta: -60.0 deg
+2026-02-12 14:28:37 | INFO | Theta: -65.0 deg
+2026-02-12 14:28:37 | INFO | Theta: -70.0 deg
+2026-02-12 14:28:37 | INFO | Theta: -75.0 deg
+2026-02-12 14:28:38 | INFO | SAVE pressed
+2026-02-12 14:28:38 | INFO | Updated annotation facc262e-d17e-4bad-bcab-a22ca460a558 for image_id=13aee232-a2e8-4790-a727-38a78dbfe83e tree_id=tree_001
+2026-02-12 14:28:39 | INFO | Old observation removed for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:28:39 | INFO | Observation rebuilt: obs_id=abd77b75-2485-4046-9050-18e98f3a32c8 for annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 (obs_height=25.0)
+2026-02-12 14:28:39 | INFO | Auto rebuild observation done. New obs_id=abd77b75-2485-4046-9050-18e98f3a32c8
+2026-02-12 14:28:43 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:28:45 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:31:07 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:31:07 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:31:20 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:31:20 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:31:20 | INFO | Skip: observation already exists for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 14:31:20 | INFO | Skip: observation already exists for annotation cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-02-12 14:31:20 | INFO | Skip: observation already exists for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:31:20 | INFO | Build observations finished. Added 0 observations.
+2026-02-12 14:31:38 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:31:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:31:45 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:31:45 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:32:31 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:32:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:32:31 | INFO | Split trees: train=1 val=0 test=0 (total=1)
+2026-02-12 14:32:31 | INFO | Export done. Exported pairs=1  manifest=D:\Users\Ekateryna\Desktop\Mag_projects\data\datasets\pix2pix_pairs\manifest.csv
+2026-02-12 14:32:32 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:32:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:32:35 | INFO | normalize_scale done. Processed=0
+2026-02-12 14:32:39 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:32:39 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:33:37 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:33:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:33:38 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:33:54 | INFO | Center set: (2716, 1664)
+2026-02-12 14:33:55 | INFO | Radii set: a=577.5 b=404.3
+2026-02-12 14:33:56 | INFO | Theta: -5.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -10.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -15.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -20.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -25.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -30.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -35.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -40.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -45.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -50.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -55.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -60.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -65.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -70.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -75.0 deg
+2026-02-12 14:33:56 | INFO | Theta: -80.0 deg
+2026-02-12 14:33:57 | INFO | Theta: -85.0 deg
+2026-02-12 14:33:57 | INFO | Theta: -90.0 deg
+2026-02-12 14:33:58 | INFO | SAVE pressed
+2026-02-12 14:33:58 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-12 14:33:58 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 14:33:58 | INFO | Observation rebuilt: obs_id=0991ccf6-f048-49f8-9766-ba6aba1130f9 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c (obs_height=16.0)
+2026-02-12 14:33:58 | INFO | Auto rebuild observation done. New obs_id=0991ccf6-f048-49f8-9766-ba6aba1130f9
+2026-02-12 14:34:01 | INFO | Opened image 1/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:34:02 | INFO | Opened image 2/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:34:08 | INFO | Center set: (2736, 2278)
+2026-02-12 14:34:09 | INFO | Radii set: a=1517.8 b=1062.5
+2026-02-12 14:34:09 | INFO | Theta: -5.0 deg
+2026-02-12 14:34:09 | INFO | Theta: -10.0 deg
+2026-02-12 14:34:09 | INFO | Theta: -15.0 deg
+2026-02-12 14:34:09 | INFO | Theta: -20.0 deg
+2026-02-12 14:34:09 | INFO | Theta: -25.0 deg
+2026-02-12 14:34:09 | INFO | Theta: -30.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -35.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -40.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -45.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -50.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -55.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -60.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -65.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -70.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -75.0 deg
+2026-02-12 14:34:10 | INFO | Theta: -80.0 deg
+2026-02-12 14:34:11 | INFO | Theta: -85.0 deg
+2026-02-12 14:34:12 | INFO | SAVE pressed
+2026-02-12 14:34:12 | INFO | Updated annotation cdb9f421-5ca3-4871-9682-72b84bbd6228 for image_id=db48cfc0-6747-409d-999c-c9115342a280 tree_id=tree_001
+2026-02-12 14:34:12 | INFO | Old observation removed for annotation cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-02-12 14:34:13 | INFO | Observation rebuilt: obs_id=cd3bb41c-5aba-4a07-90af-3ba2e406dda2 for annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228 (obs_height=8.0)
+2026-02-12 14:34:13 | INFO | Auto rebuild observation done. New obs_id=cd3bb41c-5aba-4a07-90af-3ba2e406dda2
+2026-02-12 14:34:14 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:18 | INFO | Center set: (2846, 1769)
+2026-02-12 14:34:19 | INFO | Radii set: a=311.8 b=218.3
+2026-02-12 14:34:19 | INFO | Theta: -5.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -10.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -15.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -20.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -25.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -30.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -35.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -40.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -45.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -50.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -55.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -60.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -65.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -70.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -75.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -80.0 deg
+2026-02-12 14:34:20 | INFO | Theta: -85.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -90.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -95.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -90.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -85.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -80.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -75.0 deg
+2026-02-12 14:34:21 | INFO | Theta: -70.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -65.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -60.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -55.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -50.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -45.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -40.0 deg
+2026-02-12 14:34:22 | INFO | Theta: -35.0 deg
+2026-02-12 14:34:25 | INFO | SAVE pressed
+2026-02-12 14:34:25 | INFO | Updated annotation facc262e-d17e-4bad-bcab-a22ca460a558 for image_id=13aee232-a2e8-4790-a727-38a78dbfe83e tree_id=tree_001
+2026-02-12 14:34:25 | INFO | Old observation removed for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:34:25 | INFO | Observation rebuilt: obs_id=a296d4fa-2189-4eed-9c5c-501ab38ade41 for annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 (obs_height=25.0)
+2026-02-12 14:34:25 | INFO | Auto rebuild observation done. New obs_id=a296d4fa-2189-4eed-9c5c-501ab38ade41
+2026-02-12 14:34:28 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:30 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:30 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:31 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:34:32 | INFO | Opened image 3/3: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:35:06 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:35:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:35:06 | INFO | build_levels done. Upserted 3 rows.
+2026-02-12 14:35:16 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:35:16 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:36:24 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:36:24 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:36:40 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:36:40 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-02-12 14:36:40 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG | UNIQUE constraint failed: images.path
+2026-02-12 14:36:40 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG | UNIQUE constraint failed: images.path
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-02-12 14:36:40 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 14:36:40 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG | UNIQUE constraint failed: images.path
+2026-02-12 14:36:40 | INFO | Import finished. Added 8 images.
+2026-02-12 14:36:46 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:36:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:37:41 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:37:41 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:37:47 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:37:47 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:37:47 | INFO | build_levels done. Upserted 3 rows.
+2026-02-12 14:37:51 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:37:51 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:37:51 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:38:00 | INFO | Center set: (2731, 1638)
+2026-02-12 14:38:02 | INFO | Radii set: a=546.4 b=382.5
+2026-02-12 14:38:02 | INFO | Theta: -5.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -10.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -20.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -25.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -30.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -35.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:02 | INFO | Theta: -45.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -50.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -55.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -60.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -65.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -70.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -75.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -80.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -85.0 deg
+2026-02-12 14:38:03 | INFO | Theta: -90.0 deg
+2026-02-12 14:38:04 | INFO | SAVE pressed
+2026-02-12 14:38:04 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-02-12 14:38:04 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 14:38:05 | INFO | Observation rebuilt: obs_id=3c5ed9a0-084b-4662-b902-24dc60fcb204 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c (obs_height=16.0)
+2026-02-12 14:38:05 | INFO | Auto rebuild observation done. New obs_id=3c5ed9a0-084b-4662-b902-24dc60fcb204
+2026-02-12 14:38:07 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:38:12 | INFO | Center set: (2756, 2362)
+2026-02-12 14:38:13 | INFO | Radii set: a=1549.0 b=1084.3
+2026-02-12 14:38:13 | INFO | Theta: -5.0 deg
+2026-02-12 14:38:13 | INFO | Theta: -10.0 deg
+2026-02-12 14:38:13 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:13 | INFO | Theta: -20.0 deg
+2026-02-12 14:38:13 | INFO | Theta: -25.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -30.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -35.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -45.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -50.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -55.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -60.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -65.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -70.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -75.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -80.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -85.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -90.0 deg
+2026-02-12 14:38:14 | INFO | Theta: -95.0 deg
+2026-02-12 14:38:15 | INFO | Theta: -90.0 deg
+2026-02-12 14:38:15 | INFO | Theta: -85.0 deg
+2026-02-12 14:38:15 | INFO | Theta: -80.0 deg
+2026-02-12 14:38:16 | INFO | SAVE pressed
+2026-02-12 14:38:16 | INFO | Updated annotation cdb9f421-5ca3-4871-9682-72b84bbd6228 for image_id=db48cfc0-6747-409d-999c-c9115342a280 tree_id=tree_001
+2026-02-12 14:38:16 | INFO | Old observation removed for annotation cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-02-12 14:38:17 | INFO | Observation rebuilt: obs_id=496ca883-6dfb-42b6-b31e-849e8b35c6c9 for annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228 (obs_height=8.0)
+2026-02-12 14:38:17 | INFO | Auto rebuild observation done. New obs_id=496ca883-6dfb-42b6-b31e-849e8b35c6c9
+2026-02-12 14:38:18 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:38:23 | INFO | Center set: (2846, 1748)
+2026-02-12 14:38:24 | INFO | Radii set: a=284.4 b=199.1
+2026-02-12 14:38:25 | INFO | Theta: -5.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -10.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -20.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -25.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -30.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -35.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -45.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -50.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -55.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -60.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -65.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -70.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -75.0 deg
+2026-02-12 14:38:25 | INFO | Theta: -80.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -75.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -70.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -65.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -60.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -55.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -50.0 deg
+2026-02-12 14:38:26 | INFO | Theta: -45.0 deg
+2026-02-12 14:38:28 | INFO | Center set: (2791, 1748)
+2026-02-12 14:38:29 | INFO | Center set: (2821, 1779)
+2026-02-12 14:38:30 | INFO | Radii set: a=251.5 b=176.0
+2026-02-12 14:38:31 | INFO | Radii set: a=293.5 b=205.4
+2026-02-12 14:38:32 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:32 | INFO | Theta: -35.0 deg
+2026-02-12 14:38:32 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:32 | INFO | Theta: -45.0 deg
+2026-02-12 14:38:32 | INFO | Theta: -50.0 deg
+2026-02-12 14:38:32 | INFO | Theta: -55.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -60.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -65.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -70.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -75.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -80.0 deg
+2026-02-12 14:38:34 | INFO | Theta: -85.0 deg
+2026-02-12 14:38:35 | INFO | Theta: -90.0 deg
+2026-02-12 14:38:35 | INFO | Theta: -95.0 deg
+2026-02-12 14:38:35 | INFO | Theta: -100.0 deg
+2026-02-12 14:38:36 | INFO | Theta: -105.0 deg
+2026-02-12 14:38:39 | INFO | SAVE pressed
+2026-02-12 14:38:39 | INFO | Updated annotation facc262e-d17e-4bad-bcab-a22ca460a558 for image_id=13aee232-a2e8-4790-a727-38a78dbfe83e tree_id=tree_001
+2026-02-12 14:38:39 | INFO | Old observation removed for annotation facc262e-d17e-4bad-bcab-a22ca460a558
+2026-02-12 14:38:39 | INFO | Observation rebuilt: obs_id=2d88bc15-c233-4064-b7bf-6e029e25e5de for annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 (obs_height=25.0)
+2026-02-12 14:38:39 | INFO | Auto rebuild observation done. New obs_id=2d88bc15-c233-4064-b7bf-6e029e25e5de
+2026-02-12 14:38:41 | INFO | Opened image 4/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 14:38:52 | INFO | Theta: 5.0 deg
+2026-02-12 14:38:56 | INFO | Center set: (2781, 1837)
+2026-02-12 14:38:57 | INFO | Radii set: a=73.2 b=51.2
+2026-02-12 14:38:58 | INFO | Theta: 0.0 deg
+2026-02-12 14:38:58 | INFO | Theta: -5.0 deg
+2026-02-12 14:38:58 | INFO | Theta: -10.0 deg
+2026-02-12 14:38:58 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:58 | INFO | Theta: -20.0 deg
+2026-02-12 14:38:58 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -10.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -15.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -20.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -25.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -30.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -35.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -40.0 deg
+2026-02-12 14:38:59 | INFO | Theta: -45.0 deg
+2026-02-12 14:39:00 | INFO | Theta: -50.0 deg
+2026-02-12 14:39:01 | INFO | Center set: (2791, 1816)
+2026-02-12 14:39:03 | INFO | SAVE pressed
+2026-02-12 14:39:03 | INFO | Inserted annotation 71887481-37f5-4dd4-82d6-64f1791927e6 for image_id=2088c9cc-b056-43d3-8ea1-dcec6d23f079 tree_id=tree_001
+2026-02-12 14:39:03 | INFO | Observation rebuilt: obs_id=0c1fb087-1357-4f00-bb9c-8614847ef702 for annotation_id=71887481-37f5-4dd4-82d6-64f1791927e6 (obs_height=None)
+2026-02-12 14:39:03 | INFO | Auto rebuild observation done. New obs_id=0c1fb087-1357-4f00-bb9c-8614847ef702
+2026-02-12 14:39:05 | INFO | Opened image 5/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-02-12 14:39:14 | INFO | Center set: (2801, 1816)
+2026-02-12 14:39:15 | INFO | Radii set: a=42.0 b=29.4
+2026-02-12 14:39:16 | INFO | Theta: -5.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -10.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -15.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -20.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -25.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -30.0 deg
+2026-02-12 14:39:16 | INFO | Theta: -35.0 deg
+2026-02-12 14:39:17 | INFO | Theta: -40.0 deg
+2026-02-12 14:39:18 | INFO | SAVE pressed
+2026-02-12 14:39:18 | INFO | Inserted annotation d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64 for image_id=a4abe442-ae2a-4d6e-8b4c-6125be3b9e95 tree_id=tree_001
+2026-02-12 14:39:18 | INFO | Observation rebuilt: obs_id=979d4be8-554b-46a2-ad99-0bffa1c91ab1 for annotation_id=d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64 (obs_height=None)
+2026-02-12 14:39:18 | INFO | Auto rebuild observation done. New obs_id=979d4be8-554b-46a2-ad99-0bffa1c91ab1
+2026-02-12 14:39:19 | INFO | Opened image 6/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-02-12 14:39:25 | INFO | Center set: (2801, 1816)
+2026-02-12 14:39:26 | INFO | Radii set: a=168.1 b=117.7
+2026-02-12 14:39:26 | INFO | Theta: -5.0 deg
+2026-02-12 14:39:26 | INFO | Theta: -10.0 deg
+2026-02-12 14:39:26 | INFO | Theta: -15.0 deg
+2026-02-12 14:39:26 | INFO | Theta: -20.0 deg
+2026-02-12 14:39:26 | INFO | Theta: -25.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -30.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -35.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -40.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -45.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -50.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -55.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -60.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -65.0 deg
+2026-02-12 14:39:27 | INFO | Theta: -70.0 deg
+2026-02-12 14:39:28 | INFO | Center set: (2816, 1774)
+2026-02-12 14:39:29 | INFO | Center set: (2791, 1800)
+2026-02-12 14:39:30 | INFO | Theta: -65.0 deg
+2026-02-12 14:39:30 | INFO | Theta: -60.0 deg
+2026-02-12 14:39:31 | INFO | Theta: -55.0 deg
+2026-02-12 14:39:32 | INFO | SAVE pressed
+2026-02-12 14:39:32 | INFO | Inserted annotation c7cea12d-2ed6-4fde-9189-d150ce6ce814 for image_id=7e0e5358-9775-4c72-bd69-c6e8b06fce88 tree_id=tree_001
+2026-02-12 14:39:32 | INFO | Observation rebuilt: obs_id=3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3 for annotation_id=c7cea12d-2ed6-4fde-9189-d150ce6ce814 (obs_height=None)
+2026-02-12 14:39:32 | INFO | Auto rebuild observation done. New obs_id=3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3
+2026-02-12 14:39:33 | INFO | Opened image 7/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-02-12 14:39:38 | INFO | Center set: (2791, 1779)
+2026-02-12 14:39:39 | INFO | Radii set: a=241.1 b=168.7
+2026-02-12 14:39:39 | INFO | Theta: -5.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -10.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -15.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -20.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -25.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -30.0 deg
+2026-02-12 14:39:39 | INFO | Theta: -35.0 deg
+2026-02-12 14:39:40 | INFO | Theta: -40.0 deg
+2026-02-12 14:39:40 | INFO | Theta: -45.0 deg
+2026-02-12 14:39:40 | INFO | Theta: -50.0 deg
+2026-02-12 14:39:40 | INFO | Theta: -55.0 deg
+2026-02-12 14:39:41 | INFO | Radii set: a=271.5 b=190.1
+2026-02-12 14:39:44 | INFO | SAVE pressed
+2026-02-12 14:39:44 | INFO | Inserted annotation 738f18cf-0a09-42c4-b92a-e22abc38a4ec for image_id=d33c6935-2e5e-493c-b048-9ef56aa1a907 tree_id=tree_001
+2026-02-12 14:39:44 | INFO | Observation rebuilt: obs_id=10b6e64c-ec7b-431e-af5b-08a1ee418ad1 for annotation_id=738f18cf-0a09-42c4-b92a-e22abc38a4ec (obs_height=None)
+2026-02-12 14:39:44 | INFO | Auto rebuild observation done. New obs_id=10b6e64c-ec7b-431e-af5b-08a1ee418ad1
+2026-02-12 14:39:47 | INFO | Opened image 8/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-02-12 14:39:51 | INFO | Center set: (2811, 1811)
+2026-02-12 14:39:52 | INFO | Radii set: a=228.0 b=159.6
+2026-02-12 14:39:53 | INFO | Theta: 5.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 10.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 15.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 20.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 25.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 30.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 35.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 40.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 45.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 50.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 55.0 deg
+2026-02-12 14:39:53 | INFO | Theta: 60.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 65.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 70.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 75.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 80.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 85.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 90.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 95.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 100.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 105.0 deg
+2026-02-12 14:39:54 | INFO | Theta: 110.0 deg
+2026-02-12 14:39:55 | INFO | Theta: 115.0 deg
+2026-02-12 14:39:55 | INFO | Theta: 120.0 deg
+2026-02-12 14:39:55 | INFO | Theta: 125.0 deg
+2026-02-12 14:39:56 | INFO | Center set: (2786, 1716)
+2026-02-12 14:39:57 | INFO | Center set: (2826, 1758)
+2026-02-12 14:39:57 | INFO | Center set: (2806, 1811)
+2026-02-12 14:39:58 | INFO | Center set: (2811, 1758)
+2026-02-12 14:40:01 | INFO | SAVE pressed
+2026-02-12 14:40:01 | INFO | Inserted annotation 90b31cf8-f0fa-40d1-9534-a72cea912a92 for image_id=c38e53d9-1aaf-4911-9b6e-aa878287ec72 tree_id=tree_001
+2026-02-12 14:40:01 | INFO | Observation rebuilt: obs_id=ec921163-4daa-4b4e-97c1-a4f774b28adc for annotation_id=90b31cf8-f0fa-40d1-9534-a72cea912a92 (obs_height=None)
+2026-02-12 14:40:01 | INFO | Auto rebuild observation done. New obs_id=ec921163-4daa-4b4e-97c1-a4f774b28adc
+2026-02-12 14:40:03 | INFO | Opened image 9/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-02-12 14:40:09 | INFO | Center set: (2796, 1806)
+2026-02-12 14:40:10 | INFO | Radii set: a=167.8 b=117.5
+2026-02-12 14:40:11 | INFO | Theta: 5.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 10.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 15.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 20.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 25.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 30.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 35.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 40.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 45.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 50.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 55.0 deg
+2026-02-12 14:40:11 | INFO | Theta: 60.0 deg
+2026-02-12 14:40:12 | INFO | Radii set: a=133.8 b=93.7
+2026-02-12 14:40:13 | INFO | Radii set: a=166.4 b=116.5
+2026-02-12 14:40:13 | INFO | Theta: 65.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 70.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 75.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 80.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 85.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 90.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 95.0 deg
+2026-02-12 14:40:13 | INFO | Theta: 100.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 105.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 110.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 115.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 120.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 125.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 130.0 deg
+2026-02-12 14:40:14 | INFO | Theta: 135.0 deg
+2026-02-12 14:40:15 | INFO | Radii set: a=181.6 b=127.1
+2026-02-12 14:40:17 | INFO | SAVE pressed
+2026-02-12 14:40:17 | INFO | Inserted annotation 3f6e6fa8-e208-4e81-a4b6-6df86efdea1d for image_id=6ab72b16-bf53-4e12-81c8-48dc1e952107 tree_id=tree_001
+2026-02-12 14:40:17 | INFO | Observation rebuilt: obs_id=d0bc7522-9a52-4d90-8eae-7fe19f068ce0 for annotation_id=3f6e6fa8-e208-4e81-a4b6-6df86efdea1d (obs_height=None)
+2026-02-12 14:40:17 | INFO | Auto rebuild observation done. New obs_id=d0bc7522-9a52-4d90-8eae-7fe19f068ce0
+2026-02-12 14:40:19 | INFO | Opened image 10/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-02-12 14:40:25 | INFO | Center set: (2791, 1806)
+2026-02-12 14:40:26 | INFO | Radii set: a=145.8 b=102.1
+2026-02-12 14:40:27 | INFO | Theta: 5.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 10.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 15.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 20.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 25.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 30.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 35.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 40.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 45.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 50.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 55.0 deg
+2026-02-12 14:40:27 | INFO | Theta: 60.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 65.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 70.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 75.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 80.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 85.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 90.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 95.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 100.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 105.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 110.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 115.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 120.0 deg
+2026-02-12 14:40:28 | INFO | Theta: 125.0 deg
+2026-02-12 14:40:30 | INFO | SAVE pressed
+2026-02-12 14:40:30 | INFO | Inserted annotation f3f47982-d74b-4012-b61b-c79ea30b33df for image_id=bc74ddb6-8514-445d-9933-46929a395f2e tree_id=tree_001
+2026-02-12 14:40:30 | INFO | Observation rebuilt: obs_id=36656cc0-c6e7-4cc7-8923-6e2e7743e604 for annotation_id=f3f47982-d74b-4012-b61b-c79ea30b33df (obs_height=None)
+2026-02-12 14:40:30 | INFO | Auto rebuild observation done. New obs_id=36656cc0-c6e7-4cc7-8923-6e2e7743e604
+2026-02-12 14:40:31 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 14:40:36 | INFO | Center set: (2771, 1811)
+2026-02-12 14:40:36 | INFO | Radii set: a=92.4 b=64.7
+2026-02-12 14:40:37 | INFO | Theta: 5.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 10.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 15.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 20.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 25.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 30.0 deg
+2026-02-12 14:40:37 | INFO | Theta: 35.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 40.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 45.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 50.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 55.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 60.0 deg
+2026-02-12 14:40:38 | INFO | Theta: 65.0 deg
+2026-02-12 14:40:38 | INFO | Radii set: a=129.3 b=90.5
+2026-02-12 14:40:39 | INFO | Radii set: a=65.1 b=45.5
+2026-02-12 14:40:40 | INFO | Radii set: a=119.8 b=83.8
+2026-02-12 14:40:41 | INFO | Theta: 70.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 75.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 80.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 85.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 90.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 95.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 100.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 105.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 110.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 115.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 120.0 deg
+2026-02-12 14:40:41 | INFO | Theta: 125.0 deg
+2026-02-12 14:40:42 | INFO | Radii set: a=80.2 b=56.1
+2026-02-12 14:40:43 | INFO | Radii set: a=105.8 b=74.1
+2026-02-12 14:40:43 | INFO | Theta: 130.0 deg
+2026-02-12 14:40:45 | INFO | SAVE pressed
+2026-02-12 14:40:45 | INFO | Inserted annotation 5112139e-b1d2-49c4-92c1-a18cd571da08 for image_id=ef3b2937-87ee-42ec-aa3e-0eab717d3dd1 tree_id=tree_001
+2026-02-12 14:40:45 | INFO | Observation rebuilt: obs_id=a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4 for annotation_id=5112139e-b1d2-49c4-92c1-a18cd571da08 (obs_height=None)
+2026-02-12 14:40:45 | INFO | Auto rebuild observation done. New obs_id=a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4
+2026-02-12 14:40:47 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 14:41:43 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:41:43 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:41:57 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:41:57 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:42:41 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:42:41 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:42:41 | INFO | normalize_scale done. Processed=0
+2026-02-12 14:43:01 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:43:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:43:01 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 14:43:11 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 14:43:14 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 14:43:17 | INFO | Opened image 4/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 14:43:23 | INFO | Center set: (2791, 1832)
+2026-02-12 14:43:24 | INFO | Radii set: a=74.2 b=51.9
+2026-02-12 14:43:25 | INFO | Theta: 5.0 deg
+2026-02-12 14:43:26 | INFO | Theta: 10.0 deg
+2026-02-12 14:43:26 | INFO | Theta: 15.0 deg
+2026-02-12 14:43:26 | INFO | Theta: 20.0 deg
+2026-02-12 14:43:26 | INFO | Theta: 25.0 deg
+2026-02-12 14:43:26 | INFO | Theta: 30.0 deg
+2026-02-12 14:43:27 | INFO | SAVE pressed
+2026-02-12 14:43:27 | INFO | Updated annotation 71887481-37f5-4dd4-82d6-64f1791927e6 for image_id=2088c9cc-b056-43d3-8ea1-dcec6d23f079 tree_id=tree_001
+2026-02-12 14:43:27 | INFO | Old observation removed for annotation 71887481-37f5-4dd4-82d6-64f1791927e6
+2026-02-12 14:43:28 | INFO | Observation rebuilt: obs_id=219eef2d-fd46-4686-90c2-63a82aec7f31 for annotation_id=71887481-37f5-4dd4-82d6-64f1791927e6 (obs_height=None)
+2026-02-12 14:43:28 | INFO | Auto rebuild observation done. New obs_id=219eef2d-fd46-4686-90c2-63a82aec7f31
+2026-02-12 14:43:36 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:43:36 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:43:36 | INFO | normalize_scale done. Processed=0
+2026-02-12 14:43:42 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:43:42 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:45:44 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:45:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:45:47 | INFO | Set flight_altitude=100.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=150.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=45.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=30.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=35.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=40.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=50.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-02-12 14:45:47 | INFO | Set flight_altitude=70.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 14:45:48 | INFO | fill_flight_altitude_from_filename: updated=8
+2026-02-12 14:45:55 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:45:55 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:46:19 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:46:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:46:19 | INFO | build_levels done. Upserted 3 rows.
+2026-02-12 14:46:25 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:46:25 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:49:56 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:49:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:49:56 | INFO | Backfill obs_height done. Updated rows: 8
+2026-02-12 14:50:08 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:50:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:50:08 | INFO | build_levels done. Upserted 11 rows.
+2026-02-12 14:50:15 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:50:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:50:15 | INFO | Normalized level: tree_id=tree_001 h_level=150.0 -> data\roi_norm\tree_001_150.png
+2026-02-12 14:50:15 | INFO | Normalized level: tree_id=tree_001 h_level=45.0 -> data\roi_norm\tree_001_45.png
+2026-02-12 14:50:15 | INFO | Normalized level: tree_id=tree_001 h_level=30.0 -> data\roi_norm\tree_001_30.png
+2026-02-12 14:50:15 | INFO | Normalized level: tree_id=tree_001 h_level=35.0 -> data\roi_norm\tree_001_35.png
+2026-02-12 14:50:16 | INFO | Normalized level: tree_id=tree_001 h_level=40.0 -> data\roi_norm\tree_001_40.png
+2026-02-12 14:50:16 | INFO | Normalized level: tree_id=tree_001 h_level=50.0 -> data\roi_norm\tree_001_50.png
+2026-02-12 14:50:16 | INFO | Normalized level: tree_id=tree_001 h_level=70.0 -> data\roi_norm\tree_001_70.png
+2026-02-12 14:50:16 | INFO | Normalized level: tree_id=tree_001 h_level=100.0 -> data\roi_norm\tree_001_100.png
+2026-02-12 14:50:16 | INFO | normalize_scale done. Processed=8
+2026-02-12 14:50:30 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:50:30 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:51:37 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:51:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:51:37 | INFO | Backfill obs_height done. Updated rows: 0
+2026-02-12 14:51:44 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:51:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:51:58 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:51:58 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:51:58 | INFO | build_levels done. Upserted 11 rows.
+2026-02-12 14:52:03 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:52:03 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:52:12 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 14:52:12 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 14:52:12 | INFO | normalize_scale done. Processed=0

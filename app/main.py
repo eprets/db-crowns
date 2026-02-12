@@ -14,12 +14,14 @@ from app.db.maintenance import deduplicate_annotations_keep_latest
 from app.db.maintenance_obs import cleanup_orphan_observations
 from app.db.queries import list_observations, count_observations
 from app.show_observation import show_observation
-from app.backfill_obs_height import backfill_obs_height_from_images
+#from app.backfill_obs_height import backfill_obs_height_from_images
 from app.check_heights import print_heights_summary
 from app.fill_flight_altitude import fill_flight_altitude_from_filename
 from app.build_levels import build_levels, show_levels
 from app.normalize_scale import normalize_scale
 from app.synthesize_missing import synthesize_missing_levels
+from app.export_dataset_pairs import export_pix2pix_pairs
+from app.backfill_obs_height import backfill_obs_height
 
 
 def main():
@@ -152,10 +154,10 @@ def main():
         return
 
     # python -m app.main backfill-obs-height
-    if len(sys.argv) >= 2 and sys.argv[1] == "backfill-obs-height":
-        updated = backfill_obs_height_from_images(db_path)
-        print(f"Backfill done. Updated {updated} observations.")
-        return
+    #if len(sys.argv) >= 2 and sys.argv[1] == "backfill-obs-height":
+     #   updated = backfill_obs_height_from_images(db_path)
+     #   print(f"Backfill done. Updated {updated} observations.")
+     #   return
 
     # python -m app.main check-heights
     if len(sys.argv) >= 2 and sys.argv[1] == "check-heights":
@@ -238,6 +240,39 @@ def main():
         print(f"Synthesize done. Created/updated {created} synth levels.")
         return
 
+    # python -m app.main export-dataset-pairs [only_tree_id]
+    # Примеры:
+    #   python -m app.main export-dataset-pairs
+    #   python -m app.main export-dataset-pairs tree_001
+    if len(sys.argv) >= 2 and sys.argv[1] == "export-dataset-pairs":
+        only_tree_id = None
+        if len(sys.argv) >= 3:
+            only_tree_id = sys.argv[2]
+
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+
+        out_dir = Path("data/datasets/pix2pix_pairs")
+
+        exported = export_pix2pix_pairs(
+            db_path=db_path,
+            out_dir=out_dir,
+            levels_grid=levels,
+            pair_mode="neighbors",
+            train_ratio=0.8,
+            val_ratio=0.1,
+            test_ratio=0.1,
+            seed=42,
+            only_tree_id=only_tree_id,
+        )
+        print(f"Export dataset pairs done. Exported {exported} pairs to {out_dir}.")
+        return
+
+    # python -m app.main backfill-obs-height
+    if len(sys.argv) >= 2 and sys.argv[1] == "backfill-obs-height":
+        updated = backfill_obs_height(db_path)
+        print(f"Backfill done. Updated {updated} observations.")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -256,6 +291,7 @@ def main():
     print("  python -m app.main show-levels <tree_id>")
     print("  python -m app.main normalize-scale")
     print("  python -m app.main synthesize-missing [tree_id] [level]")
+    print("  python -m app.main export-dataset-pairs [only_tree_id]")
 
 
 

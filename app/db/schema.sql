@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS trees (
     created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
--- Таблица аннотаций эллипсом (без масок, без CVAT)
+-- Таблица аннотаций эллипсом
 CREATE TABLE IF NOT EXISTS annotations (
     annotation_id TEXT PRIMARY KEY,
 
@@ -91,8 +91,8 @@ CREATE TABLE IF NOT EXISTS crown_levels (
     data_type TEXT NOT NULL,          -- 'real' или 'synth'
     mapping_error REAL,               -- |obs_height - h_level| для real
 
-    roi_norm_path TEXT,               -- будет заполнено на шаге 6 (normalize-scale)
-    features_json TEXT,               -- признаки на уровне (можно пока NULL)
+    roi_norm_path TEXT,
+    features_json TEXT,
 
     synth_method TEXT,                -- если synth, например 'linear_blend'
     created_at TEXT DEFAULT CURRENT_TIMESTAMP,
