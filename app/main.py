@@ -18,6 +18,7 @@ from app.backfill_obs_height import backfill_obs_height_from_images
 from app.check_heights import print_heights_summary
 from app.fill_flight_altitude import fill_flight_altitude_from_filename
 from app.build_levels import build_levels, show_levels
+from app.normalize_scale import normalize_scale
 
 
 def main():
@@ -193,6 +194,20 @@ def main():
         show_levels(db_path=db_path, tree_id=tree_id, levels=levels)
         return
 
+    # python -m app.main normalize-scale
+    if len(sys.argv) >= 2 and sys.argv[1] == "normalize-scale":
+        roi_norm_dir = Path(config["paths"]["roi_norm_dir"])
+        out_size = tuple(config["roi"]["out_size"])  # [256,256] -> (256,256)
+
+        processed = normalize_scale(
+            db_path=db_path,
+            roi_norm_dir=roi_norm_dir,
+            out_size=out_size,
+            only_missing=True
+        )
+        print(f"Normalize scale done. Processed {processed} levels.")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -209,6 +224,7 @@ def main():
     print("  python -m app.main fill-flight-altitude-from-filename")
     print("  python -m app.main build-levels")
     print("  python -m app.main show-levels <tree_id>")
+    print("  python -m app.main normalize-scale")
 
 
 
