@@ -142,16 +142,13 @@ def build_levels(
 
 
 def show_levels(db_path: Path, tree_id: str, levels: List[float]) -> None:
-    """
-    Печатает профиль дерева по уровням сетки: real/synth/empty.
-    """
     levels_sorted = sorted([float(x) for x in levels])
 
     with get_connection(db_path) as conn:
         cur = conn.cursor()
         cur.execute(
             """
-            SELECT h_level, data_type, source_obs_id, mapping_error, roi_norm_path
+            SELECT h_level, data_type, mapping_error, roi_norm_path, synth_method
             FROM crown_levels
             WHERE tree_id = ?
             """,
@@ -164,10 +161,13 @@ def show_levels(db_path: Path, tree_id: str, levels: List[float]) -> None:
     print(f"\n=== LEVELS for tree_id={tree_id} ===")
     for lv in levels_sorted:
         if lv not in by_level:
-            print(f"- {lv:>5} m : EMPTY")
+            print(f"- {lv:>6} m : EMPTY")
+            continue
+
+        r = by_level[lv]
+        dt = (r.get("data_type") or "").upper()
+        roi = r.get("roi_norm_path")
+        if dt == "REAL":
+            print(f"- {lv:>6} m : REAL   err={r.get('mapping_error')}  roi_norm={roi}")
         else:
-            r = by_level[lv]
-            dt = r.get("data_type")
-            err = r.get("mapping_error")
-            roi_norm = r.get("roi_norm_path")
-            print(f"- {lv:>5} m : {dt.upper():<5}  err={err}  roi_norm={roi_norm}")
+            print(f"- {lv:>6} m : SYNTH  method={r.get('synth_method')}  roi_norm={roi}")

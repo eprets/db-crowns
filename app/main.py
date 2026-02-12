@@ -19,6 +19,7 @@ from app.check_heights import print_heights_summary
 from app.fill_flight_altitude import fill_flight_altitude_from_filename
 from app.build_levels import build_levels, show_levels
 from app.normalize_scale import normalize_scale
+from app.synthesize_missing import synthesize_missing_levels
 
 
 def main():
@@ -208,6 +209,35 @@ def main():
         print(f"Normalize scale done. Processed {processed} levels.")
         return
 
+    # python -m app.main synthesize-missing [tree_id] [level]
+    # Примеры:
+    #   python -m app.main synthesize-missing
+    #   python -m app.main synthesize-missing tree_001
+    #   python -m app.main synthesize-missing tree_001 20
+    if len(sys.argv) >= 2 and sys.argv[1] == "synthesize-missing":
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+        roi_norm_dir = Path(config["paths"]["roi_norm_dir"])
+
+        only_tree_id = None
+        fill_only_levels = None
+
+        if len(sys.argv) >= 3:
+            only_tree_id = sys.argv[2]
+
+        if len(sys.argv) >= 4:
+            fill_only_levels = [float(sys.argv[3])]
+
+        created = synthesize_missing_levels(
+            db_path=db_path,
+            levels_grid=levels,
+            roi_norm_dir=roi_norm_dir,
+            only_tree_id=only_tree_id,
+            fill_only_levels=fill_only_levels,
+            overwrite_existing_synth=False,
+        )
+        print(f"Synthesize done. Created/updated {created} synth levels.")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -225,6 +255,7 @@ def main():
     print("  python -m app.main build-levels")
     print("  python -m app.main show-levels <tree_id>")
     print("  python -m app.main normalize-scale")
+    print("  python -m app.main synthesize-missing [tree_id] [level]")
 
 
 
