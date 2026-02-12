@@ -17,6 +17,7 @@ from app.show_observation import show_observation
 from app.backfill_obs_height import backfill_obs_height_from_images
 from app.check_heights import print_heights_summary
 from app.fill_flight_altitude import fill_flight_altitude_from_filename
+from app.build_levels import build_levels, show_levels
 
 
 def main():
@@ -165,6 +166,33 @@ def main():
         print(f"Updated {updated} images (flight_altitude from filename).")
         return
 
+    # python -m app.main build-levels
+    if len(sys.argv) >= 2 and sys.argv[1] == "build-levels":
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+        added = build_levels(db_path=db_path, levels=levels)
+        print(f"Build levels done. Upserted {added} rows.")
+        return
+
+    # python -m app.main show-levels <tree_id>
+    if len(sys.argv) >= 2 and sys.argv[1] == "show-levels":
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main show-levels <tree_id>")
+            return
+        tree_id = sys.argv[2]
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+        show_levels(db_path=db_path, tree_id=tree_id, levels=levels)
+        return
+
+    # python -m app.main show-levels <tree_id>
+    if len(sys.argv) >= 2 and sys.argv[1] == "show-levels":
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main show-levels <tree_id>")
+            return
+        tree_id = sys.argv[2]
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+        show_levels(db_path=db_path, tree_id=tree_id, levels=levels)
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -179,6 +207,8 @@ def main():
     print("  python -m app.main backfill-obs-height")
     print("  python -m app.main check-heights")
     print("  python -m app.main fill-flight-altitude-from-filename")
+    print("  python -m app.main build-levels")
+    print("  python -m app.main show-levels <tree_id>")
 
 
 

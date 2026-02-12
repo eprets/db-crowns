@@ -79,3 +79,31 @@ CREATE INDEX IF NOT EXISTS idx_obs_annotation_id ON crown_observations(annotatio
 -- Защита от дублей: одна аннотация на (image_id, tree_id)
 CREATE UNIQUE INDEX IF NOT EXISTS uq_annotations_image_tree
 ON annotations(image_id, tree_id);
+
+-- ===== УРОВНИ КРОНЫ НА ЕДИНОЙ СЕТКЕ ВЫСОТ =====
+CREATE TABLE IF NOT EXISTS crown_levels (
+    level_id TEXT PRIMARY KEY,
+
+    tree_id TEXT NOT NULL,
+    h_level REAL NOT NULL,            -- уровень сетки: 0,5,10,15,20,25
+
+    source_obs_id TEXT,               -- если real -> ссылка на crown_observations
+    data_type TEXT NOT NULL,          -- 'real' или 'synth'
+    mapping_error REAL,               -- |obs_height - h_level| для real
+
+    roi_norm_path TEXT,               -- будет заполнено на шаге 6 (normalize-scale)
+    features_json TEXT,               -- признаки на уровне (можно пока NULL)
+
+    synth_method TEXT,                -- если synth, например 'linear_blend'
+    created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (tree_id) REFERENCES trees(tree_id),
+    FOREIGN KEY (source_obs_id) REFERENCES crown_observations(obs_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_levels_tree_id ON crown_levels(tree_id);
+CREATE INDEX IF NOT EXISTS idx_levels_tree_level ON crown_levels(tree_id, h_level);
+
+-- Чтобы на каждый tree_id и каждый уровень сетки была максимум одна запись
+CREATE UNIQUE INDEX IF NOT EXISTS uq_levels_tree_h
+ON crown_levels(tree_id, h_level);
