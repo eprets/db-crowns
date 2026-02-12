@@ -560,3 +560,24 @@
 2026-02-11 17:05:23 | INFO | Database ready: data\db\crowns.sqlite3
 2026-02-11 17:05:35 | INFO | Starting project: crown_db v0.0.1
 2026-02-11 17:05:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:30:04 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:30:04 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:31:12 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:31:12 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:31:12 | INFO | Skip: observation already exists for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-02-12 13:31:12 | INFO | Build observations finished. Added 0 observations.
+2026-02-12 13:31:42 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:31:42 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:31:42 | INFO | Backfill obs_height done. Updated rows: 1
+2026-02-12 13:33:00 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:33:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:35:05 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:35:05 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:35:05 | INFO | Set flight_altitude=16.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 13:35:05 | INFO | Set flight_altitude=8.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 13:35:05 | INFO | fill_flight_altitude_from_filename: updated=2
+2026-02-12 13:35:11 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:35:11 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 13:35:11 | INFO | Backfill obs_height done. Updated rows: 1
+2026-02-12 13:35:15 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 13:35:15 | INFO | Database ready: data\db\crowns.sqlite3

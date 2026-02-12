@@ -14,6 +14,9 @@ from app.db.maintenance import deduplicate_annotations_keep_latest
 from app.db.maintenance_obs import cleanup_orphan_observations
 from app.db.queries import list_observations, count_observations
 from app.show_observation import show_observation
+from app.backfill_obs_height import backfill_obs_height_from_images
+from app.check_heights import print_heights_summary
+from app.fill_flight_altitude import fill_flight_altitude_from_filename
 
 
 def main():
@@ -145,6 +148,23 @@ def main():
         show_observation(db_path=db_path, obs_id=sys.argv[2])
         return
 
+    # python -m app.main backfill-obs-height
+    if len(sys.argv) >= 2 and sys.argv[1] == "backfill-obs-height":
+        updated = backfill_obs_height_from_images(db_path)
+        print(f"Backfill done. Updated {updated} observations.")
+        return
+
+    # python -m app.main check-heights
+    if len(sys.argv) >= 2 and sys.argv[1] == "check-heights":
+        print_heights_summary(db_path=db_path, limit=20)
+        return
+
+    # python -m app.main fill-flight-altitude-from-filename
+    if len(sys.argv) >= 2 and sys.argv[1] == "fill-flight-altitude-from-filename":
+        updated = fill_flight_altitude_from_filename(db_path)
+        print(f"Updated {updated} images (flight_altitude from filename).")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -156,6 +176,9 @@ def main():
     print("  python -m app.main cleanup-observations")
     print("  python -m app.main list-observations")
     print("  python -m app.main show-observation <obs_id>")
+    print("  python -m app.main backfill-obs-height")
+    print("  python -m app.main check-heights")
+    print("  python -m app.main fill-flight-altitude-from-filename")
 
 
 

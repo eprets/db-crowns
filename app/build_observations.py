@@ -10,6 +10,7 @@ import numpy as np
 
 from app.db.connection import get_connection
 
+
 def read_image_unicode(path: str):
     data = np.fromfile(path, dtype=np.uint8)
     img = cv2.imdecode(data, cv2.IMREAD_COLOR)
@@ -73,7 +74,8 @@ def build_observations(
         SELECT
             a.annotation_id, a.image_id, a.tree_id,
             a.x0, a.y0, a.a, a.b, a.theta,
-            i.path AS image_path
+            i.path AS image_path,
+            i.flight_altitude AS flight_altitude
         FROM annotations a
         JOIN images i ON i.image_id = a.image_id
         ORDER BY a.created_at ASC
@@ -125,6 +127,9 @@ def build_observations(
             features = compute_simple_features(roi, float(r["a"]), float(r["b"]))
             features["bbox"] = {"xmin": bbox[0], "ymin": bbox[1], "xmax": bbox[2], "ymax": bbox[3]}
 
+            # ВАЖНО: obs_height берём из images.flight_altitude
+            obs_height = r.get("flight_altitude", None)
+
             cur.execute(
                 """
                 INSERT INTO crown_observations
@@ -137,12 +142,15 @@ def build_observations(
                     r["image_id"],
                     r["tree_id"],
                     str(roi_path),
-                    None,
+                    obs_height,
                     json.dumps(features, ensure_ascii=False),
                 ),
             )
             added += 1
-            logging.info("Built observation %s for annotation %s", obs_id, annotation_id)
+            logging.info(
+                "Built observation %s for annotation %s (obs_height=%s)",
+                obs_id, annotation_id, str(obs_height)
+            )
 
         conn.commit()
 

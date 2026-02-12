@@ -3,7 +3,7 @@ import logging
 import math
 import uuid
 from pathlib import Path
-from typing import Optional, Dict, Any, Tuple
+from typing import Optional, Dict, Any
 
 import cv2
 import numpy as np
@@ -53,19 +53,22 @@ def rebuild_observation_for_annotation(
     - строит новый ROI и признаки
     - записывает в crown_observations
     Возвращает новый obs_id или None (если не удалось).
+
+    ВАЖНО: obs_height берём из images.flight_altitude
     """
     roi_raw_dir.mkdir(parents=True, exist_ok=True)
 
     with get_connection(db_path) as conn:
         cur = conn.cursor()
 
-        # 1) достаём аннотацию и путь к исходному изображению
+        # 1) достаём аннотацию + путь к исходному изображению + flight_altitude
         cur.execute(
             """
             SELECT
                 a.annotation_id, a.image_id, a.tree_id,
                 a.x0, a.y0, a.a, a.b,
-                i.path AS image_path
+                i.path AS image_path,
+                i.flight_altitude AS flight_altitude
             FROM annotations a
             JOIN images i ON i.image_id = a.image_id
             WHERE a.annotation_id = ?
@@ -78,6 +81,7 @@ def rebuild_observation_for_annotation(
             return None
 
         image_path = row["image_path"]
+        obs_height = row["flight_altitude"]
 
         # 2) если есть старый observation — удалить его и его файл ROI
         cur.execute(
@@ -90,7 +94,6 @@ def rebuild_observation_for_annotation(
             try:
                 Path(old_roi).unlink(missing_ok=True)
             except Exception:
-                # не критично, если файл не удалился
                 pass
 
             cur.execute("DELETE FROM crown_observations WHERE annotation_id = ?", (annotation_id,))
@@ -136,11 +139,14 @@ def rebuild_observation_for_annotation(
                 row["image_id"],
                 row["tree_id"],
                 str(roi_path),
-                None,
+                obs_height,
                 json.dumps(features, ensure_ascii=False),
             ),
         )
         conn.commit()
 
-        logging.info("Observation rebuilt: obs_id=%s for annotation_id=%s", obs_id, annotation_id)
+        logging.info(
+            "Observation rebuilt: obs_id=%s for annotation_id=%s (obs_height=%s)",
+            obs_id, annotation_id, str(obs_height)
+        )
         return obs_id
