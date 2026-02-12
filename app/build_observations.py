@@ -10,7 +10,6 @@ import numpy as np
 
 from app.db.connection import get_connection
 
-
 def read_image_unicode(path: str):
     data = np.fromfile(path, dtype=np.uint8)
     img = cv2.imdecode(data, cv2.IMREAD_COLOR)

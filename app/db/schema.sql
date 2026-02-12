@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS crown_observations (
 
     roi_raw_path TEXT NOT NULL,
 
-    obs_height REAL,          -- пока может быть NULL (добавим позже)
+    obs_height REAL
     features_json TEXT,       -- JSON строкой
 
     created_at TEXT DEFAULT CURRENT_TIMESTAMP,
