@@ -22,7 +22,12 @@ from app.normalize_scale import normalize_scale
 from app.synthesize_missing import synthesize_missing_levels
 from app.export_dataset_pairs import export_pix2pix_pairs
 from app.backfill_obs_height import backfill_obs_height
-
+from app.export_pix2pix_pairs import export_pix2pix_pairs
+from app.split_pix2pix_dataset import split_pix2pix_dataset
+from app.gan.train_pix2pix import train_pix2pix
+from app.gan.eval_pix2pix import eval_pix2pix
+from app.gan.apply_pix2pix import apply_pix2pix_one
+from app.db.migrate_crown_levels_pix2pix import migrate_crown_levels_for_pix2pix
 
 def main():
     # Загружаем конфигурацию
@@ -273,6 +278,194 @@ def main():
         print(f"Backfill done. Updated {updated} observations.")
         return
 
+    # python -m app.main export-pix2pix
+    if len(sys.argv) >= 2 and sys.argv[1] == "export-pix2pix":
+        out_dir = Path(config["pix2pix"]["out_dir"])
+        result = export_pix2pix_pairs(
+            db_path=db_path,
+            out_dir=out_dir,
+            neighbor_max_gap_m=float(config["pix2pix"]["neighbor_max_gap_m"]),
+            far_min_gap_m=float(config["pix2pix"]["far_min_gap_m"]),
+            far_max_gap_m=float(config["pix2pix"]["far_max_gap_m"]),
+            include_reverse=bool(config["pix2pix"]["include_reverse"]),
+            max_pairs_per_tree=int(config["pix2pix"]["max_pairs_per_tree"]),
+            include_synth=bool(config["pix2pix"]["include_synth"]),
+            image_ext=str(config["pix2pix"]["image_ext"]),
+        )
+        print(f"Exported Pix2Pix pairs: {result['total_pairs']}")
+        print(f"Dataset folder: {result['out_dir']}")
+        print(f"Pairs CSV: {result['pairs_csv']}")
+        return
+
+    # python -m app.main split-pix2pix
+    if len(sys.argv) >= 2 and sys.argv[1] == "split-pix2pix":
+        base_dir = Path(config["pix2pix"]["out_dir"])
+        out_dir = Path(config["pix2pix_split"]["out_dir"])
+
+        result = split_pix2pix_dataset(
+            base_dir=base_dir,
+            out_dir=out_dir,
+            train_ratio=float(config["pix2pix_split"]["train_ratio"]),
+            val_ratio=float(config["pix2pix_split"]["val_ratio"]),
+            test_ratio=float(config["pix2pix_split"]["test_ratio"]),
+            seed=int(config["pix2pix_split"]["seed"]),
+        )
+        print(f"Split done: train={result['train']} val={result['val']} test={result['test']}")
+        print(f"Split folder: {result['out_dir']}")
+        print(f"Split CSV: {result['split_csv']}")
+        return
+
+    # python -m app.main train-pix2pix
+    # python -m app.main train-pix2pix
+    if len(sys.argv) >= 2 and sys.argv[1] == "train-pix2pix":
+        data_root = Path(config["pix2pix_split"]["out_dir"])
+
+        # папка для результатов
+        out_dir = Path("data/pix2pix_runs/run_cpu_1")
+
+        train_pix2pix(
+            data_root=data_root,
+            out_dir=out_dir,
+            epochs=15,  # CPU: сначала 15 эпох
+            batch_size=1,  # CPU: обязательно 1
+            lr=2e-4,
+            lambda_l1=100.0,
+            device="cpu",  # явно CPU
+        )
+        print(f"Training done. See: {out_dir}")
+        return
+
+    # python -m app.main eval-pix2pix
+    if len(sys.argv) >= 2 and sys.argv[1] == "eval-pix2pix":
+        data_root = Path(config["pix2pix_split"]["out_dir"])
+        ckpt = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
+        out_dir = Path("data/pix2pix_runs/run_cpu_1/eval_test")
+
+        mae_mean, psnr_mean = eval_pix2pix(
+            data_root=data_root,
+            checkpoint_path=ckpt,
+            out_dir=out_dir,
+            device="cpu",
+        )
+        print(f"Eval done. MAE={mae_mean:.6f} PSNR={psnr_mean:.3f}")
+        print(f"Results folder: {out_dir}")
+        return
+
+    # python -m app.main make-preview-from-checkpoint
+    if len(sys.argv) >= 2 and sys.argv[1] == "make-preview-from-checkpoint":
+        from app.gan.infer_from_checkpoint import make_previews_from_checkpoint
+
+        pix2pix_split_dir = Path("data/pix2pix_split")
+
+        checkpoint_path = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
+
+        out_dir = Path("data/pix2pix_runs/run_cpu_1/infer_test_20")
+
+        num_samples = 20
+
+        if len(sys.argv) >= 3:
+            checkpoint_path = Path(sys.argv[2])
+        if len(sys.argv) >= 4:
+            num_samples = int(sys.argv[3])
+
+        saved = make_previews_from_checkpoint(
+            pix2pix_split_dir=pix2pix_split_dir,
+            checkpoint_path=checkpoint_path,
+            out_dir=out_dir,
+            num_samples=num_samples,
+            device="cpu",
+            image_size=256,
+        )
+        print(f"Infer done. Saved {saved} previews to: {out_dir}")
+        return
+
+    # python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>] [--all-missing]
+    if len(sys.argv) >= 2 and sys.argv[1] == "apply-pix2pix":
+        from app.db.connection import get_connection
+
+        tree_id = None
+        target_h = None
+        src_h = None
+        all_missing = False
+
+        if len(sys.argv) >= 4 and not sys.argv[3].startswith("--"):
+            tree_id = sys.argv[2]
+            target_h = float(sys.argv[3])
+        elif len(sys.argv) >= 3:
+            tree_id = sys.argv[2]
+
+        if "--src-h" in sys.argv:
+            i = sys.argv.index("--src-h")
+            src_h = float(sys.argv[i + 1])
+
+        if "--all-missing" in sys.argv:
+            all_missing = True
+
+        if not tree_id:
+            print("Usage:")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>]")
+            print("  python -m app.main apply-pix2pix <tree_id> --all-missing")
+            return
+
+        levels_grid = config["heights_grid"]["levels_m"]
+        checkpoint_path = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
+        roi_norm_dir = Path(config["paths"]["roi_norm_dir"])
+
+        if all_missing:
+            missing = []
+            with get_connection(db_path) as conn:
+                cur = conn.cursor()
+                for h in levels_grid:
+                    cur.execute(
+                        "SELECT data_type, roi_norm_path FROM crown_levels WHERE tree_id=? AND h_level=? LIMIT 1",
+                        (tree_id, float(h)),
+                    )
+                    r = cur.fetchone()
+                    if r is None or (r["roi_norm_path"] is None):
+                        missing.append(float(h))
+
+            created = 0
+            for h in missing:
+                outp = apply_pix2pix_one(
+                    db_path=db_path,
+                    tree_id=tree_id,
+                    target_h=h,
+                    levels_grid=levels_grid,
+                    checkpoint_path=checkpoint_path,
+                    roi_norm_dir=roi_norm_dir,
+                    src_h=None,          # neighbor
+                    device="cpu",
+                    allow_synth_as_source=False,
+                )
+                if outp is not None:
+                    created += 1
+
+            print(f"Pix2Pix applied. Created {created} synth levels.")
+            return
+
+        if target_h is None:
+            print("Usage: python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>]")
+            return
+
+        outp = apply_pix2pix_one(
+            db_path=db_path,
+            tree_id=tree_id,
+            target_h=target_h,
+            levels_grid=levels_grid,
+            checkpoint_path=checkpoint_path,
+            roi_norm_dir=roi_norm_dir,
+            src_h=src_h,  # None => neighbor, иначе forced jump
+            device="cpu",
+            allow_synth_as_source=False,
+        )
+        print(f"Done. Output: {outp}")
+        return
+
+    # python -m app.main migrate-levels-pix2pix
+    if len(sys.argv) >= 2 and sys.argv[1] == "migrate-levels-pix2pix":
+        migrate_crown_levels_for_pix2pix(db_path=db_path)
+        print("Migration done: crown_levels columns for pix2pix are ready.")
+        return
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -292,8 +485,12 @@ def main():
     print("  python -m app.main normalize-scale")
     print("  python -m app.main synthesize-missing [tree_id] [level]")
     print("  python -m app.main export-dataset-pairs [only_tree_id]")
-
-
-
+    print("  python -m app.main export-pix2pix")
+    print("  python -m app.main split-pix2pix")
+    print("  python -m app.main train-pix2pix")
+    print("  python -m app.main eval-pix2pix")
+    print("  python -m app.main make-preview-from-checkpoint")
+    print("  python -m app.main apply-pix2pix <tree_id> <target_h>")
+    print("  python -m app.main migrate-levels-pix2pix")
 if __name__ == "__main__":
     main()

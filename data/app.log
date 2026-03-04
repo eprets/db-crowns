@@ -1653,3 +1653,334 @@
 2026-02-12 14:52:12 | INFO | Starting project: crown_db v0.0.1
 2026-02-12 14:52:12 | INFO | Database ready: data\db\crowns.sqlite3
 2026-02-12 14:52:12 | INFO | normalize_scale done. Processed=0
+2026-02-12 18:32:27 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 18:32:27 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 18:32:31 | INFO | Synth created: tree=tree_001 h=27.0 method=linear_blend -> data\roi_norm\tree_001_27_synth.png
+2026-02-12 18:32:32 | INFO | synthesize_missing_levels done. created=1
+2026-02-12 18:48:55 | INFO | Starting project: crown_db v0.0.1
+2026-02-12 18:48:55 | INFO | Database ready: data\db\crowns.sqlite3
+2026-02-12 18:48:55 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 18:49:01 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:49:10 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:49:11 | INFO | Opened image 4/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 18:49:22 | INFO | Theta: 5.0 deg
+2026-02-12 18:49:22 | INFO | Theta: 10.0 deg
+2026-02-12 18:49:22 | INFO | Theta: 15.0 deg
+2026-02-12 18:49:22 | INFO | Theta: 20.0 deg
+2026-02-12 18:49:22 | INFO | Theta: 25.0 deg
+2026-02-12 18:49:23 | INFO | Theta: 30.0 deg
+2026-02-12 18:49:23 | INFO | Theta: 35.0 deg
+2026-02-12 18:49:30 | INFO | Opened image 5/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-02-12 18:50:04 | INFO | Opened image 6/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-02-12 18:50:05 | INFO | Opened image 7/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-02-12 18:50:06 | INFO | Opened image 8/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-02-12 18:50:06 | INFO | Opened image 9/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-02-12 18:50:07 | INFO | Opened image 10/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-02-12 18:50:07 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:08 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:09 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:09 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:09 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:09 | INFO | Opened image 11/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-02-12 18:50:10 | INFO | Opened image 10/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-02-12 18:50:11 | INFO | Opened image 9/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-02-12 18:50:11 | INFO | Opened image 8/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-02-12 18:50:12 | INFO | Opened image 7/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-02-12 18:50:12 | INFO | Opened image 6/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-02-12 18:50:13 | INFO | Opened image 5/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-02-12 18:50:13 | INFO | Opened image 4/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 18:50:14 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:14 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:17 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:19 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:21 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:22 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:23 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:24 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:26 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:27 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:32 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:37 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:39 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:39 | INFO | Opened image 4/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-02-12 18:50:43 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:44 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:45 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:47 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:49 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:51 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:53 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:50:54 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:50:55 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 18:50:59 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-02-12 18:51:00 | INFO | Opened image 2/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-02-12 18:51:01 | INFO | Opened image 3/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-02-12 18:51:09 | INFO | Center set: (2800, 1794)
+2026-02-12 18:51:10 | INFO | Radii set: a=334.1 b=233.9
+2026-02-12 18:51:11 | INFO | Theta: 5.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 10.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 15.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 20.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 25.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 30.0 deg
+2026-02-12 18:51:11 | INFO | Theta: 35.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 30.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 25.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 30.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 35.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 40.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 45.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 50.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 55.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 60.0 deg
+2026-02-12 18:51:12 | INFO | Theta: 65.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 70.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 75.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 80.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 85.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 90.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 95.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 100.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 105.0 deg
+2026-02-12 18:51:13 | INFO | Theta: 110.0 deg
+2026-02-12 18:51:14 | INFO | Theta: 115.0 deg
+2026-02-12 18:51:14 | INFO | Theta: 120.0 deg
+2026-02-12 18:51:14 | INFO | Theta: 125.0 deg
+2026-02-12 18:51:14 | INFO | Theta: 130.0 deg
+2026-02-12 18:51:14 | INFO | Theta: 135.0 deg
+2026-02-12 18:51:15 | INFO | Theta: 140.0 deg
+2026-02-12 18:51:15 | INFO | Theta: 145.0 deg
+2026-02-12 18:51:15 | INFO | Theta: 150.0 deg
+2026-02-12 18:51:15 | INFO | Theta: 155.0 deg
+2026-02-12 18:51:22 | INFO | Theta: 150.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 145.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 140.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 135.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 130.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 125.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 120.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 115.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 110.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 105.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 100.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 95.0 deg
+2026-02-12 18:51:23 | INFO | Theta: 90.0 deg
+2026-02-12 18:51:24 | INFO | Theta: 85.0 deg
+2026-02-12 18:51:24 | INFO | Theta: 80.0 deg
+2026-02-12 18:51:24 | INFO | Theta: 75.0 deg
+2026-02-12 18:51:24 | INFO | Theta: 70.0 deg
+2026-02-12 18:51:24 | INFO | Theta: 65.0 deg
+2026-03-03 17:17:38 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:17:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:17:39 | INFO | Opened image 1/11: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-03-03 17:17:45 | INFO | Center set: (2750, 1633)
+2026-03-03 17:17:46 | INFO | Radii set: a=587.8 b=411.5
+2026-03-03 17:17:47 | INFO | Theta: -5.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -10.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -15.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -20.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -25.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -30.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -35.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -40.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -45.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -50.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -55.0 deg
+2026-03-03 17:17:47 | INFO | Theta: -60.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -65.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -70.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -75.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -80.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -85.0 deg
+2026-03-03 17:17:48 | INFO | Theta: -90.0 deg
+2026-03-03 17:17:52 | INFO | SAVE pressed
+2026-03-03 17:17:52 | INFO | Updated annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c for image_id=bacff13e-fd40-4a8f-bf1f-00eb20315f29 tree_id=tree_001
+2026-03-03 17:17:52 | INFO | Old observation removed for annotation 3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-03-03 17:17:52 | INFO | Observation rebuilt: obs_id=80f80e29-9794-4d60-8017-42f5ab837633 for annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c (obs_height=16.0)
+2026-03-03 17:17:52 | INFO | Auto rebuild observation done. New obs_id=80f80e29-9794-4d60-8017-42f5ab837633
+2026-03-03 17:20:17 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:20:17 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:20:17 | INFO | Backfill obs_height done. Updated rows: 0
+2026-03-03 17:21:14 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:21:14 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:21:14 | INFO | Backfill obs_height done. Updated rows: 0
+2026-03-03 17:21:30 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:21:30 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:21:30 | INFO | build_levels done. Upserted 11 rows.
+2026-03-03 17:21:38 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:21:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:21:38 | INFO | build_levels done. Upserted 11 rows.
+2026-03-03 17:21:52 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:21:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:21:58 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:21:58 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:21:58 | INFO | normalize_scale done. Processed=0
+2026-03-03 17:30:31 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:30:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:30:32 | INFO | Pix2Pix export: tree_id=tree_001 pairs=100
+2026-03-03 17:30:32 | INFO | Pix2Pix export done. total_pairs=100 out_dir=D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix
+2026-03-03 17:33:54 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:33:54 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:35:37 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:35:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:37:37 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:37:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:37:39 | INFO | Split done. train=80 val=10 test=10 out_dir=D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_split
+2026-03-03 17:55:46 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 17:55:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 17:55:46 | INFO | Split done. train=80 val=10 test=10 out_dir=D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_split
+2026-03-03 18:04:30 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 18:04:30 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 18:04:30 | INFO | Using device: cpu
+2026-03-03 18:06:16 | INFO | Epoch 1 done. Saved checkpoints.
+2026-03-03 18:08:07 | INFO | Epoch 2 done. Saved checkpoints.
+2026-03-03 18:10:04 | INFO | Epoch 3 done. Saved checkpoints.
+2026-03-03 18:12:00 | INFO | Epoch 4 done. Saved checkpoints.
+2026-03-03 18:13:44 | INFO | Epoch 5 done. Saved checkpoints.
+2026-03-03 18:15:28 | INFO | Epoch 6 done. Saved checkpoints.
+2026-03-03 18:17:12 | INFO | Epoch 7 done. Saved checkpoints.
+2026-03-03 18:18:58 | INFO | Epoch 8 done. Saved checkpoints.
+2026-03-03 18:20:43 | INFO | Epoch 9 done. Saved checkpoints.
+2026-03-03 18:22:29 | INFO | Epoch 10 done. Saved checkpoints.
+2026-03-03 18:24:14 | INFO | Epoch 11 done. Saved checkpoints.
+2026-03-03 18:25:59 | INFO | Epoch 12 done. Saved checkpoints.
+2026-03-03 18:27:45 | INFO | Epoch 13 done. Saved checkpoints.
+2026-03-03 18:29:29 | INFO | Epoch 14 done. Saved checkpoints.
+2026-03-03 18:31:15 | INFO | Epoch 15 done. Saved checkpoints.
+2026-03-03 18:31:15 | INFO | Training finished. Output: D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_runs\run_cpu_1
+2026-03-03 18:57:06 | INFO | Starting project: crown_db v0.0.1
+2026-03-03 18:57:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-03 18:57:06 | INFO | Using device: cpu
+2026-03-03 18:58:54 | INFO | Epoch 1 done. Saved checkpoints.
+2026-03-03 19:00:43 | INFO | Epoch 2 done. Saved checkpoints.
+2026-03-04 15:08:31 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:08:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:09:46 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:09:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:10:10 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:10:10 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:10:23 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:10:23 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:10:23 | INFO | Using device: cpu
+2026-03-04 15:12:23 | INFO | Epoch 1 done. Saved checkpoints.
+2026-03-04 15:14:35 | INFO | Epoch 2 done. Saved checkpoints.
+2026-03-04 15:16:29 | INFO | Epoch 3 done. Saved checkpoints.
+2026-03-04 15:18:19 | INFO | Epoch 4 done. Saved checkpoints.
+2026-03-04 15:20:09 | INFO | Epoch 5 done. Saved checkpoints.
+2026-03-04 15:22:01 | INFO | Epoch 6 done. Saved checkpoints.
+2026-03-04 15:23:46 | INFO | Epoch 7 done. Saved checkpoints.
+2026-03-04 15:25:38 | INFO | Epoch 8 done. Saved checkpoints.
+2026-03-04 15:27:29 | INFO | Epoch 9 done. Saved checkpoints.
+2026-03-04 15:29:19 | INFO | Epoch 10 done. Saved checkpoints.
+2026-03-04 15:30:59 | INFO | Epoch 11 done. Saved checkpoints.
+2026-03-04 15:32:38 | INFO | Epoch 12 done. Saved checkpoints.
+2026-03-04 15:34:18 | INFO | Epoch 13 done. Saved checkpoints.
+2026-03-04 15:36:21 | INFO | Epoch 14 done. Saved checkpoints.
+2026-03-04 15:38:21 | INFO | Epoch 15 done. Saved checkpoints.
+2026-03-04 15:38:21 | INFO | Training finished. Output: D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_runs\run_cpu_1
+2026-03-04 15:43:31 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:43:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:45:52 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:45:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:52:47 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:52:47 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 15:52:47 | INFO | Infer: split_dir=data\pix2pix_split
+2026-03-04 15:52:47 | INFO | Infer: checkpoint=data\pix2pix_runs\run_cpu_1\checkpoints\G_epoch_015.pt
+2026-03-04 15:52:47 | INFO | Infer: out_dir=data\pix2pix_runs\run_cpu_1\infer_test_20
+2026-03-04 15:52:47 | INFO | Infer: device=cpu
+2026-03-04 15:52:49 | INFO | Infer done. Saved 10 previews to data\pix2pix_runs\run_cpu_1\infer_test_20
+2026-03-04 15:59:22 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 15:59:22 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:01:23 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:01:23 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:03:06 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:03:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:24:04 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:24:04 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:24:04 | WARNING | No neighbor source for tree=tree_001 target_h=55.0
+2026-03-04 16:24:19 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:24:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:24:19 | WARNING | No neighbor source for tree=tree_001 target_h=55.0
+2026-03-04 16:24:33 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:24:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:25:19 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:25:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:25:36 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:25:36 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:28:48 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:28:48 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:28:48 | INFO | OK: column already exists: crown_levels.synth_method
+2026-03-04 16:28:48 | INFO | Added column: crown_levels.synth_src_h (REAL)
+2026-03-04 16:29:19 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:29:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:29:21 | INFO | Pix2Pix synth done: tree=tree_001 A=10.0 -> B=25.0 saved=data\roi_norm\tree_001_25_pix2pix_from_10.png
+2026-03-04 16:29:42 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:29:42 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:30:15 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:30:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:30:15 | WARNING | No neighbor source for tree=tree_001 target_h=55.0
+2026-03-04 16:30:34 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:30:34 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:30:54 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:30:54 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:30:54 | INFO | OK: column already exists: crown_levels.synth_method
+2026-03-04 16:30:54 | INFO | OK: column already exists: crown_levels.synth_src_h
+2026-03-04 16:31:02 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:31:02 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:31:02 | WARNING | No neighbor source for tree=tree_001 target_h=55.0
+2026-03-04 16:31:12 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:31:12 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:33:19 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:33:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:33:24 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=55.0 saved=data\roi_norm\tree_001_55_pix2pix_from_50.png
+2026-03-04 16:39:05 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:39:05 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:39:30 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:39:30 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:39:42 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:39:42 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:44:59 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:44:59 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:45:01 | INFO | Pix2Pix synth done: tree=tree_001 A=10.0 -> B=25.0 saved=data\roi_norm\tree_001_25_pix2pix_from_10.png
+2026-03-04 16:53:43 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:53:43 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:53:44 | INFO | Pix2Pix synth done: tree=tree_001 A=10.0 -> B=25.0 saved=data\roi_norm\tree_001_25_pix2pix_from_10.png
+2026-03-04 16:54:02 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:54:02 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:54:02 | WARNING | No neighbor source for tree=tree_001 target_h=55.0
+2026-03-04 16:54:27 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:54:27 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:54:27 | WARNING | No neighbor source for tree=tree_001 target_h=25.0
+2026-03-04 16:54:51 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:54:51 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:55:08 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:55:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:55:08 | WARNING | No neighbor source for tree=tree_001 target_h=65.0
+2026-03-04 16:55:15 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:55:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:55:50 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:55:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:55:50 | WARNING | No neighbor source for tree=tree_001 target_h=5.0
+2026-03-04 16:56:05 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:56:05 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:56:05 | WARNING | No neighbor source for tree=tree_001 target_h=125.0
+2026-03-04 16:56:13 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:56:13 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:57:35 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:57:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:57:35 | WARNING | No neighbor source for tree=tree_001 target_h=125.0
+2026-03-04 16:58:22 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:58:22 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:58:22 | WARNING | No neighbor source for tree=tree_001 target_h=125.0
+2026-03-04 16:58:55 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:58:55 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:59:44 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:59:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 16:59:49 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=65.0 saved=data\roi_norm\tree_001_65_pix2pix_from_50.png
+2026-03-04 16:59:58 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 16:59:58 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 17:01:21 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 17:01:21 | INFO | Database ready: data\db\crowns.sqlite3
+2026-03-04 17:01:25 | INFO | Pix2Pix synth done: tree=tree_001 A=10.0 -> B=35.0 saved=data\roi_norm\tree_001_35_pix2pix_from_10.png
+2026-03-04 17:01:33 | INFO | Starting project: crown_db v0.0.1
+2026-03-04 17:01:33 | INFO | Database ready: data\db\crowns.sqlite3
