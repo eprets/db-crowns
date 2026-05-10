@@ -29,6 +29,10 @@ from app.gan.eval_pix2pix import eval_pix2pix
 from app.gan.apply_pix2pix import apply_pix2pix_one
 from app.db.migrate_crown_levels_pix2pix import migrate_crown_levels_for_pix2pix
 from app.export_tree_profile import export_tree_profile
+from app.db.migrate_masks import migrate_masks
+from app.build_ellipse_masks import build_ellipse_masks
+from app.build_roi_masks import build_roi_masks
+from app.normalize_masks import normalize_masks
 
 def main():
     # Загружаем конфигурацию
@@ -573,6 +577,98 @@ def main():
         print(f"CSV: {out_dir / 'profile.csv'}")
         return
 
+    # python -m app.main migrate-masks
+    if len(sys.argv) >= 2 and sys.argv[1] == "migrate-masks":
+        migrate_masks(db_path=db_path)
+        print("Migration done: mask columns are ready.")
+        return
+
+    # python -m app.main build-ellipse-masks [--overwrite]
+    if len(sys.argv) >= 2 and sys.argv[1] == "build-ellipse-masks":
+        masks_dir = Path("data/masks/ellipse")
+        overwrite = "--overwrite" in sys.argv
+
+        created = build_ellipse_masks(
+            db_path=db_path,
+            masks_dir=masks_dir,
+            overwrite=overwrite,
+        )
+
+        print(f"Ellipse masks done. Created/updated {created} masks.")
+        return
+
+    # python -m app.main build-roi-masks [--overwrite]
+    if len(sys.argv) >= 2 and sys.argv[1] == "build-roi-masks":
+        roi_mask_raw_dir = Path("data/roi_mask_raw")
+        overwrite = "--overwrite" in sys.argv
+
+        created = build_roi_masks(
+            db_path=db_path,
+            roi_mask_raw_dir=roi_mask_raw_dir,
+            overwrite=overwrite,
+        )
+
+        print(f"ROI masks done. Created/updated {created} ROI masks.")
+        return
+
+    # python -m app.main normalize-masks [--overwrite]
+    if len(sys.argv) >= 2 and sys.argv[1] == "normalize-masks":
+        roi_mask_norm_dir = Path("data/roi_mask_norm")
+        out_size = tuple(config["roi"]["out_size"])
+        only_missing = "--overwrite" not in sys.argv
+
+        processed = normalize_masks(
+            db_path=db_path,
+            roi_mask_norm_dir=roi_mask_norm_dir,
+            out_size=out_size,
+            only_missing=only_missing,
+        )
+
+        print(f"Normalize masks done. Processed {processed} masks.")
+        return
+
+    # python -m app.main debug-mask-links tree_001
+    if len(sys.argv) >= 2 and sys.argv[1] == "debug-mask-links":
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main debug-mask-links <tree_id>")
+            return
+
+        tree_id = sys.argv[2]
+
+        from app.db.connection import get_connection
+
+        with get_connection(db_path) as conn:
+            cur = conn.cursor()
+            cur.execute(
+                """
+                SELECT
+                    cl.tree_id,
+                    cl.h_level,
+                    cl.data_type,
+                    cl.source_obs_id,
+                    co.roi_mask_raw_path,
+                    cl.roi_mask_norm_path
+                FROM crown_levels cl
+                LEFT JOIN crown_observations co ON co.obs_id = cl.source_obs_id
+                WHERE cl.tree_id = ?
+                ORDER BY cl.h_level
+                """,
+                (tree_id,),
+            )
+            rows = cur.fetchall()
+
+        print(f"\n=== MASK LINKS for {tree_id} ===")
+        for r in rows:
+            print(
+                f"- {float(r['h_level']):6.1f} m | "
+                f"{r['data_type']:<5} | "
+                f"source_obs_id={r['source_obs_id']} | "
+                f"raw_mask={r['roi_mask_raw_path']} | "
+                f"norm_mask={r['roi_mask_norm_path']}"
+            )
+
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -600,5 +696,9 @@ def main():
     print("  python -m app.main apply-pix2pix <tree_id> <target_h>")
     print("  python -m app.main migrate-levels-pix2pix")
     print("  python -m app.main export-tree-profile <tree_id>")
+    print("  python -m app.main migrate-masks")
+    print("  python -m app.main build-ellipse-masks [--overwrite]")
+    print("  python -m app.main build-roi-masks [--overwrite]")
+    print("  python -m app.main normalize-masks [--overwrite]")
 if __name__ == "__main__":
     main()

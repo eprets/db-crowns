@@ -8,25 +8,12 @@ from app.db.connection import get_connection
 
 
 def _safe_float_name(value: float) -> str:
-    """
-    Делает красивое имя высоты:
-    10.0 -> 10
-    12.5 -> 12_5
-    """
     if float(value).is_integer():
         return str(int(value))
     return str(value).replace(".", "_")
 
 
-def _make_output_filename(row: Dict[str, Any]) -> str:
-    """
-    Формирует имя файла для экспорта уровня.
-
-    Примеры:
-    10_REAL.png
-    20_SYNTH_linear_blend.png
-    55_SYNTH_pix2pix_from_50.png
-    """
+def _make_image_filename(row: Dict[str, Any]) -> str:
     h = _safe_float_name(float(row["h_level"]))
     data_type = str(row["data_type"] or "EMPTY").upper()
 
@@ -48,6 +35,26 @@ def _make_output_filename(row: Dict[str, Any]) -> str:
     return f"{h}_EMPTY.png"
 
 
+def _make_mask_filename(row: Dict[str, Any]) -> str:
+    h = _safe_float_name(float(row["h_level"]))
+    data_type = str(row["data_type"] or "EMPTY").upper()
+
+    if data_type == "REAL":
+        return f"{h}_REAL_mask.png"
+
+    if data_type == "SYNTH":
+        method = row.get("synth_method") or "unknown"
+        synth_src_h = row.get("synth_src_h")
+
+        if synth_src_h is not None:
+            src = _safe_float_name(float(synth_src_h))
+            return f"{h}_SYNTH_{method}_from_{src}_mask.png"
+
+        return f"{h}_SYNTH_{method}_mask.png"
+
+    return f"{h}_EMPTY_mask.png"
+
+
 def export_tree_profile(
     db_path: Path,
     tree_id: str,
@@ -55,17 +62,24 @@ def export_tree_profile(
     out_root: Path,
 ) -> Path:
     """
-    Экспортирует полный высотный профиль дерева.
+    Экспортирует высотный профиль дерева.
 
-    Что делает:
-    1. Читает crown_levels для tree_id.
-    2. Создаёт папку data/tree_profiles/<tree_id>.
-    3. Копирует все найденные roi_norm_path в эту папку.
-    4. Создаёт profile.csv с описанием уровней.
+    Создаёт:
+    data/tree_profiles/<tree_id>/
+      profile.csv
+      images/
+      masks/
+
+    В images копируются roi_norm_path.
+    В masks копируются roi_mask_norm_path, если маска есть.
     """
 
     out_dir = out_root / tree_id
-    out_dir.mkdir(parents=True, exist_ok=True)
+    images_dir = out_dir / "images"
+    masks_dir = out_dir / "masks"
+
+    images_dir.mkdir(parents=True, exist_ok=True)
+    masks_dir.mkdir(parents=True, exist_ok=True)
 
     rows_for_csv = []
 
@@ -82,6 +96,7 @@ def export_tree_profile(
                     h_level,
                     data_type,
                     roi_norm_path,
+                    roi_mask_norm_path,
                     mapping_error,
                     synth_method,
                     synth_src_h
@@ -101,43 +116,70 @@ def export_tree_profile(
                     "h_level": h,
                     "data_type": "EMPTY",
                     "roi_norm_path": "",
-                    "exported_file": "",
+                    "roi_mask_norm_path": "",
+                    "image_file": "",
+                    "mask_file": "",
                     "mapping_error": "",
                     "synth_method": "",
                     "synth_src_h": "",
-                    "status": "missing_in_db",
+                    "image_status": "missing_in_db",
+                    "mask_status": "missing_in_db",
                 })
                 continue
 
             row = dict(r)
 
-            src_path_str = row.get("roi_norm_path")
-            exported_file = ""
-            status = "ok"
+            # ---------- image export ----------
+            image_file = ""
+            image_status = "ok"
 
-            if src_path_str:
-                src_path = Path(src_path_str)
+            src_img_str = row.get("roi_norm_path")
 
-                if src_path.exists():
-                    out_name = _make_output_filename(row)
-                    dst_path = out_dir / out_name
-                    shutil.copy2(src_path, dst_path)
-                    exported_file = out_name
+            if src_img_str:
+                src_img = Path(src_img_str)
+
+                if src_img.exists():
+                    img_name = _make_image_filename(row)
+                    dst_img = images_dir / img_name
+                    shutil.copy2(src_img, dst_img)
+                    image_file = str(Path("images") / img_name)
                 else:
-                    status = "file_not_found"
+                    image_status = "file_not_found"
             else:
-                status = "empty_no_roi"
+                image_status = "empty_no_roi"
+
+            # ---------- mask export ----------
+            mask_file = ""
+            mask_status = "ok"
+
+            src_mask_str = row.get("roi_mask_norm_path")
+
+            if src_mask_str:
+                src_mask = Path(src_mask_str)
+
+                if src_mask.exists():
+                    mask_name = _make_mask_filename(row)
+                    dst_mask = masks_dir / mask_name
+                    shutil.copy2(src_mask, dst_mask)
+                    mask_file = str(Path("masks") / mask_name)
+                else:
+                    mask_status = "mask_file_not_found"
+            else:
+                mask_status = "no_mask"
 
             rows_for_csv.append({
                 "tree_id": tree_id,
                 "h_level": h,
                 "data_type": row.get("data_type") or "EMPTY",
-                "roi_norm_path": src_path_str or "",
-                "exported_file": exported_file,
+                "roi_norm_path": src_img_str or "",
+                "roi_mask_norm_path": src_mask_str or "",
+                "image_file": image_file,
+                "mask_file": mask_file,
                 "mapping_error": row.get("mapping_error") if row.get("mapping_error") is not None else "",
                 "synth_method": row.get("synth_method") or "",
                 "synth_src_h": row.get("synth_src_h") if row.get("synth_src_h") is not None else "",
-                "status": status,
+                "image_status": image_status,
+                "mask_status": mask_status,
             })
 
     csv_path = out_dir / "profile.csv"
@@ -150,13 +192,16 @@ def export_tree_profile(
                 "h_level",
                 "data_type",
                 "roi_norm_path",
-                "exported_file",
+                "roi_mask_norm_path",
+                "image_file",
+                "mask_file",
                 "mapping_error",
                 "synth_method",
                 "synth_src_h",
-                "status",
+                "image_status",
+                "mask_status",
             ],
-            delimiter=";"
+            delimiter=";",
         )
 
         writer.writeheader()

@@ -2030,3 +2030,59 @@
 2026-05-10 13:03:03 | INFO | Database ready: data\db\crowns.sqlite3
 2026-05-10 13:11:54 | INFO | Starting project: crown_db v0.0.1
 2026-05-10 13:11:54 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:20:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:20:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:20:00 | INFO | Added column: annotations.mask_path (TEXT)
+2026-05-10 13:20:00 | INFO | Added column: crown_observations.roi_mask_raw_path (TEXT)
+2026-05-10 13:20:01 | INFO | Added column: crown_levels.roi_mask_norm_path (TEXT)
+2026-05-10 13:20:25 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:20:25 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:20:25 | INFO | OK: column already exists: annotations.mask_path
+2026-05-10 13:20:25 | INFO | OK: column already exists: crown_observations.roi_mask_raw_path
+2026-05-10 13:20:25 | INFO | OK: column already exists: crown_levels.roi_mask_norm_path
+2026-05-10 13:25:11 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:25:11 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:25:12 | INFO | Ellipse mask created: annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228 path=data\masks\ellipse\cdb9f421-5ca3-4871-9682-72b84bbd6228.png
+2026-05-10 13:25:12 | INFO | Ellipse mask created: annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558 path=data\masks\ellipse\facc262e-d17e-4bad-bcab-a22ca460a558.png
+2026-05-10 13:25:13 | INFO | Ellipse mask created: annotation_id=d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64 path=data\masks\ellipse\d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64.png
+2026-05-10 13:25:13 | INFO | Ellipse mask created: annotation_id=c7cea12d-2ed6-4fde-9189-d150ce6ce814 path=data\masks\ellipse\c7cea12d-2ed6-4fde-9189-d150ce6ce814.png
+2026-05-10 13:25:13 | INFO | Ellipse mask created: annotation_id=738f18cf-0a09-42c4-b92a-e22abc38a4ec path=data\masks\ellipse\738f18cf-0a09-42c4-b92a-e22abc38a4ec.png
+2026-05-10 13:25:14 | INFO | Ellipse mask created: annotation_id=90b31cf8-f0fa-40d1-9534-a72cea912a92 path=data\masks\ellipse\90b31cf8-f0fa-40d1-9534-a72cea912a92.png
+2026-05-10 13:25:14 | INFO | Ellipse mask created: annotation_id=3f6e6fa8-e208-4e81-a4b6-6df86efdea1d path=data\masks\ellipse\3f6e6fa8-e208-4e81-a4b6-6df86efdea1d.png
+2026-05-10 13:25:14 | INFO | Ellipse mask created: annotation_id=f3f47982-d74b-4012-b61b-c79ea30b33df path=data\masks\ellipse\f3f47982-d74b-4012-b61b-c79ea30b33df.png
+2026-05-10 13:25:15 | INFO | Ellipse mask created: annotation_id=5112139e-b1d2-49c4-92c1-a18cd571da08 path=data\masks\ellipse\5112139e-b1d2-49c4-92c1-a18cd571da08.png
+2026-05-10 13:25:15 | INFO | Ellipse mask created: annotation_id=71887481-37f5-4dd4-82d6-64f1791927e6 path=data\masks\ellipse\71887481-37f5-4dd4-82d6-64f1791927e6.png
+2026-05-10 13:25:16 | INFO | Ellipse mask created: annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c path=data\masks\ellipse\3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c.png
+2026-05-10 13:32:50 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:32:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:32:50 | INFO | ROI mask created: obs_id=496ca883-6dfb-42b6-b31e-849e8b35c6c9 path=data\roi_mask_raw\496ca883-6dfb-42b6-b31e-849e8b35c6c9.png
+2026-05-10 13:32:50 | INFO | ROI mask created: obs_id=2d88bc15-c233-4064-b7bf-6e029e25e5de path=data\roi_mask_raw\2d88bc15-c233-4064-b7bf-6e029e25e5de.png
+2026-05-10 13:32:50 | INFO | ROI mask created: obs_id=979d4be8-554b-46a2-ad99-0bffa1c91ab1 path=data\roi_mask_raw\979d4be8-554b-46a2-ad99-0bffa1c91ab1.png
+2026-05-10 13:32:50 | INFO | ROI mask created: obs_id=3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3 path=data\roi_mask_raw\3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3.png
+2026-05-10 13:32:50 | INFO | ROI mask created: obs_id=10b6e64c-ec7b-431e-af5b-08a1ee418ad1 path=data\roi_mask_raw\10b6e64c-ec7b-431e-af5b-08a1ee418ad1.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=ec921163-4daa-4b4e-97c1-a4f774b28adc path=data\roi_mask_raw\ec921163-4daa-4b4e-97c1-a4f774b28adc.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=d0bc7522-9a52-4d90-8eae-7fe19f068ce0 path=data\roi_mask_raw\d0bc7522-9a52-4d90-8eae-7fe19f068ce0.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=36656cc0-c6e7-4cc7-8923-6e2e7743e604 path=data\roi_mask_raw\36656cc0-c6e7-4cc7-8923-6e2e7743e604.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4 path=data\roi_mask_raw\a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=219eef2d-fd46-4686-90c2-63a82aec7f31 path=data\roi_mask_raw\219eef2d-fd46-4686-90c2-63a82aec7f31.png
+2026-05-10 13:32:51 | INFO | ROI mask created: obs_id=80f80e29-9794-4d60-8017-42f5ab837633 path=data\roi_mask_raw\80f80e29-9794-4d60-8017-42f5ab837633.png
+2026-05-10 13:36:58 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:36:58 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:36:58 | INFO | Normalized mask: tree=tree_001 h=50.0 -> data\roi_mask_norm\tree_001_50.png
+2026-05-10 13:38:44 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:38:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:42:01 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:42:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=10.0 -> data\roi_mask_norm\tree_001_10.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=15.0 -> data\roi_mask_norm\tree_001_15.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=30.0 -> data\roi_mask_norm\tree_001_30.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=40.0 -> data\roi_mask_norm\tree_001_40.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=45.0 -> data\roi_mask_norm\tree_001_45.png
+2026-05-10 13:42:01 | INFO | Skip normalized mask exists: tree=tree_001 h=50.0
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=70.0 -> data\roi_mask_norm\tree_001_70.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=100.0 -> data\roi_mask_norm\tree_001_100.png
+2026-05-10 13:42:01 | INFO | Normalized mask: tree=tree_001 h=150.0 -> data\roi_mask_norm\tree_001_150.png
+2026-05-10 13:42:35 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:42:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:50:14 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:50:14 | INFO | Database ready: data\db\crowns.sqlite3
