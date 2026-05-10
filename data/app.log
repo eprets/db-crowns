@@ -3287,3 +3287,7 @@
 2026-05-10 16:37:36 | INFO | Epoch 14 done. Saved checkpoints.
 2026-05-10 16:38:56 | INFO | Epoch 15 done. Saved checkpoints.
 2026-05-10 16:38:56 | INFO | Training finished. Output: D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_runs\run_cpu_2
+2026-05-10 16:42:13 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:42:13 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 16:51:28 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:51:28 | INFO | Database ready: data\db\crowns.sqlite3

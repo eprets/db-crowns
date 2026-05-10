@@ -38,6 +38,7 @@ from app.synthesize_masks import synthesize_masks_for_synth_levels
 from app.project_status import print_project_status
 from app.export_training_dataset import export_training_dataset
 from app.split_training_dataset import split_training_dataset
+from app.compare_pix2pix_runs import compare_pix2pix_runs
 
 def main():
     # Загружаем конфигурацию
@@ -348,7 +349,7 @@ def main():
     # python -m app.main eval-pix2pix
     if len(sys.argv) >= 2 and sys.argv[1] == "eval-pix2pix":
         data_root = Path("data/ml_dataset_pix2pix_split")
-        ckpt = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
+        ckpt = Path("data/pix2pix_runs/run_cpu_2/checkpoints/G_epoch_015.pt")
         out_dir = Path("data/pix2pix_runs/run_cpu_2/eval_test")
 
         mae_mean, psnr_mean = eval_pix2pix(
@@ -795,6 +796,13 @@ def main():
         print(f"Split CSV: {result['split_csv']}")
         return
 
+    # python -m app.main compare-pix2pix-runs
+    if len(sys.argv) >= 2 and sys.argv[1] == "compare-pix2pix-runs":
+        compare_pix2pix_runs(
+            runs_root=Path("data/pix2pix_runs")
+        )
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -830,5 +838,6 @@ def main():
     print("  python -m app.main project-status <tree_id>")
     print("  python -m app.main export-training-dataset")
     print("  python -m app.main split-training-dataset")
+    print("  python -m app.main compare-pix2pix-runs")
 if __name__ == "__main__":
     main()
