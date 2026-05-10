@@ -3265,3 +3265,25 @@
 2026-05-10 16:05:01 | INFO | Database ready: data\db\crowns.sqlite3
 2026-05-10 16:05:34 | INFO | Starting project: crown_db v0.0.1
 2026-05-10 16:05:34 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 16:14:35 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:14:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 16:14:35 | INFO | Using device: cpu
+2026-05-10 16:18:16 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:18:16 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 16:18:16 | INFO | Using device: cpu
+2026-05-10 16:19:43 | INFO | Epoch 1 done. Saved checkpoints.
+2026-05-10 16:21:05 | INFO | Epoch 2 done. Saved checkpoints.
+2026-05-10 16:22:31 | INFO | Epoch 3 done. Saved checkpoints.
+2026-05-10 16:23:55 | INFO | Epoch 4 done. Saved checkpoints.
+2026-05-10 16:25:18 | INFO | Epoch 5 done. Saved checkpoints.
+2026-05-10 16:26:40 | INFO | Epoch 6 done. Saved checkpoints.
+2026-05-10 16:28:03 | INFO | Epoch 7 done. Saved checkpoints.
+2026-05-10 16:29:25 | INFO | Epoch 8 done. Saved checkpoints.
+2026-05-10 16:30:47 | INFO | Epoch 9 done. Saved checkpoints.
+2026-05-10 16:32:09 | INFO | Epoch 10 done. Saved checkpoints.
+2026-05-10 16:33:31 | INFO | Epoch 11 done. Saved checkpoints.
+2026-05-10 16:34:53 | INFO | Epoch 12 done. Saved checkpoints.
+2026-05-10 16:36:15 | INFO | Epoch 13 done. Saved checkpoints.
+2026-05-10 16:37:36 | INFO | Epoch 14 done. Saved checkpoints.
+2026-05-10 16:38:56 | INFO | Epoch 15 done. Saved checkpoints.
+2026-05-10 16:38:56 | INFO | Training finished. Output: D:\Users\Ekateryna\Desktop\Mag_projects\data\pix2pix_runs\run_cpu_2

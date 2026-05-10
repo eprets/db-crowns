@@ -347,9 +347,9 @@ def main():
 
     # python -m app.main eval-pix2pix
     if len(sys.argv) >= 2 and sys.argv[1] == "eval-pix2pix":
-        data_root = Path(config["pix2pix_split"]["out_dir"])
+        data_root = Path("data/ml_dataset_pix2pix_split")
         ckpt = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
-        out_dir = Path("data/pix2pix_runs/run_cpu_1/eval_test")
+        out_dir = Path("data/pix2pix_runs/run_cpu_2/eval_test")
 
         mae_mean, psnr_mean = eval_pix2pix(
             data_root=data_root,
