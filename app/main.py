@@ -33,6 +33,7 @@ from app.db.migrate_masks import migrate_masks
 from app.build_ellipse_masks import build_ellipse_masks
 from app.build_roi_masks import build_roi_masks
 from app.normalize_masks import normalize_masks
+from app.make_tree_preview import make_tree_preview
 
 def main():
     # Загружаем конфигурацию
@@ -666,6 +667,25 @@ def main():
                 f"raw_mask={r['roi_mask_raw_path']} | "
                 f"norm_mask={r['roi_mask_norm_path']}"
             )
+
+        return
+
+    # python -m app.main make-tree-preview <tree_id>
+    if len(sys.argv) >= 2 and sys.argv[1] == "make-tree-preview":
+
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main make-tree-preview <tree_id>")
+            return
+
+        tree_id = sys.argv[2]
+
+        profile_dir = Path("data/tree_profiles") / tree_id
+
+        out_path = make_tree_preview(
+            tree_profile_dir=profile_dir
+        )
+
+        print(f"Preview created: {out_path}")
 
         return
 
