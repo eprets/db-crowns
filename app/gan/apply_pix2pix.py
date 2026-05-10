@@ -67,10 +67,12 @@ def _level_is_usable(
     if not path.exists():
         return False
 
-    if row.data_type == "REAL":
+    data_type = str(row.data_type).upper().strip()
+
+    if data_type == "REAL":
         return True
 
-    if allow_synth_as_source and row.data_type == "SYNTH":
+    if allow_synth_as_source and data_type == "SYNTH":
         return True
 
     return False
@@ -126,7 +128,7 @@ def _choose_source_height(
         # Сначала ищем REAL
         for h in candidates:
             row = _get_level(db_path, tree_id, h)
-            if row is not None and row.data_type == "REAL":
+            if row is not None and str(row.data_type).upper().strip() == "REAL":
                 if _level_is_usable(db_path, tree_id, h, allow_synth_as_source=False):
                     return h
 
@@ -134,7 +136,7 @@ def _choose_source_height(
         if allow_synth_as_source:
             for h in candidates:
                 row = _get_level(db_path, tree_id, h)
-                if row is not None and row.data_type == "SYNTH":
+                if row is not None and str(row.data_type).upper().strip() == "SYNTH":
                     if _level_is_usable(db_path, tree_id, h, allow_synth_as_source=True):
                         return h
 

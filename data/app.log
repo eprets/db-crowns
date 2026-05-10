@@ -2115,3 +2115,1153 @@
 2026-05-10 14:10:00 | INFO | Database ready: data\db\crowns.sqlite3
 2026-05-10 14:22:48 | INFO | Starting project: crown_db v0.0.1
 2026-05-10 14:22:48 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:59:33 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:59:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  24м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG
+2026-05-10 14:59:33 | INFO | Imported: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 14:59:33 | INFO | Import finished. Added 22 images.
+2026-05-10 14:59:44 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:59:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:00:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:00:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:00:00 | INFO | Set flight_altitude=100.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=150.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=24.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  24м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=25.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=30.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=40.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=50.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=80.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=0.60 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=100.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=10.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=150.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=15.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=20.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=25.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=3.50 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=30.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=35.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=40.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=45.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=50.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG
+2026-05-10 15:00:00 | INFO | Set flight_altitude=80.00 for D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:00:00 | INFO | fill_flight_altitude_from_filename: updated=22
+2026-05-10 15:00:10 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:00:10 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:03:35 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:03:35 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:03:40 | INFO | Opened image 1/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:04:10 | INFO | Opened image 2/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:04:12 | INFO | Opened image 3/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:04:13 | INFO | Opened image 4/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:04:14 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:04:15 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:04:16 | INFO | Opened image 7/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:04:17 | INFO | Opened image 8/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:04:18 | INFO | Opened image 9/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:04:19 | INFO | Opened image 10/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:04:20 | INFO | Opened image 11/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:04:21 | INFO | Opened image 12/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:05:01 | INFO | Center set: (3414, 1614)
+2026-05-10 15:05:02 | INFO | Center set: (3472, 1712)
+2026-05-10 15:05:05 | INFO | Center set: (3414, 1614)
+2026-05-10 15:05:08 | INFO | Theta: 5.0 deg
+2026-05-10 15:05:08 | INFO | Theta: 10.0 deg
+2026-05-10 15:05:08 | INFO | Theta: 15.0 deg
+2026-05-10 15:05:09 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:09 | INFO | Theta: 25.0 deg
+2026-05-10 15:05:09 | INFO | Theta: 30.0 deg
+2026-05-10 15:05:09 | INFO | Theta: 35.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 30.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 25.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 15.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 10.0 deg
+2026-05-10 15:05:10 | INFO | Theta: 15.0 deg
+2026-05-10 15:05:11 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:12 | INFO | Theta: 25.0 deg
+2026-05-10 15:05:12 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:16 | INFO | Opened image 13/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:05:17 | INFO | Opened image 14/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  24м.JPG
+2026-05-10 15:05:19 | INFO | Opened image 15/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG
+2026-05-10 15:05:21 | INFO | Center set: (2829, 1706)
+2026-05-10 15:05:22 | INFO | Radii set: a=777.0 b=543.9
+2026-05-10 15:05:23 | INFO | Theta: -5.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -10.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -15.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -20.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -25.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -30.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -35.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -40.0 deg
+2026-05-10 15:05:23 | INFO | Theta: -45.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -50.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -55.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -60.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -65.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -70.0 deg
+2026-05-10 15:05:24 | INFO | Theta: -75.0 deg
+2026-05-10 15:05:26 | INFO | Radii set: a=904.7 b=633.3
+2026-05-10 15:05:29 | INFO | Center set: (2846, 1573)
+2026-05-10 15:05:30 | INFO | Center set: (2817, 1971)
+2026-05-10 15:05:31 | INFO | Center set: (2910, 1637)
+2026-05-10 15:05:32 | INFO | Center set: (2800, 1723)
+2026-05-10 15:05:33 | INFO | Theta: -80.0 deg
+2026-05-10 15:05:33 | INFO | Theta: -85.0 deg
+2026-05-10 15:05:34 | INFO | Theta: -90.0 deg
+2026-05-10 15:05:34 | INFO | Theta: -85.0 deg
+2026-05-10 15:05:34 | INFO | Theta: -80.0 deg
+2026-05-10 15:05:34 | INFO | Theta: -75.0 deg
+2026-05-10 15:05:34 | INFO | Theta: -70.0 deg
+2026-05-10 15:05:38 | INFO | SAVE pressed
+2026-05-10 15:05:38 | INFO | Inserted annotation fc4f8aea-0873-4aa1-b7bd-16e0b143275e for image_id=d8968f83-5fae-4345-8ec2-f1554a99ad05 tree_id=tree_002
+2026-05-10 15:05:39 | INFO | Observation rebuilt: obs_id=edd98306-480d-4015-8a4e-69b2e76016bd for annotation_id=fc4f8aea-0873-4aa1-b7bd-16e0b143275e (obs_height=25.0)
+2026-05-10 15:05:39 | INFO | Auto rebuild observation done. New obs_id=edd98306-480d-4015-8a4e-69b2e76016bd
+2026-05-10 15:05:42 | INFO | Opened image 16/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG
+2026-05-10 15:05:44 | INFO | Center set: (2765, 1827)
+2026-05-10 15:05:45 | INFO | Radii set: a=512.4 b=358.7
+2026-05-10 15:05:46 | INFO | Theta: 5.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 10.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 15.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 25.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 30.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 35.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 40.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 45.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 50.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 55.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 60.0 deg
+2026-05-10 15:05:46 | INFO | Theta: 65.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 70.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 75.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 80.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 85.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 90.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 95.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 100.0 deg
+2026-05-10 15:05:47 | INFO | Theta: 105.0 deg
+2026-05-10 15:05:48 | INFO | Theta: 110.0 deg
+2026-05-10 15:05:50 | INFO | SAVE pressed
+2026-05-10 15:05:50 | INFO | Inserted annotation 3ea7d37a-3958-439e-b319-78d8baf5a8ef for image_id=b56e411e-3326-46c0-a325-a41faba3fe4f tree_id=tree_002
+2026-05-10 15:05:50 | INFO | Observation rebuilt: obs_id=066083b9-3f6d-4815-8eeb-a255f18c6eaa for annotation_id=3ea7d37a-3958-439e-b319-78d8baf5a8ef (obs_height=30.0)
+2026-05-10 15:05:50 | INFO | Auto rebuild observation done. New obs_id=066083b9-3f6d-4815-8eeb-a255f18c6eaa
+2026-05-10 15:05:51 | INFO | Opened image 17/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG
+2026-05-10 15:05:54 | INFO | Center set: (2748, 1758)
+2026-05-10 15:05:56 | INFO | Radii set: a=270.4 b=189.3
+2026-05-10 15:05:56 | INFO | Theta: 5.0 deg
+2026-05-10 15:05:56 | INFO | Theta: 10.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 15.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 20.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 25.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 30.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 35.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 40.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 45.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 50.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 55.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 60.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 65.0 deg
+2026-05-10 15:05:57 | INFO | Theta: 70.0 deg
+2026-05-10 15:05:58 | INFO | Theta: 75.0 deg
+2026-05-10 15:05:58 | INFO | Theta: 80.0 deg
+2026-05-10 15:05:58 | INFO | Theta: 85.0 deg
+2026-05-10 15:05:58 | INFO | Theta: 90.0 deg
+2026-05-10 15:05:58 | INFO | Theta: 95.0 deg
+2026-05-10 15:05:59 | INFO | Theta: 100.0 deg
+2026-05-10 15:05:59 | INFO | Theta: 105.0 deg
+2026-05-10 15:05:59 | INFO | Theta: 110.0 deg
+2026-05-10 15:06:00 | INFO | Center set: (2777, 1810)
+2026-05-10 15:06:01 | INFO | Radii set: a=335.4 b=234.8
+2026-05-10 15:06:03 | INFO | SAVE pressed
+2026-05-10 15:06:03 | INFO | Inserted annotation b887ef2b-d8e5-4899-99a0-5ce9ab8f59ea for image_id=e4c30699-10b2-4b2a-a2cf-ecc02c4b295f tree_id=tree_002
+2026-05-10 15:06:03 | INFO | Observation rebuilt: obs_id=a75d6281-146b-4307-96ff-b3d9dc256050 for annotation_id=b887ef2b-d8e5-4899-99a0-5ce9ab8f59ea (obs_height=40.0)
+2026-05-10 15:06:03 | INFO | Auto rebuild observation done. New obs_id=a75d6281-146b-4307-96ff-b3d9dc256050
+2026-05-10 15:06:05 | INFO | Opened image 18/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG
+2026-05-10 15:06:08 | INFO | Center set: (2759, 1798)
+2026-05-10 15:06:09 | INFO | Radii set: a=197.0 b=137.9
+2026-05-10 15:06:09 | INFO | Theta: 5.0 deg
+2026-05-10 15:06:09 | INFO | Theta: 10.0 deg
+2026-05-10 15:06:09 | INFO | Theta: 15.0 deg
+2026-05-10 15:06:09 | INFO | Theta: 20.0 deg
+2026-05-10 15:06:09 | INFO | Theta: 25.0 deg
+2026-05-10 15:06:09 | INFO | Theta: 30.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 35.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 40.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 45.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 50.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 55.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 60.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 65.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 70.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 75.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 80.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 85.0 deg
+2026-05-10 15:06:10 | INFO | Theta: 90.0 deg
+2026-05-10 15:06:11 | INFO | Theta: 95.0 deg
+2026-05-10 15:06:11 | INFO | Theta: 100.0 deg
+2026-05-10 15:06:11 | INFO | Theta: 105.0 deg
+2026-05-10 15:06:12 | INFO | SAVE pressed
+2026-05-10 15:06:12 | INFO | Inserted annotation ce9f047e-a9b6-4b1c-9989-636aecb77a3c for image_id=a3fbb2c4-3f24-432c-89bc-af2ba528705d tree_id=tree_002
+2026-05-10 15:06:12 | INFO | Observation rebuilt: obs_id=6750c527-c93d-4560-8934-439a9ed0e3ab for annotation_id=ce9f047e-a9b6-4b1c-9989-636aecb77a3c (obs_height=50.0)
+2026-05-10 15:06:12 | INFO | Auto rebuild observation done. New obs_id=6750c527-c93d-4560-8934-439a9ed0e3ab
+2026-05-10 15:06:14 | INFO | Opened image 19/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG
+2026-05-10 15:06:16 | INFO | Center set: (2771, 1810)
+2026-05-10 15:06:17 | INFO | Radii set: a=134.1 b=93.9
+2026-05-10 15:06:18 | INFO | Theta: 5.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 10.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 15.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 20.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 25.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 30.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 35.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 40.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 45.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 50.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 55.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 60.0 deg
+2026-05-10 15:06:18 | INFO | Theta: 65.0 deg
+2026-05-10 15:06:19 | INFO | Theta: 70.0 deg
+2026-05-10 15:06:19 | INFO | Theta: 75.0 deg
+2026-05-10 15:06:19 | INFO | Theta: 80.0 deg
+2026-05-10 15:06:20 | INFO | SAVE pressed
+2026-05-10 15:06:20 | INFO | Inserted annotation 65c60a8e-5345-4497-9141-4ba0e59fb021 for image_id=a2492afa-7a0f-4793-83db-ef6594f3342f tree_id=tree_002
+2026-05-10 15:06:20 | INFO | Observation rebuilt: obs_id=20d329c1-6c31-422f-acbe-7da149cbb84d for annotation_id=65c60a8e-5345-4497-9141-4ba0e59fb021 (obs_height=80.0)
+2026-05-10 15:06:20 | INFO | Auto rebuild observation done. New obs_id=20d329c1-6c31-422f-acbe-7da149cbb84d
+2026-05-10 15:06:22 | INFO | Opened image 20/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG
+2026-05-10 15:06:25 | INFO | Opened image 21/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG
+2026-05-10 15:06:26 | INFO | Opened image 22/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG
+2026-05-10 15:06:27 | INFO | Opened image 23/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG
+2026-05-10 15:06:27 | INFO | Opened image 24/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 15:06:28 | INFO | Opened image 25/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:06:29 | INFO | Opened image 26/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:06:29 | INFO | Opened image 27/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG
+2026-05-10 15:06:30 | INFO | Opened image 28/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG
+2026-05-10 15:06:31 | INFO | Opened image 29/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG
+2026-05-10 15:06:32 | INFO | Opened image 30/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG
+2026-05-10 15:06:32 | INFO | Opened image 31/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG
+2026-05-10 15:06:33 | INFO | Opened image 32/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG
+2026-05-10 15:06:34 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:34 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:36 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:39 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:39 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:40 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:40 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:40 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:40 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:41 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:41 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:41 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:41 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:42 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:42 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:42 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:42 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:43 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:44 | INFO | Theta: -5.0 deg
+2026-05-10 15:06:45 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:45 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:45 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:45 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:46 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:46 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:46 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:46 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:47 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:47 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:47 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:47 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:48 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:48 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:49 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:49 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:49 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:50 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:06:50 | INFO | Opened image 33/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:07:46 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:07:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:07:46 | INFO | Opened image 1/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:08:00 | INFO | Opened image 2/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:08:01 | INFO | Opened image 3/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:08:01 | INFO | Opened image 4/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:08:02 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:08:02 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:08:03 | INFO | Opened image 7/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:08:04 | INFO | Opened image 8/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:08:04 | INFO | Opened image 9/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:08:05 | INFO | Opened image 10/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:08:05 | INFO | Opened image 11/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:08:06 | INFO | Opened image 12/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:08:12 | INFO | Center set: (2773, 1806)
+2026-05-10 15:08:12 | INFO | Radii set: a=80.6 b=56.4
+2026-05-10 15:08:13 | INFO | Theta: 5.0 deg
+2026-05-10 15:08:13 | INFO | Theta: 10.0 deg
+2026-05-10 15:08:13 | INFO | Theta: 15.0 deg
+2026-05-10 15:08:13 | INFO | Theta: 20.0 deg
+2026-05-10 15:08:13 | INFO | Theta: 25.0 deg
+2026-05-10 15:08:13 | INFO | Theta: 30.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 35.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 40.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 45.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 50.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 55.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 60.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 65.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 70.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 75.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 80.0 deg
+2026-05-10 15:08:14 | INFO | Theta: 85.0 deg
+2026-05-10 15:08:15 | INFO | Theta: 90.0 deg
+2026-05-10 15:08:15 | INFO | SAVE pressed
+2026-05-10 15:08:15 | INFO | Inserted annotation f104ec18-ad57-4852-bfc9-b57d8287a318 for image_id=0fd08fd1-52c5-484d-a9e3-049ec6a8a054 tree_id=tree_002
+2026-05-10 15:08:16 | INFO | Observation rebuilt: obs_id=3bee8af0-eb2a-47ca-8497-319d49a02c0c for annotation_id=f104ec18-ad57-4852-bfc9-b57d8287a318 (obs_height=100.0)
+2026-05-10 15:08:16 | INFO | Auto rebuild observation done. New obs_id=3bee8af0-eb2a-47ca-8497-319d49a02c0c
+2026-05-10 15:08:17 | INFO | Opened image 13/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:08:19 | INFO | Center set: (2768, 1764)
+2026-05-10 15:08:20 | INFO | Radii set: a=74.2 b=52.0
+2026-05-10 15:08:20 | INFO | Theta: 5.0 deg
+2026-05-10 15:08:20 | INFO | Theta: 10.0 deg
+2026-05-10 15:08:20 | INFO | Theta: 15.0 deg
+2026-05-10 15:08:20 | INFO | Theta: 20.0 deg
+2026-05-10 15:08:20 | INFO | Theta: 25.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 30.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 35.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 40.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 45.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 50.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 55.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 60.0 deg
+2026-05-10 15:08:21 | INFO | Theta: 65.0 deg
+2026-05-10 15:08:22 | INFO | SAVE pressed
+2026-05-10 15:08:22 | INFO | Inserted annotation da73f4e9-361a-444a-9a4d-d026a3aff3d3 for image_id=8a3270c4-947b-4411-a822-4a787976db1f tree_id=tree_002
+2026-05-10 15:08:22 | INFO | Observation rebuilt: obs_id=d8e80eef-3a26-411d-a3f5-2aa1e24e0930 for annotation_id=da73f4e9-361a-444a-9a4d-d026a3aff3d3 (obs_height=150.0)
+2026-05-10 15:08:22 | INFO | Auto rebuild observation done. New obs_id=d8e80eef-3a26-411d-a3f5-2aa1e24e0930
+2026-05-10 15:08:23 | INFO | Opened image 14/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  24м.JPG
+2026-05-10 15:08:25 | INFO | Opened image 15/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG
+2026-05-10 15:08:41 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:08:41 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:08:57 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:08:57 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:09:28 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:09:28 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:09:28 | INFO | Opened image 1/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:09:32 | INFO | Opened image 2/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:09:32 | INFO | Opened image 3/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:09:33 | INFO | Opened image 4/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:09:34 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:09:34 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:09:35 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:09:37 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:09:38 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:09:38 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:09:39 | INFO | Opened image 7/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:09:39 | INFO | Opened image 8/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:09:40 | INFO | Opened image 9/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:09:40 | INFO | Opened image 10/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:09:41 | INFO | Opened image 11/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:09:41 | INFO | Opened image 12/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:09:42 | INFO | Opened image 13/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:10:33 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:10:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:10:33 | INFO | Import finished. Added 0 images.
+2026-05-10 15:10:46 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:10:46 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:10:53 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:10:53 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:10:53 | INFO | fill_flight_altitude_from_filename: updated=0
+2026-05-10 15:11:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:11:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:11:08 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:11:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:11:26 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:11:26 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:11:26 | INFO | Opened image 1/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:11:27 | INFO | Opened image 2/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:11:28 | INFO | Opened image 3/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:11:29 | INFO | Opened image 4/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:11:29 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:11:30 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:11:30 | INFO | Opened image 7/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:11:31 | INFO | Opened image 8/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:11:31 | INFO | Opened image 9/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:11:32 | INFO | Opened image 10/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:11:33 | INFO | Opened image 11/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:11:33 | INFO | Opened image 12/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:11:34 | INFO | Opened image 13/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:12:08 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:12:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:12:09 | INFO | Opened image 1/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:12:10 | INFO | Opened image 2/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:12:11 | INFO | Opened image 3/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:12:11 | INFO | Opened image 4/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:12:12 | INFO | Opened image 5/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:12:12 | INFO | Opened image 6/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:12:12 | INFO | Opened image 7/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:12:13 | INFO | Opened image 8/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:12:13 | INFO | Opened image 9/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:12:14 | INFO | Opened image 10/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:12:14 | INFO | Opened image 11/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:12:15 | INFO | Opened image 12/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:12:15 | INFO | Opened image 13/33: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:14:47 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:14:47 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:15:07 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:15:07 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:15:07 | INFO | Import finished. Added 0 images.
+2026-05-10 15:15:17 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:15:17 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:15:17 | INFO | fill_flight_altitude_from_filename: updated=0
+2026-05-10 15:15:33 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:15:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:15:44 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:15:44 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:15:44 | INFO | Opened image 1/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG
+2026-05-10 15:15:45 | INFO | Opened image 2/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG
+2026-05-10 15:15:47 | INFO | Opened image 3/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG
+2026-05-10 15:15:48 | INFO | Opened image 4/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG
+2026-05-10 15:15:49 | INFO | Opened image 5/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG
+2026-05-10 15:15:49 | INFO | Opened image 6/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG
+2026-05-10 15:15:50 | INFO | Opened image 7/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG
+2026-05-10 15:15:51 | INFO | Opened image 8/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG
+2026-05-10 15:15:51 | INFO | Opened image 9/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG
+2026-05-10 15:15:52 | INFO | Opened image 10/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG
+2026-05-10 15:15:52 | INFO | Opened image 11/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG
+2026-05-10 15:15:53 | INFO | Opened image 12/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG
+2026-05-10 15:15:54 | INFO | Opened image 13/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG
+2026-05-10 15:15:54 | INFO | Opened image 14/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG
+2026-05-10 15:15:55 | INFO | Opened image 15/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG
+2026-05-10 15:15:56 | INFO | Opened image 16/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG
+2026-05-10 15:15:57 | INFO | Opened image 17/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG
+2026-05-10 15:15:57 | INFO | Opened image 18/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG
+2026-05-10 15:15:58 | INFO | Opened image 19/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 0,6м.JPG
+2026-05-10 15:16:14 | INFO | Opened image 20/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG
+2026-05-10 15:16:19 | INFO | Opened image 21/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG
+2026-05-10 15:16:21 | INFO | Opened image 20/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG
+2026-05-10 15:16:23 | INFO | Opened image 21/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG
+2026-05-10 15:16:26 | INFO | Opened image 22/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG
+2026-05-10 15:16:27 | INFO | Opened image 23/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 15:16:28 | INFO | Opened image 24/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:16:29 | INFO | Opened image 25/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:16:30 | INFO | Opened image 26/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG
+2026-05-10 15:16:33 | INFO | Center set: (2736, 1661)
+2026-05-10 15:16:34 | INFO | Radii set: a=943.7 b=660.6
+2026-05-10 15:16:35 | INFO | Theta: 5.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 10.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 15.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 20.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 25.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 30.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 35.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 40.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 45.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 50.0 deg
+2026-05-10 15:16:35 | INFO | Theta: 55.0 deg
+2026-05-10 15:16:36 | INFO | Radii set: a=930.8 b=651.6
+2026-05-10 15:16:37 | INFO | Radii set: a=1157.8 b=810.4
+2026-05-10 15:16:39 | INFO | SAVE pressed
+2026-05-10 15:16:39 | INFO | Inserted annotation 63b50414-9213-426f-81ad-3d812ac69e8c for image_id=8b7eb585-a1ac-472e-b0a0-fee657c21fdc tree_id=tree_003
+2026-05-10 15:16:39 | INFO | Observation rebuilt: obs_id=e2449bc0-a655-42c9-8b43-8224e6358450 for annotation_id=63b50414-9213-426f-81ad-3d812ac69e8c (obs_height=3.5)
+2026-05-10 15:16:39 | INFO | Auto rebuild observation done. New obs_id=e2449bc0-a655-42c9-8b43-8224e6358450
+2026-05-10 15:16:44 | INFO | Opened image 25/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:16:47 | INFO | Opened image 24/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:16:49 | INFO | Center set: (2736, 2041)
+2026-05-10 15:16:50 | INFO | Radii set: a=223.2 b=156.2
+2026-05-10 15:16:50 | INFO | Theta: 5.0 deg
+2026-05-10 15:16:50 | INFO | Theta: 10.0 deg
+2026-05-10 15:16:50 | INFO | Theta: 15.0 deg
+2026-05-10 15:16:50 | INFO | Theta: 20.0 deg
+2026-05-10 15:16:50 | INFO | Theta: 25.0 deg
+2026-05-10 15:16:50 | INFO | Theta: 30.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 35.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 40.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 45.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 50.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 55.0 deg
+2026-05-10 15:16:51 | INFO | Theta: 60.0 deg
+2026-05-10 15:16:51 | INFO | Radii set: a=272.9 b=191.0
+2026-05-10 15:16:53 | INFO | SAVE pressed
+2026-05-10 15:16:53 | INFO | Inserted annotation f04535fc-1f2a-4ee2-adc3-1b34abfccf9d for image_id=eb109f54-5e65-4b3f-838b-861f9048c612 tree_id=tree_003
+2026-05-10 15:16:53 | INFO | Observation rebuilt: obs_id=a98629f6-06d3-485c-b30e-2e3941e0f843 for annotation_id=f04535fc-1f2a-4ee2-adc3-1b34abfccf9d (obs_height=20.0)
+2026-05-10 15:16:53 | INFO | Auto rebuild observation done. New obs_id=a98629f6-06d3-485c-b30e-2e3941e0f843
+2026-05-10 15:16:54 | INFO | Opened image 25/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:16:55 | INFO | Center set: (2768, 2029)
+2026-05-10 15:16:56 | INFO | Radii set: a=151.0 b=105.7
+2026-05-10 15:16:56 | INFO | Theta: 5.0 deg
+2026-05-10 15:16:56 | INFO | Theta: 10.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 15.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 20.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 25.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 30.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 35.0 deg
+2026-05-10 15:16:57 | INFO | Theta: 40.0 deg
+2026-05-10 15:16:58 | INFO | Radii set: a=163.4 b=114.4
+2026-05-10 15:16:59 | INFO | SAVE pressed
+2026-05-10 15:16:59 | INFO | Inserted annotation 75c5d358-7bf8-4e04-9e80-f6b9a0468124 for image_id=61f55e3c-ce1d-4cf0-897c-123610f95ad3 tree_id=tree_003
+2026-05-10 15:16:59 | INFO | Observation rebuilt: obs_id=b51349b5-2306-4996-a9ee-0fb01399c814 for annotation_id=75c5d358-7bf8-4e04-9e80-f6b9a0468124 (obs_height=25.0)
+2026-05-10 15:16:59 | INFO | Auto rebuild observation done. New obs_id=b51349b5-2306-4996-a9ee-0fb01399c814
+2026-05-10 15:17:01 | INFO | Opened image 24/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:17:02 | INFO | Opened image 23/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 15:17:03 | INFO | Opened image 22/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG
+2026-05-10 15:17:07 | INFO | Center set: (2597, 1570)
+2026-05-10 15:17:07 | INFO | Radii set: a=36.6 b=25.6
+2026-05-10 15:17:09 | INFO | SAVE pressed
+2026-05-10 15:17:09 | INFO | Inserted annotation 2c77c269-b3c9-418c-b3cd-4ce63f9b32aa for image_id=1117254d-740b-409e-ae13-9fa05bac7e6c tree_id=tree_003
+2026-05-10 15:17:09 | INFO | Observation rebuilt: obs_id=b25debf6-5a9d-4a89-b39a-09b4a02b2fcb for annotation_id=2c77c269-b3c9-418c-b3cd-4ce63f9b32aa (obs_height=150.0)
+2026-05-10 15:17:09 | INFO | Auto rebuild observation done. New obs_id=b25debf6-5a9d-4a89-b39a-09b4a02b2fcb
+2026-05-10 15:17:11 | INFO | Opened image 23/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG
+2026-05-10 15:17:11 | INFO | Opened image 24/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG
+2026-05-10 15:17:12 | INFO | Opened image 25/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG
+2026-05-10 15:17:12 | INFO | Opened image 26/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG
+2026-05-10 15:17:13 | INFO | Opened image 27/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG
+2026-05-10 15:17:16 | INFO | Center set: (2741, 2102)
+2026-05-10 15:17:16 | INFO | Radii set: a=171.1 b=119.8
+2026-05-10 15:17:17 | INFO | Theta: 5.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 10.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 15.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 20.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 25.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 30.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 35.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 40.0 deg
+2026-05-10 15:17:17 | INFO | Theta: 45.0 deg
+2026-05-10 15:17:18 | INFO | Theta: 50.0 deg
+2026-05-10 15:17:18 | INFO | Theta: 55.0 deg
+2026-05-10 15:17:18 | INFO | Theta: 60.0 deg
+2026-05-10 15:17:18 | INFO | SAVE pressed
+2026-05-10 15:17:18 | INFO | Inserted annotation b28c08f8-4f2c-45a4-9037-0c1236c3850f for image_id=ace64dcb-3b3b-41c7-aa3e-5475f8341263 tree_id=tree_003
+2026-05-10 15:17:19 | INFO | Observation rebuilt: obs_id=7ebe6973-bc6a-4c59-b8c8-3741db472f57 for annotation_id=b28c08f8-4f2c-45a4-9037-0c1236c3850f (obs_height=30.0)
+2026-05-10 15:17:19 | INFO | Auto rebuild observation done. New obs_id=7ebe6973-bc6a-4c59-b8c8-3741db472f57
+2026-05-10 15:17:19 | INFO | Opened image 28/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG
+2026-05-10 15:17:20 | INFO | Center set: (2795, 2114)
+2026-05-10 15:17:21 | INFO | Radii set: a=139.1 b=97.4
+2026-05-10 15:17:21 | INFO | Theta: 5.0 deg
+2026-05-10 15:17:21 | INFO | Theta: 10.0 deg
+2026-05-10 15:17:21 | INFO | Theta: 15.0 deg
+2026-05-10 15:17:21 | INFO | Theta: 20.0 deg
+2026-05-10 15:17:21 | INFO | Theta: 25.0 deg
+2026-05-10 15:17:22 | INFO | Theta: 30.0 deg
+2026-05-10 15:17:22 | INFO | Theta: 35.0 deg
+2026-05-10 15:17:22 | INFO | Theta: 40.0 deg
+2026-05-10 15:17:22 | INFO | SAVE pressed
+2026-05-10 15:17:22 | INFO | Inserted annotation 2cf98be9-0319-4e9d-83c1-ade4e2741423 for image_id=085dbea7-0929-4b86-ac2c-5d6377128c7b tree_id=tree_003
+2026-05-10 15:17:23 | INFO | Observation rebuilt: obs_id=8f5baa1d-631b-4e09-bc09-848ef10da8e0 for annotation_id=2cf98be9-0319-4e9d-83c1-ade4e2741423 (obs_height=35.0)
+2026-05-10 15:17:23 | INFO | Auto rebuild observation done. New obs_id=8f5baa1d-631b-4e09-bc09-848ef10da8e0
+2026-05-10 15:17:23 | INFO | Opened image 29/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG
+2026-05-10 15:17:24 | INFO | Center set: (2795, 2126)
+2026-05-10 15:17:24 | INFO | Radii set: a=121.5 b=85.0
+2026-05-10 15:17:25 | INFO | Theta: 5.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 10.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 15.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 20.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 25.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 30.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 35.0 deg
+2026-05-10 15:17:25 | INFO | Theta: 40.0 deg
+2026-05-10 15:17:26 | INFO | SAVE pressed
+2026-05-10 15:17:26 | INFO | Inserted annotation d56aa4a4-9c28-47d8-be5f-bea0cbcf0776 for image_id=59ebb771-cdc0-4c87-b682-fb6cdb0cd063 tree_id=tree_003
+2026-05-10 15:17:27 | INFO | Observation rebuilt: obs_id=11b6c667-7802-4e8c-97e9-6c6f775be550 for annotation_id=d56aa4a4-9c28-47d8-be5f-bea0cbcf0776 (obs_height=40.0)
+2026-05-10 15:17:27 | INFO | Auto rebuild observation done. New obs_id=11b6c667-7802-4e8c-97e9-6c6f775be550
+2026-05-10 15:17:27 | INFO | Opened image 30/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG
+2026-05-10 15:17:28 | INFO | Center set: (2795, 2078)
+2026-05-10 15:17:29 | INFO | Radii set: a=97.0 b=67.9
+2026-05-10 15:17:30 | INFO | SAVE pressed
+2026-05-10 15:17:30 | INFO | Inserted annotation d912b538-0b45-4057-ad3a-9984b9f8e7e2 for image_id=7443c29f-360f-4b26-8ded-9be11979596c tree_id=tree_003
+2026-05-10 15:17:31 | INFO | Observation rebuilt: obs_id=6d3d1169-48a6-4713-b8a8-168fff83ff5b for annotation_id=d912b538-0b45-4057-ad3a-9984b9f8e7e2 (obs_height=45.0)
+2026-05-10 15:17:31 | INFO | Auto rebuild observation done. New obs_id=6d3d1169-48a6-4713-b8a8-168fff83ff5b
+2026-05-10 15:17:31 | INFO | Opened image 31/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG
+2026-05-10 15:17:32 | INFO | Center set: (2805, 2096)
+2026-05-10 15:17:33 | INFO | Radii set: a=79.2 b=55.4
+2026-05-10 15:17:34 | INFO | Radii set: a=102.1 b=71.5
+2026-05-10 15:17:35 | INFO | SAVE pressed
+2026-05-10 15:17:35 | INFO | Inserted annotation b3aea81a-c58a-430c-a467-f043d7a274c5 for image_id=c1c2888a-5a83-42be-b22e-e064f6ff8925 tree_id=tree_003
+2026-05-10 15:17:36 | INFO | Observation rebuilt: obs_id=549cd7d9-b1df-469b-b94a-9cdf44072a87 for annotation_id=b3aea81a-c58a-430c-a467-f043d7a274c5 (obs_height=50.0)
+2026-05-10 15:17:36 | INFO | Auto rebuild observation done. New obs_id=549cd7d9-b1df-469b-b94a-9cdf44072a87
+2026-05-10 15:17:36 | INFO | Opened image 32/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:17:37 | INFO | Center set: (2789, 2144)
+2026-05-10 15:17:37 | INFO | Radii set: a=84.1 b=58.9
+2026-05-10 15:17:39 | INFO | SAVE pressed
+2026-05-10 15:17:39 | INFO | Inserted annotation 0a531c48-6edf-4418-b44f-a3db88bcb5bc for image_id=92ab7eae-8784-4540-bf01-13a6cf0ea301 tree_id=tree_003
+2026-05-10 15:17:39 | INFO | Observation rebuilt: obs_id=ed44162c-16e5-4bfc-9a84-464bc173aaa6 for annotation_id=0a531c48-6edf-4418-b44f-a3db88bcb5bc (obs_height=80.0)
+2026-05-10 15:17:39 | INFO | Auto rebuild observation done. New obs_id=ed44162c-16e5-4bfc-9a84-464bc173aaa6
+2026-05-10 15:17:39 | INFO | Opened image 32/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:17:42 | INFO | Center set: (2789, 2156)
+2026-05-10 15:17:44 | INFO | Radii set: a=66.9 b=46.8
+2026-05-10 15:17:45 | INFO | SAVE pressed
+2026-05-10 15:17:45 | INFO | Updated annotation 0a531c48-6edf-4418-b44f-a3db88bcb5bc for image_id=92ab7eae-8784-4540-bf01-13a6cf0ea301 tree_id=tree_003
+2026-05-10 15:17:45 | INFO | Old observation removed for annotation 0a531c48-6edf-4418-b44f-a3db88bcb5bc
+2026-05-10 15:17:45 | INFO | Observation rebuilt: obs_id=86708a08-537b-441a-aa6f-a67362d7c6c5 for annotation_id=0a531c48-6edf-4418-b44f-a3db88bcb5bc (obs_height=80.0)
+2026-05-10 15:17:45 | INFO | Auto rebuild observation done. New obs_id=86708a08-537b-441a-aa6f-a67362d7c6c5
+2026-05-10 15:17:45 | INFO | Opened image 32/32: D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG
+2026-05-10 15:18:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:18:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:18:56 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:18:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:19:09 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:19:09 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\ Береза 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза  45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 16м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3  150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 3 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\береза 70м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Береза 8м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 100м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 10м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 150м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 15м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 20м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 25м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 3,5м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 30м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 35м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 40м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 45м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 50м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | WARNING | Skipped (maybe duplicate): D:\Users\Ekateryna\Desktop\Mag_projects\data\raw_images\Сосна 12 - 80м.JPG | UNIQUE constraint failed: images.path
+2026-05-10 15:19:09 | INFO | Import finished. Added 0 images.
+2026-05-10 15:19:17 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:19:17 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:19:17 | INFO | fill_flight_altitude_from_filename: updated=0
+2026-05-10 15:20:34 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:20:34 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:20:34 | INFO | fill_flight_altitude_from_filename: updated=0
+2026-05-10 15:20:45 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:20:45 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:20:45 | INFO | Backfill obs_height done. Updated rows: 0
+2026-05-10 15:20:53 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:20:53 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:20:53 | INFO | build_levels done. Upserted 25 rows.
+2026-05-10 15:21:01 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=25.0 -> data\roi_norm\tree_002_25.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=30.0 -> data\roi_norm\tree_002_30.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=40.0 -> data\roi_norm\tree_002_40.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=50.0 -> data\roi_norm\tree_002_50.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=80.0 -> data\roi_norm\tree_002_80.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=100.0 -> data\roi_norm\tree_002_100.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_002 h_level=150.0 -> data\roi_norm\tree_002_150.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=5.0 -> data\roi_norm\tree_003_5.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=20.0 -> data\roi_norm\tree_003_20.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=25.0 -> data\roi_norm\tree_003_25.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=150.0 -> data\roi_norm\tree_003_150.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=30.0 -> data\roi_norm\tree_003_30.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=35.0 -> data\roi_norm\tree_003_35.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=40.0 -> data\roi_norm\tree_003_40.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=45.0 -> data\roi_norm\tree_003_45.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=50.0 -> data\roi_norm\tree_003_50.png
+2026-05-10 15:21:01 | INFO | Normalized level: tree_id=tree_003 h_level=80.0 -> data\roi_norm\tree_003_80.png
+2026-05-10 15:21:02 | INFO | normalize_scale done. Processed=17
+2026-05-10 15:21:10 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:10 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:19 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:28 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:28 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=c7cea12d-2ed6-4fde-9189-d150ce6ce814
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=738f18cf-0a09-42c4-b92a-e22abc38a4ec
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=90b31cf8-f0fa-40d1-9534-a72cea912a92
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=3f6e6fa8-e208-4e81-a4b6-6df86efdea1d
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=f3f47982-d74b-4012-b61b-c79ea30b33df
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=5112139e-b1d2-49c4-92c1-a18cd571da08
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=71887481-37f5-4dd4-82d6-64f1791927e6
+2026-05-10 15:21:28 | INFO | Skip mask exists: annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-05-10 15:21:29 | INFO | Ellipse mask created: annotation_id=fc4f8aea-0873-4aa1-b7bd-16e0b143275e path=data\masks\ellipse\fc4f8aea-0873-4aa1-b7bd-16e0b143275e.png
+2026-05-10 15:21:29 | INFO | Ellipse mask created: annotation_id=3ea7d37a-3958-439e-b319-78d8baf5a8ef path=data\masks\ellipse\3ea7d37a-3958-439e-b319-78d8baf5a8ef.png
+2026-05-10 15:21:29 | INFO | Ellipse mask created: annotation_id=b887ef2b-d8e5-4899-99a0-5ce9ab8f59ea path=data\masks\ellipse\b887ef2b-d8e5-4899-99a0-5ce9ab8f59ea.png
+2026-05-10 15:21:29 | INFO | Ellipse mask created: annotation_id=ce9f047e-a9b6-4b1c-9989-636aecb77a3c path=data\masks\ellipse\ce9f047e-a9b6-4b1c-9989-636aecb77a3c.png
+2026-05-10 15:21:29 | INFO | Ellipse mask created: annotation_id=65c60a8e-5345-4497-9141-4ba0e59fb021 path=data\masks\ellipse\65c60a8e-5345-4497-9141-4ba0e59fb021.png
+2026-05-10 15:21:30 | INFO | Ellipse mask created: annotation_id=f104ec18-ad57-4852-bfc9-b57d8287a318 path=data\masks\ellipse\f104ec18-ad57-4852-bfc9-b57d8287a318.png
+2026-05-10 15:21:30 | INFO | Ellipse mask created: annotation_id=da73f4e9-361a-444a-9a4d-d026a3aff3d3 path=data\masks\ellipse\da73f4e9-361a-444a-9a4d-d026a3aff3d3.png
+2026-05-10 15:21:30 | INFO | Ellipse mask created: annotation_id=63b50414-9213-426f-81ad-3d812ac69e8c path=data\masks\ellipse\63b50414-9213-426f-81ad-3d812ac69e8c.png
+2026-05-10 15:21:30 | INFO | Ellipse mask created: annotation_id=f04535fc-1f2a-4ee2-adc3-1b34abfccf9d path=data\masks\ellipse\f04535fc-1f2a-4ee2-adc3-1b34abfccf9d.png
+2026-05-10 15:21:30 | INFO | Ellipse mask created: annotation_id=75c5d358-7bf8-4e04-9e80-f6b9a0468124 path=data\masks\ellipse\75c5d358-7bf8-4e04-9e80-f6b9a0468124.png
+2026-05-10 15:21:31 | INFO | Ellipse mask created: annotation_id=2c77c269-b3c9-418c-b3cd-4ce63f9b32aa path=data\masks\ellipse\2c77c269-b3c9-418c-b3cd-4ce63f9b32aa.png
+2026-05-10 15:21:31 | INFO | Ellipse mask created: annotation_id=b28c08f8-4f2c-45a4-9037-0c1236c3850f path=data\masks\ellipse\b28c08f8-4f2c-45a4-9037-0c1236c3850f.png
+2026-05-10 15:21:31 | INFO | Ellipse mask created: annotation_id=2cf98be9-0319-4e9d-83c1-ade4e2741423 path=data\masks\ellipse\2cf98be9-0319-4e9d-83c1-ade4e2741423.png
+2026-05-10 15:21:31 | INFO | Ellipse mask created: annotation_id=d56aa4a4-9c28-47d8-be5f-bea0cbcf0776 path=data\masks\ellipse\d56aa4a4-9c28-47d8-be5f-bea0cbcf0776.png
+2026-05-10 15:21:31 | INFO | Ellipse mask created: annotation_id=d912b538-0b45-4057-ad3a-9984b9f8e7e2 path=data\masks\ellipse\d912b538-0b45-4057-ad3a-9984b9f8e7e2.png
+2026-05-10 15:21:32 | INFO | Ellipse mask created: annotation_id=b3aea81a-c58a-430c-a467-f043d7a274c5 path=data\masks\ellipse\b3aea81a-c58a-430c-a467-f043d7a274c5.png
+2026-05-10 15:21:32 | INFO | Ellipse mask created: annotation_id=0a531c48-6edf-4418-b44f-a3db88bcb5bc path=data\masks\ellipse\0a531c48-6edf-4418-b44f-a3db88bcb5bc.png
+2026-05-10 15:21:40 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:40 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=496ca883-6dfb-42b6-b31e-849e8b35c6c9
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=2d88bc15-c233-4064-b7bf-6e029e25e5de
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=979d4be8-554b-46a2-ad99-0bffa1c91ab1
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=10b6e64c-ec7b-431e-af5b-08a1ee418ad1
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=ec921163-4daa-4b4e-97c1-a4f774b28adc
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=d0bc7522-9a52-4d90-8eae-7fe19f068ce0
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=36656cc0-c6e7-4cc7-8923-6e2e7743e604
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=219eef2d-fd46-4686-90c2-63a82aec7f31
+2026-05-10 15:21:40 | INFO | Skip ROI mask exists: obs_id=80f80e29-9794-4d60-8017-42f5ab837633
+2026-05-10 15:21:40 | INFO | ROI mask created: obs_id=edd98306-480d-4015-8a4e-69b2e76016bd path=data\roi_mask_raw\edd98306-480d-4015-8a4e-69b2e76016bd.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=066083b9-3f6d-4815-8eeb-a255f18c6eaa path=data\roi_mask_raw\066083b9-3f6d-4815-8eeb-a255f18c6eaa.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=a75d6281-146b-4307-96ff-b3d9dc256050 path=data\roi_mask_raw\a75d6281-146b-4307-96ff-b3d9dc256050.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=6750c527-c93d-4560-8934-439a9ed0e3ab path=data\roi_mask_raw\6750c527-c93d-4560-8934-439a9ed0e3ab.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=20d329c1-6c31-422f-acbe-7da149cbb84d path=data\roi_mask_raw\20d329c1-6c31-422f-acbe-7da149cbb84d.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=3bee8af0-eb2a-47ca-8497-319d49a02c0c path=data\roi_mask_raw\3bee8af0-eb2a-47ca-8497-319d49a02c0c.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=d8e80eef-3a26-411d-a3f5-2aa1e24e0930 path=data\roi_mask_raw\d8e80eef-3a26-411d-a3f5-2aa1e24e0930.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=e2449bc0-a655-42c9-8b43-8224e6358450 path=data\roi_mask_raw\e2449bc0-a655-42c9-8b43-8224e6358450.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=a98629f6-06d3-485c-b30e-2e3941e0f843 path=data\roi_mask_raw\a98629f6-06d3-485c-b30e-2e3941e0f843.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=b51349b5-2306-4996-a9ee-0fb01399c814 path=data\roi_mask_raw\b51349b5-2306-4996-a9ee-0fb01399c814.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=b25debf6-5a9d-4a89-b39a-09b4a02b2fcb path=data\roi_mask_raw\b25debf6-5a9d-4a89-b39a-09b4a02b2fcb.png
+2026-05-10 15:21:41 | INFO | ROI mask created: obs_id=7ebe6973-bc6a-4c59-b8c8-3741db472f57 path=data\roi_mask_raw\7ebe6973-bc6a-4c59-b8c8-3741db472f57.png
+2026-05-10 15:21:42 | INFO | ROI mask created: obs_id=8f5baa1d-631b-4e09-bc09-848ef10da8e0 path=data\roi_mask_raw\8f5baa1d-631b-4e09-bc09-848ef10da8e0.png
+2026-05-10 15:21:42 | INFO | ROI mask created: obs_id=11b6c667-7802-4e8c-97e9-6c6f775be550 path=data\roi_mask_raw\11b6c667-7802-4e8c-97e9-6c6f775be550.png
+2026-05-10 15:21:42 | INFO | ROI mask created: obs_id=6d3d1169-48a6-4713-b8a8-168fff83ff5b path=data\roi_mask_raw\6d3d1169-48a6-4713-b8a8-168fff83ff5b.png
+2026-05-10 15:21:42 | INFO | ROI mask created: obs_id=549cd7d9-b1df-469b-b94a-9cdf44072a87 path=data\roi_mask_raw\549cd7d9-b1df-469b-b94a-9cdf44072a87.png
+2026-05-10 15:21:42 | INFO | ROI mask created: obs_id=86708a08-537b-441a-aa6f-a67362d7c6c5 path=data\roi_mask_raw\86708a08-537b-441a-aa6f-a67362d7c6c5.png
+2026-05-10 15:21:50 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:21:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=10.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=15.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=30.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=40.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=45.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=50.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=70.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=100.0
+2026-05-10 15:21:50 | INFO | Skip normalized mask exists: tree=tree_001 h=150.0
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=25.0 -> data\roi_mask_norm\tree_002_25.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=30.0 -> data\roi_mask_norm\tree_002_30.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=40.0 -> data\roi_mask_norm\tree_002_40.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=50.0 -> data\roi_mask_norm\tree_002_50.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=80.0 -> data\roi_mask_norm\tree_002_80.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=100.0 -> data\roi_mask_norm\tree_002_100.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_002 h=150.0 -> data\roi_mask_norm\tree_002_150.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=5.0 -> data\roi_mask_norm\tree_003_5.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=20.0 -> data\roi_mask_norm\tree_003_20.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=25.0 -> data\roi_mask_norm\tree_003_25.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=30.0 -> data\roi_mask_norm\tree_003_30.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=35.0 -> data\roi_mask_norm\tree_003_35.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=40.0 -> data\roi_mask_norm\tree_003_40.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=45.0 -> data\roi_mask_norm\tree_003_45.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=50.0 -> data\roi_mask_norm\tree_003_50.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=80.0 -> data\roi_mask_norm\tree_003_80.png
+2026-05-10 15:21:50 | INFO | Normalized mask: tree=tree_003 h=150.0 -> data\roi_mask_norm\tree_003_150.png
+2026-05-10 15:22:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=0.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=5.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=10.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=15.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=20.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=35.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=45.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=55.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=60.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=65.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=70.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=75.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=85.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=90.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=95.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:00 | WARNING | No suitable source found for tree=tree_002 target_h=125.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:15 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=0.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=5.0
+2026-05-10 15:22:15 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=20.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=25.0
+2026-05-10 15:22:15 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=27.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=35.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=55.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=60.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=65.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=75.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=80.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=85.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=90.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=95.0
+2026-05-10 15:22:15 | INFO | Skip synth mask exists: tree=tree_001 h=125.0
+2026-05-10 15:22:23 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:23 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:31 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:31 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:40 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:40 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:50 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:22:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=0.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=10.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=15.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=55.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=60.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=65.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=70.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=75.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=85.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=90.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=95.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=100.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:22:50 | WARNING | No suitable source found for tree=tree_003 target_h=125.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:23:01 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:23:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:23:10 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:23:10 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:23:19 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:23:19 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:23:27 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:23:27 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:23:34 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:23:34 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:24:59 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:24:59 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=cdb9f421-5ca3-4871-9682-72b84bbd6228
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=facc262e-d17e-4bad-bcab-a22ca460a558
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=d03d2d9d-ff95-4ed3-a662-0dc9d9ee0d64
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=c7cea12d-2ed6-4fde-9189-d150ce6ce814
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=738f18cf-0a09-42c4-b92a-e22abc38a4ec
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=90b31cf8-f0fa-40d1-9534-a72cea912a92
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=3f6e6fa8-e208-4e81-a4b6-6df86efdea1d
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=f3f47982-d74b-4012-b61b-c79ea30b33df
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=5112139e-b1d2-49c4-92c1-a18cd571da08
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=71887481-37f5-4dd4-82d6-64f1791927e6
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=3e03d6ff-d4f2-4c57-93fe-e2c07a3c4b2c
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=fc4f8aea-0873-4aa1-b7bd-16e0b143275e
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=3ea7d37a-3958-439e-b319-78d8baf5a8ef
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=b887ef2b-d8e5-4899-99a0-5ce9ab8f59ea
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=ce9f047e-a9b6-4b1c-9989-636aecb77a3c
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=65c60a8e-5345-4497-9141-4ba0e59fb021
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=f104ec18-ad57-4852-bfc9-b57d8287a318
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=da73f4e9-361a-444a-9a4d-d026a3aff3d3
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=63b50414-9213-426f-81ad-3d812ac69e8c
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=f04535fc-1f2a-4ee2-adc3-1b34abfccf9d
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=75c5d358-7bf8-4e04-9e80-f6b9a0468124
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=2c77c269-b3c9-418c-b3cd-4ce63f9b32aa
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=b28c08f8-4f2c-45a4-9037-0c1236c3850f
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=2cf98be9-0319-4e9d-83c1-ade4e2741423
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=d56aa4a4-9c28-47d8-be5f-bea0cbcf0776
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=d912b538-0b45-4057-ad3a-9984b9f8e7e2
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=b3aea81a-c58a-430c-a467-f043d7a274c5
+2026-05-10 15:24:59 | INFO | Skip mask exists: annotation_id=0a531c48-6edf-4418-b44f-a3db88bcb5bc
+2026-05-10 15:25:08 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:25:08 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=496ca883-6dfb-42b6-b31e-849e8b35c6c9
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=2d88bc15-c233-4064-b7bf-6e029e25e5de
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=979d4be8-554b-46a2-ad99-0bffa1c91ab1
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=3b62c0c5-3a67-4db3-85ba-3486f4a7d1b3
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=10b6e64c-ec7b-431e-af5b-08a1ee418ad1
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=ec921163-4daa-4b4e-97c1-a4f774b28adc
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=d0bc7522-9a52-4d90-8eae-7fe19f068ce0
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=36656cc0-c6e7-4cc7-8923-6e2e7743e604
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=a8bef3ce-72ed-4f6b-ae02-cc3a0cfe4ee4
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=219eef2d-fd46-4686-90c2-63a82aec7f31
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=80f80e29-9794-4d60-8017-42f5ab837633
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=edd98306-480d-4015-8a4e-69b2e76016bd
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=066083b9-3f6d-4815-8eeb-a255f18c6eaa
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=a75d6281-146b-4307-96ff-b3d9dc256050
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=6750c527-c93d-4560-8934-439a9ed0e3ab
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=20d329c1-6c31-422f-acbe-7da149cbb84d
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=3bee8af0-eb2a-47ca-8497-319d49a02c0c
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=d8e80eef-3a26-411d-a3f5-2aa1e24e0930
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=e2449bc0-a655-42c9-8b43-8224e6358450
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=a98629f6-06d3-485c-b30e-2e3941e0f843
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=b51349b5-2306-4996-a9ee-0fb01399c814
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=b25debf6-5a9d-4a89-b39a-09b4a02b2fcb
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=7ebe6973-bc6a-4c59-b8c8-3741db472f57
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=8f5baa1d-631b-4e09-bc09-848ef10da8e0
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=11b6c667-7802-4e8c-97e9-6c6f775be550
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=6d3d1169-48a6-4713-b8a8-168fff83ff5b
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=549cd7d9-b1df-469b-b94a-9cdf44072a87
+2026-05-10 15:25:08 | INFO | Skip ROI mask exists: obs_id=86708a08-537b-441a-aa6f-a67362d7c6c5
+2026-05-10 15:25:16 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:25:16 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=10.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=15.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=30.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=40.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=45.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=50.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=70.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=100.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_001 h=150.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=25.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=30.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=40.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=50.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=80.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=100.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_002 h=150.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=5.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=20.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=25.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=30.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=35.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=40.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=45.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=50.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=80.0
+2026-05-10 15:25:16 | INFO | Skip normalized mask exists: tree=tree_003 h=150.0
+2026-05-10 15:25:24 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:25:24 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=0.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=5.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=10.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=15.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=20.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=35.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=45.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=55.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=60.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:24 | WARNING | No suitable source found for tree=tree_002 target_h=65.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=70.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=75.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=85.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=90.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=95.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:25 | WARNING | No suitable source found for tree=tree_002 target_h=125.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:25:32 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=0.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=10.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=15.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=55.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=60.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=65.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=70.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=75.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=85.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=90.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=95.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=100.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:32 | WARNING | No suitable source found for tree=tree_003 target_h=125.0. Try --allow-far or --src-h <height>.
+2026-05-10 15:25:43 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:25:43 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=0.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=5.0
+2026-05-10 15:25:43 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=20.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=25.0
+2026-05-10 15:25:43 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=27.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=35.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=55.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=60.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=65.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=75.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=80.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=85.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=90.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=95.0
+2026-05-10 15:25:43 | INFO | Skip synth mask exists: tree=tree_001 h=125.0
+2026-05-10 15:29:32 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:29:32 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:29:40 | INFO | Pix2Pix synth done: tree=tree_002 A=25.0 -> B=0.0 saved=data\roi_norm\tree_002_0_pix2pix_from_25.png
+2026-05-10 15:29:41 | INFO | Pix2Pix synth done: tree=tree_002 A=25.0 -> B=5.0 saved=data\roi_norm\tree_002_5_pix2pix_from_25.png
+2026-05-10 15:29:42 | INFO | Pix2Pix synth done: tree=tree_002 A=25.0 -> B=10.0 saved=data\roi_norm\tree_002_10_pix2pix_from_25.png
+2026-05-10 15:29:42 | INFO | Pix2Pix synth done: tree=tree_002 A=25.0 -> B=15.0 saved=data\roi_norm\tree_002_15_pix2pix_from_25.png
+2026-05-10 15:29:43 | INFO | Pix2Pix synth done: tree=tree_002 A=25.0 -> B=20.0 saved=data\roi_norm\tree_002_20_pix2pix_from_25.png
+2026-05-10 15:29:44 | INFO | Pix2Pix synth done: tree=tree_002 A=30.0 -> B=35.0 saved=data\roi_norm\tree_002_35_pix2pix_from_30.png
+2026-05-10 15:29:44 | INFO | Pix2Pix synth done: tree=tree_002 A=40.0 -> B=45.0 saved=data\roi_norm\tree_002_45_pix2pix_from_40.png
+2026-05-10 15:29:45 | INFO | Pix2Pix synth done: tree=tree_002 A=50.0 -> B=55.0 saved=data\roi_norm\tree_002_55_pix2pix_from_50.png
+2026-05-10 15:29:46 | INFO | Pix2Pix synth done: tree=tree_002 A=50.0 -> B=60.0 saved=data\roi_norm\tree_002_60_pix2pix_from_50.png
+2026-05-10 15:29:46 | INFO | Pix2Pix synth done: tree=tree_002 A=50.0 -> B=65.0 saved=data\roi_norm\tree_002_65_pix2pix_from_50.png
+2026-05-10 15:29:47 | INFO | Pix2Pix synth done: tree=tree_002 A=80.0 -> B=70.0 saved=data\roi_norm\tree_002_70_pix2pix_from_80.png
+2026-05-10 15:29:47 | INFO | Pix2Pix synth done: tree=tree_002 A=80.0 -> B=75.0 saved=data\roi_norm\tree_002_75_pix2pix_from_80.png
+2026-05-10 15:29:48 | INFO | Pix2Pix synth done: tree=tree_002 A=80.0 -> B=85.0 saved=data\roi_norm\tree_002_85_pix2pix_from_80.png
+2026-05-10 15:29:49 | INFO | Pix2Pix synth done: tree=tree_002 A=80.0 -> B=90.0 saved=data\roi_norm\tree_002_90_pix2pix_from_80.png
+2026-05-10 15:29:50 | INFO | Pix2Pix synth done: tree=tree_002 A=100.0 -> B=95.0 saved=data\roi_norm\tree_002_95_pix2pix_from_100.png
+2026-05-10 15:29:51 | INFO | Pix2Pix synth done: tree=tree_002 A=100.0 -> B=125.0 saved=data\roi_norm\tree_002_125_pix2pix_from_100.png
+2026-05-10 15:30:01 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:30:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:30:02 | INFO | Pix2Pix synth done: tree=tree_003 A=5.0 -> B=0.0 saved=data\roi_norm\tree_003_0_pix2pix_from_5.png
+2026-05-10 15:30:03 | INFO | Pix2Pix synth done: tree=tree_003 A=5.0 -> B=10.0 saved=data\roi_norm\tree_003_10_pix2pix_from_5.png
+2026-05-10 15:30:04 | INFO | Pix2Pix synth done: tree=tree_003 A=20.0 -> B=15.0 saved=data\roi_norm\tree_003_15_pix2pix_from_20.png
+2026-05-10 15:30:05 | INFO | Pix2Pix synth done: tree=tree_003 A=50.0 -> B=55.0 saved=data\roi_norm\tree_003_55_pix2pix_from_50.png
+2026-05-10 15:30:06 | INFO | Pix2Pix synth done: tree=tree_003 A=50.0 -> B=60.0 saved=data\roi_norm\tree_003_60_pix2pix_from_50.png
+2026-05-10 15:30:07 | INFO | Pix2Pix synth done: tree=tree_003 A=50.0 -> B=65.0 saved=data\roi_norm\tree_003_65_pix2pix_from_50.png
+2026-05-10 15:30:07 | INFO | Pix2Pix synth done: tree=tree_003 A=80.0 -> B=70.0 saved=data\roi_norm\tree_003_70_pix2pix_from_80.png
+2026-05-10 15:30:08 | INFO | Pix2Pix synth done: tree=tree_003 A=80.0 -> B=75.0 saved=data\roi_norm\tree_003_75_pix2pix_from_80.png
+2026-05-10 15:30:10 | INFO | Pix2Pix synth done: tree=tree_003 A=80.0 -> B=85.0 saved=data\roi_norm\tree_003_85_pix2pix_from_80.png
+2026-05-10 15:30:10 | INFO | Pix2Pix synth done: tree=tree_003 A=80.0 -> B=90.0 saved=data\roi_norm\tree_003_90_pix2pix_from_80.png
+2026-05-10 15:30:11 | INFO | Pix2Pix synth done: tree=tree_003 A=80.0 -> B=95.0 saved=data\roi_norm\tree_003_95_pix2pix_from_80.png
+2026-05-10 15:30:12 | INFO | Pix2Pix synth done: tree=tree_003 A=150.0 -> B=100.0 saved=data\roi_norm\tree_003_100_pix2pix_from_150.png
+2026-05-10 15:30:13 | INFO | Pix2Pix synth done: tree=tree_003 A=150.0 -> B=125.0 saved=data\roi_norm\tree_003_125_pix2pix_from_150.png
+2026-05-10 15:30:50 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:30:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=0.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=5.0
+2026-05-10 15:30:50 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=20.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=25.0
+2026-05-10 15:30:50 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=27.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=35.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=55.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=60.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=65.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=75.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=80.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=85.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=90.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=95.0
+2026-05-10 15:30:50 | INFO | Skip synth mask exists: tree=tree_001 h=125.0
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=0.0 from 25.0 -> data\roi_mask_norm\tree_002_0_synth_mask_from_25.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=5.0 from 25.0 -> data\roi_mask_norm\tree_002_5_synth_mask_from_25.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=10.0 from 25.0 -> data\roi_mask_norm\tree_002_10_synth_mask_from_25.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=15.0 from 25.0 -> data\roi_mask_norm\tree_002_15_synth_mask_from_25.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=20.0 from 25.0 -> data\roi_mask_norm\tree_002_20_synth_mask_from_25.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=35.0 from 30.0 -> data\roi_mask_norm\tree_002_35_synth_mask_from_30.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=45.0 from 40.0 -> data\roi_mask_norm\tree_002_45_synth_mask_from_40.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=55.0 from 50.0 -> data\roi_mask_norm\tree_002_55_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=60.0 from 50.0 -> data\roi_mask_norm\tree_002_60_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=65.0 from 50.0 -> data\roi_mask_norm\tree_002_65_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=70.0 from 80.0 -> data\roi_mask_norm\tree_002_70_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=75.0 from 80.0 -> data\roi_mask_norm\tree_002_75_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=85.0 from 80.0 -> data\roi_mask_norm\tree_002_85_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=90.0 from 80.0 -> data\roi_mask_norm\tree_002_90_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=95.0 from 100.0 -> data\roi_mask_norm\tree_002_95_synth_mask_from_100.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_002 h=125.0 from 100.0 -> data\roi_mask_norm\tree_002_125_synth_mask_from_100.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=0.0 from 5.0 -> data\roi_mask_norm\tree_003_0_synth_mask_from_5.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=10.0 from 5.0 -> data\roi_mask_norm\tree_003_10_synth_mask_from_5.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=15.0 from 20.0 -> data\roi_mask_norm\tree_003_15_synth_mask_from_20.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=55.0 from 50.0 -> data\roi_mask_norm\tree_003_55_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=60.0 from 50.0 -> data\roi_mask_norm\tree_003_60_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=65.0 from 50.0 -> data\roi_mask_norm\tree_003_65_synth_mask_from_50.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=70.0 from 80.0 -> data\roi_mask_norm\tree_003_70_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=75.0 from 80.0 -> data\roi_mask_norm\tree_003_75_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=85.0 from 80.0 -> data\roi_mask_norm\tree_003_85_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=90.0 from 80.0 -> data\roi_mask_norm\tree_003_90_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=95.0 from 80.0 -> data\roi_mask_norm\tree_003_95_synth_mask_from_80.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=100.0 from 150.0 -> data\roi_mask_norm\tree_003_100_synth_mask_from_150.png
+2026-05-10 15:30:50 | INFO | Synth mask created: tree=tree_003 h=125.0 from 150.0 -> data\roi_mask_norm\tree_003_125_synth_mask_from_150.png
+2026-05-10 15:30:58 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:30:58 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:06 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:13 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:13 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:20 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:20 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:28 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:28 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:37 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:49 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:49 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:31:56 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:31:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:33:15 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:33:15 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:36:13 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:36:13 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:43:56 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:43:56 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:51:33 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:51:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:54:05 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 15:54:05 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 15:54:05 | INFO | Using device: cpu
+2026-05-10 16:05:01 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:05:01 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 16:05:34 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 16:05:34 | INFO | Database ready: data\db\crowns.sqlite3

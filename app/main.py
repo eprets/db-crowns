@@ -36,6 +36,8 @@ from app.normalize_masks import normalize_masks
 from app.make_tree_preview import make_tree_preview
 from app.synthesize_masks import synthesize_masks_for_synth_levels
 from app.project_status import print_project_status
+from app.export_training_dataset import export_training_dataset
+from app.split_training_dataset import split_training_dataset
 
 def main():
     # Загружаем конфигурацию
@@ -326,10 +328,10 @@ def main():
     # python -m app.main train-pix2pix
     # python -m app.main train-pix2pix
     if len(sys.argv) >= 2 and sys.argv[1] == "train-pix2pix":
-        data_root = Path(config["pix2pix_split"]["out_dir"])
+        data_root = Path("data/ml_dataset_pix2pix_split")
 
         # папка для результатов
-        out_dir = Path("data/pix2pix_runs/run_cpu_1")
+        out_dir = Path("data/pix2pix_runs/run_cpu_2")
 
         train_pix2pix(
             data_root=data_root,
@@ -722,6 +724,77 @@ def main():
 
         return
 
+    # python -m app.main cleanup-missing-images
+    if len(sys.argv) >= 2 and sys.argv[1] == "cleanup-missing-images":
+        from app.db.connection import get_connection
+
+        removed = 0
+
+        with get_connection(db_path) as conn:
+            cur = conn.cursor()
+
+            cur.execute("SELECT image_id, path FROM images")
+            rows = cur.fetchall()
+
+            for r in rows:
+                img_path = Path(r["path"])
+
+                if not img_path.exists():
+                    print(f"Missing file, remove from DB: {img_path}")
+
+                    cur.execute(
+                        "DELETE FROM images WHERE image_id = ?",
+                        (r["image_id"],),
+                    )
+
+                    removed += 1
+
+            conn.commit()
+
+        print(f"Cleanup missing images done. Removed {removed} images.")
+        return
+
+    # python -m app.main export-training-dataset
+    if len(sys.argv) >= 2 and sys.argv[1] == "export-training-dataset":
+        out_dir = Path("data/ml_dataset_pix2pix")
+
+        result = export_training_dataset(
+            db_path=db_path,
+            out_dir=out_dir,
+            neighbor_max_gap_m=25.0,
+            include_reverse=True,
+            real_only=True,
+        )
+
+        print("Training dataset exported.")
+        print(f"Total pairs: {result['total_pairs']}")
+        print(f"Dataset folder: {result['out_dir']}")
+        print(f"Pairs CSV: {result['pairs_csv']}")
+        return
+
+    # python -m app.main split-training-dataset
+    if len(sys.argv) >= 2 and sys.argv[1] == "split-training-dataset":
+        base_dir = Path("data/ml_dataset_pix2pix")
+        out_dir = Path("data/ml_dataset_pix2pix_split")
+
+        result = split_training_dataset(
+            base_dir=base_dir,
+            out_dir=out_dir,
+            train_ratio=0.8,
+            val_ratio=0.1,
+            test_ratio=0.1,
+            seed=42,
+        )
+
+        print("Training dataset split done.")
+        print(f"Total: {result['total']}")
+        print(f"Train: {result['train']}")
+        print(f"Val: {result['val']}")
+        print(f"Test: {result['test']}")
+        print(f"Split folder: {result['out_dir']}")
+        print(f"Split CSV: {result['split_csv']}")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -755,5 +828,7 @@ def main():
     print("  python -m app.main normalize-masks [--overwrite]")
     print("  python -m app.main synthesize-masks [--overwrite]")
     print("  python -m app.main project-status <tree_id>")
+    print("  python -m app.main export-training-dataset")
+    print("  python -m app.main split-training-dataset")
 if __name__ == "__main__":
     main()
