@@ -379,20 +379,30 @@ def main():
         print(f"Infer done. Saved {saved} previews to: {out_dir}")
         return
 
-    # python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>] [--all-missing]
+    # python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>] [--allow-far] [--overwrite-real] [--all-missing]
     if len(sys.argv) >= 2 and sys.argv[1] == "apply-pix2pix":
         from app.db.connection import get_connection
 
         tree_id = None
         target_h = None
         src_h = None
+
         all_missing = False
+        allow_far = False
+        overwrite_real = False
+        allow_synth_as_source = False
+
+        # Примеры:
+        # python -m app.main apply-pix2pix tree_001 55
+        # python -m app.main apply-pix2pix tree_001 65 --src-h 50
+        # python -m app.main apply-pix2pix tree_001 65 --allow-far
+        # python -m app.main apply-pix2pix tree_001 --all-missing --allow-far
+
+        if len(sys.argv) >= 3:
+            tree_id = sys.argv[2]
 
         if len(sys.argv) >= 4 and not sys.argv[3].startswith("--"):
-            tree_id = sys.argv[2]
             target_h = float(sys.argv[3])
-        elif len(sys.argv) >= 3:
-            tree_id = sys.argv[2]
 
         if "--src-h" in sys.argv:
             i = sys.argv.index("--src-h")
@@ -401,30 +411,54 @@ def main():
         if "--all-missing" in sys.argv:
             all_missing = True
 
+        if "--allow-far" in sys.argv:
+            allow_far = True
+
+        if "--overwrite-real" in sys.argv:
+            overwrite_real = True
+
+        if "--allow-synth-source" in sys.argv:
+            allow_synth_as_source = True
+
         if not tree_id:
             print("Usage:")
-            print("  python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>]")
-            print("  python -m app.main apply-pix2pix <tree_id> --all-missing")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h>")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h> --src-h <src_h>")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h> --allow-far")
+            print("  python -m app.main apply-pix2pix <tree_id> --all-missing --allow-far")
             return
 
-        levels_grid = config["heights_grid"]["levels_m"]
+        levels_grid = [float(x) for x in config["heights_grid"]["levels_m"]]
         checkpoint_path = Path("data/pix2pix_runs/run_cpu_1/checkpoints/G_epoch_015.pt")
         roi_norm_dir = Path(config["paths"]["roi_norm_dir"])
 
+        # ===== РЕЖИМ: заполнить все пустые уровни =====
         if all_missing:
             missing = []
+
             with get_connection(db_path) as conn:
                 cur = conn.cursor()
+
                 for h in levels_grid:
                     cur.execute(
-                        "SELECT data_type, roi_norm_path FROM crown_levels WHERE tree_id=? AND h_level=? LIMIT 1",
+                        """
+                        SELECT data_type, roi_norm_path
+                        FROM crown_levels
+                        WHERE tree_id = ?
+                          AND h_level = ? LIMIT 1
+                        """,
                         (tree_id, float(h)),
                     )
                     r = cur.fetchone()
-                    if r is None or (r["roi_norm_path"] is None):
+
+                    # пустой уровень:
+                    # - строки нет
+                    # - или roi_norm_path отсутствует
+                    if r is None or r["roi_norm_path"] is None:
                         missing.append(float(h))
 
             created = 0
+
             for h in missing:
                 outp = apply_pix2pix_one(
                     db_path=db_path,
@@ -433,18 +467,24 @@ def main():
                     levels_grid=levels_grid,
                     checkpoint_path=checkpoint_path,
                     roi_norm_dir=roi_norm_dir,
-                    src_h=None,          # neighbor
+                    src_h=None,
                     device="cpu",
-                    allow_synth_as_source=False,
+                    allow_synth_as_source=allow_synth_as_source,
+                    allow_far=allow_far,
+                    overwrite_real=overwrite_real,
                 )
+
                 if outp is not None:
                     created += 1
 
-            print(f"Pix2Pix applied. Created {created} synth levels.")
+            print(f"Pix2Pix all-missing done. Created {created} synth levels.")
             return
 
+        # ===== РЕЖИМ: один уровень =====
         if target_h is None:
-            print("Usage: python -m app.main apply-pix2pix <tree_id> <target_h> [--src-h <src_h>]")
+            print("Usage:")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h>")
+            print("  python -m app.main apply-pix2pix <tree_id> <target_h> --src-h <src_h>")
             return
 
         outp = apply_pix2pix_one(
@@ -454,10 +494,13 @@ def main():
             levels_grid=levels_grid,
             checkpoint_path=checkpoint_path,
             roi_norm_dir=roi_norm_dir,
-            src_h=src_h,  # None => neighbor, иначе forced jump
+            src_h=src_h,
             device="cpu",
-            allow_synth_as_source=False,
+            allow_synth_as_source=allow_synth_as_source,
+            allow_far=allow_far,
+            overwrite_real=overwrite_real,
         )
+
         print(f"Done. Output: {outp}")
         return
 
@@ -466,6 +509,45 @@ def main():
         migrate_crown_levels_for_pix2pix(db_path=db_path)
         print("Migration done: crown_levels columns for pix2pix are ready.")
         return
+
+    # python -m app.main restore-real-level <tree_id> <h_level> <roi_norm_path>
+    if len(sys.argv) >= 2 and sys.argv[1] == "restore-real-level":
+        if len(sys.argv) < 5:
+            print("Usage: python -m app.main restore-real-level <tree_id> <h_level> <roi_norm_path>")
+            print("Example: python -m app.main restore-real-level tree_001 50 data\\roi_norm\\tree_001_50.png")
+            return
+
+        tree_id = sys.argv[2]
+        h_level = float(sys.argv[3])
+        roi_norm_path = sys.argv[4]
+
+        from app.db.connection import get_connection
+
+        with get_connection(db_path) as conn:
+            cur = conn.cursor()
+            cur.execute(
+                """
+                UPDATE crown_levels
+                SET data_type = ?,
+                    roi_norm_path = ?,
+                    synth_method = NULL,
+                    synth_src_h = NULL,
+                    mapping_error = 0.0
+                WHERE tree_id = ?
+                  AND h_level = ?
+                """,
+                (
+                    "REAL",
+                    roi_norm_path,
+                    tree_id,
+                    h_level,
+                ),
+            )
+            conn.commit()
+
+        print(f"Restored REAL level: tree_id={tree_id}, h_level={h_level}, roi={roi_norm_path}")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")

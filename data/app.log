@@ -1984,3 +1984,47 @@
 2026-03-04 17:01:25 | INFO | Pix2Pix synth done: tree=tree_001 A=10.0 -> B=35.0 saved=data\roi_norm\tree_001_35_pix2pix_from_10.png
 2026-03-04 17:01:33 | INFO | Starting project: crown_db v0.0.1
 2026-03-04 17:01:33 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:46:39 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:46:39 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:48:09 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:48:09 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:48:21 | INFO | Pix2Pix synth done: tree=tree_001 A=70.0 -> B=50.0 saved=data\roi_norm\tree_001_50_pix2pix_from_70.png
+2026-05-10 12:48:37 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:48:37 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:50:29 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:50:29 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:50:33 | INFO | build_levels done. Upserted 8 rows.
+2026-05-10 12:50:42 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:50:42 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:50:42 | INFO | normalize_scale done. Processed=0
+2026-05-10 12:50:51 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:50:51 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:57:52 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:57:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 12:57:52 | WARNING | SAFETY BLOCK: target level is REAL. tree=tree_001 h=70.0 roi=data\roi_norm\tree_001_70.png. Pix2Pix synth is cancelled. Use --overwrite-real only if you intentionally want to replace REAL.
+2026-05-10 12:58:06 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 12:58:06 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:00:29 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:00:29 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:00:38 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:00:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:01:52 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:01:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:01:52 | WARNING | No suitable source found for tree=tree_001 target_h=60.0. Try --allow-far or --src-h <height>.
+2026-05-10 13:02:10 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:02:10 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:02:11 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=60.0 saved=data\roi_norm\tree_001_60_pix2pix_from_50.png
+2026-05-10 13:02:22 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:02:22 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:02:38 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:02:38 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:02:39 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=0.0 saved=data\roi_norm\tree_001_0_pix2pix_from_50.png
+2026-05-10 13:02:40 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=5.0 saved=data\roi_norm\tree_001_5_pix2pix_from_50.png
+2026-05-10 13:02:40 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=75.0 saved=data\roi_norm\tree_001_75_pix2pix_from_50.png
+2026-05-10 13:02:41 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=80.0 saved=data\roi_norm\tree_001_80_pix2pix_from_50.png
+2026-05-10 13:02:42 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=85.0 saved=data\roi_norm\tree_001_85_pix2pix_from_50.png
+2026-05-10 13:02:45 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=90.0 saved=data\roi_norm\tree_001_90_pix2pix_from_50.png
+2026-05-10 13:02:46 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=95.0 saved=data\roi_norm\tree_001_95_pix2pix_from_50.png
+2026-05-10 13:02:47 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=125.0 saved=data\roi_norm\tree_001_125_pix2pix_from_50.png
+2026-05-10 13:03:03 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:03:03 | INFO | Database ready: data\db\crowns.sqlite3
