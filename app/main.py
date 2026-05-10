@@ -34,6 +34,8 @@ from app.build_ellipse_masks import build_ellipse_masks
 from app.build_roi_masks import build_roi_masks
 from app.normalize_masks import normalize_masks
 from app.make_tree_preview import make_tree_preview
+from app.synthesize_masks import synthesize_masks_for_synth_levels
+from app.project_status import print_project_status
 
 def main():
     # Загружаем конфигурацию
@@ -689,6 +691,37 @@ def main():
 
         return
 
+    # python -m app.main synthesize-masks [--overwrite]
+    if len(sys.argv) >= 2 and sys.argv[1] == "synthesize-masks":
+        roi_mask_norm_dir = Path("data/roi_mask_norm")
+        overwrite = "--overwrite" in sys.argv
+
+        created = synthesize_masks_for_synth_levels(
+            db_path=db_path,
+            roi_mask_norm_dir=roi_mask_norm_dir,
+            overwrite=overwrite,
+        )
+
+        print(f"Synthesize masks done. Created/updated {created} masks.")
+        return
+
+    # python -m app.main project-status <tree_id>
+    if len(sys.argv) >= 2 and sys.argv[1] == "project-status":
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main project-status <tree_id>")
+            return
+
+        tree_id = sys.argv[2]
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+
+        print_project_status(
+            db_path=db_path,
+            tree_id=tree_id,
+            levels_grid=levels,
+        )
+
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -720,5 +753,7 @@ def main():
     print("  python -m app.main build-ellipse-masks [--overwrite]")
     print("  python -m app.main build-roi-masks [--overwrite]")
     print("  python -m app.main normalize-masks [--overwrite]")
+    print("  python -m app.main synthesize-masks [--overwrite]")
+    print("  python -m app.main project-status <tree_id>")
 if __name__ == "__main__":
     main()

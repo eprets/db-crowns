@@ -2090,3 +2090,28 @@
 2026-05-10 13:56:10 | INFO | Database ready: data\db\crowns.sqlite3
 2026-05-10 14:02:50 | INFO | Starting project: crown_db v0.0.1
 2026-05-10 14:02:50 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:09:29 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:09:29 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=0.0 from 50.0 -> data\roi_mask_norm\tree_001_0_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=5.0 from 50.0 -> data\roi_mask_norm\tree_001_5_synth_mask_from_50.png
+2026-05-10 14:09:29 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=20.0
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=25.0 from 10.0 -> data\roi_mask_norm\tree_001_25_synth_mask_from_10.png
+2026-05-10 14:09:29 | WARNING | No synth_src_h for SYNTH level: tree=tree_001 h=27.0
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=35.0 from 10.0 -> data\roi_mask_norm\tree_001_35_synth_mask_from_10.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=55.0 from 50.0 -> data\roi_mask_norm\tree_001_55_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=60.0 from 50.0 -> data\roi_mask_norm\tree_001_60_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=65.0 from 50.0 -> data\roi_mask_norm\tree_001_65_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=75.0 from 50.0 -> data\roi_mask_norm\tree_001_75_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=80.0 from 50.0 -> data\roi_mask_norm\tree_001_80_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=85.0 from 50.0 -> data\roi_mask_norm\tree_001_85_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=90.0 from 50.0 -> data\roi_mask_norm\tree_001_90_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=95.0 from 50.0 -> data\roi_mask_norm\tree_001_95_synth_mask_from_50.png
+2026-05-10 14:09:29 | INFO | Synth mask created: tree=tree_001 h=125.0 from 50.0 -> data\roi_mask_norm\tree_001_125_synth_mask_from_50.png
+2026-05-10 14:09:39 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:09:39 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:09:52 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:09:52 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:10:00 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:10:00 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 14:22:48 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 14:22:48 | INFO | Database ready: data\db\crowns.sqlite3
