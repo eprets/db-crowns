@@ -1,11 +1,13 @@
 # app/api/server.py
 
 from pathlib import Path
-
+import shutil
+import tempfile
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 
 from app.db.connection import get_connection
+from fastapi.responses import FileResponse
 
 
 DB_PATH = Path("data/db/crowns.sqlite3")
@@ -184,3 +186,57 @@ def get_preview(tree_id: str):
         )
 
     return FileResponse(preview_path)
+
+@app.get("/file")
+def get_file(path: str):
+    p = Path(path)
+
+    if not p.exists():
+        return {"error": "file not found"}
+
+    return FileResponse(p)
+
+@app.get("/trees/{tree_id}/profile-csv")
+def get_tree_profile_csv(tree_id: str):
+    csv_path = (
+        Path("data/tree_profiles")
+        / tree_id
+        / "profile.csv"
+    )
+
+    if not csv_path.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="profile.csv not found"
+        )
+
+    return FileResponse(
+        csv_path,
+        media_type="text/csv",
+        filename=f"{tree_id}_profile.csv",
+    )
+
+@app.get("/trees/{tree_id}/profile-zip")
+def get_tree_profile_zip(tree_id: str):
+    profile_dir = Path("data/tree_profiles") / tree_id
+
+    if not profile_dir.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="tree profile folder not found"
+        )
+
+    tmp_dir = Path(tempfile.gettempdir())
+    zip_base = tmp_dir / f"{tree_id}_profile"
+
+    zip_path = shutil.make_archive(
+        base_name=str(zip_base),
+        format="zip",
+        root_dir=profile_dir,
+    )
+
+    return FileResponse(
+        zip_path,
+        media_type="application/zip",
+        filename=f"{tree_id}_profile.zip",
+    )
