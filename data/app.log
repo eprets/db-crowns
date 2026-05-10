@@ -2028,3 +2028,5 @@
 2026-05-10 13:02:47 | INFO | Pix2Pix synth done: tree=tree_001 A=50.0 -> B=125.0 saved=data\roi_norm\tree_001_125_pix2pix_from_50.png
 2026-05-10 13:03:03 | INFO | Starting project: crown_db v0.0.1
 2026-05-10 13:03:03 | INFO | Database ready: data\db\crowns.sqlite3
+2026-05-10 13:11:54 | INFO | Starting project: crown_db v0.0.1
+2026-05-10 13:11:54 | INFO | Database ready: data\db\crowns.sqlite3

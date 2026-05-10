@@ -28,6 +28,7 @@ from app.gan.train_pix2pix import train_pix2pix
 from app.gan.eval_pix2pix import eval_pix2pix
 from app.gan.apply_pix2pix import apply_pix2pix_one
 from app.db.migrate_crown_levels_pix2pix import migrate_crown_levels_for_pix2pix
+from app.export_tree_profile import export_tree_profile
 
 def main():
     # Загружаем конфигурацию
@@ -548,6 +549,30 @@ def main():
         print(f"Restored REAL level: tree_id={tree_id}, h_level={h_level}, roi={roi_norm_path}")
         return
 
+
+    # python -m app.main export-tree-profile <tree_id>
+    if len(sys.argv) >= 2 and sys.argv[1] == "export-tree-profile":
+        if len(sys.argv) < 3:
+            print("Usage: python -m app.main export-tree-profile <tree_id>")
+            print("Example: python -m app.main export-tree-profile tree_001")
+            return
+
+        tree_id = sys.argv[2]
+
+        levels = [float(x) for x in config["heights_grid"]["levels_m"]]
+        out_root = Path("data/tree_profiles")
+
+        out_dir = export_tree_profile(
+            db_path=db_path,
+            tree_id=tree_id,
+            levels_grid=levels,
+            out_root=out_root,
+        )
+
+        print(f"Tree profile exported: {out_dir}")
+        print(f"CSV: {out_dir / 'profile.csv'}")
+        return
+
     # ===== ЕСЛИ БЕЗ АРГУМЕНТОВ =====
     print("\nRun modes:")
     print("  python -m app.main import")
@@ -574,5 +599,6 @@ def main():
     print("  python -m app.main make-preview-from-checkpoint")
     print("  python -m app.main apply-pix2pix <tree_id> <target_h>")
     print("  python -m app.main migrate-levels-pix2pix")
+    print("  python -m app.main export-tree-profile <tree_id>")
 if __name__ == "__main__":
     main()
